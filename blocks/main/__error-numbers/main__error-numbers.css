@@ -1,0 +1,11 @@
+.main__error-numbers {
+    width: 263px;
+    position: absolute;
+    margin: 0;
+    padding: 128px 0 0 399px;
+    font-weight: 500;
+    font-size: 160px;
+    line-height: 192px;
+    letter-spacing: 13.5px;
+    display: flex;
+}

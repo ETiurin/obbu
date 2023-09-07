@@ -1,0 +1,5 @@
+.mailing__container {
+    max-width: 1019px;
+    display: flex;
+    gap: 30px;
+}

@@ -1,0 +1,8 @@
+.footer__menu-links {
+    max-width: 474px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+}

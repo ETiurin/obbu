@@ -1,0 +1,10 @@
+.main__lot {
+    width: 260px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    max-height: 38px;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+}

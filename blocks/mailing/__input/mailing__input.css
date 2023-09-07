@@ -1,0 +1,11 @@
+.mailing__input {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.54px;
+    min-width: 334px;
+    height: 56px;
+    padding: 0 0 0 20px;
+    border-radius: 4px;
+    border: none;
+    color: #9E9E9E;
+}

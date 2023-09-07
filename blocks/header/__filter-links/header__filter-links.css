@@ -1,0 +1,9 @@
+.header__filter-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px 10px;
+    min-width: 1081px;
+    padding: 0;
+    margin:0;
+    list-style-type: none;
+}

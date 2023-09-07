@@ -1,0 +1,6 @@
+.footer__column-links {
+    display: flex;
+    justify-content: end;
+    max-height: 32px;
+    padding: 24px 0;
+}

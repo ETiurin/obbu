@@ -1,0 +1,7 @@
+.header__basket {
+    display: flex;
+    justify-content: flex-end;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}

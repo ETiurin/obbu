@@ -1,0 +1,12 @@
+.mailing__button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.54px;
+    min-width: 354px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
+    background-color: #FEDA5A;
+    cursor: pointer;
+    padding: 0;
+}

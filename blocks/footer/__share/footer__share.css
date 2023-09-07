@@ -1,0 +1,5 @@
+.footer__share {
+    height: 24px;
+    display: flex;
+    justify-content: end;
+}

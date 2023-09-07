@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: space-between  ;
+    gap: 13px;
+    max-width: 1440px;
+    padding: 32px 60px;
+    box-sizing: border-box;
+    border-bottom: 2px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+
+  @media all and (max-width: 767px) {
+    .header {
+      padding: 16px 16px 0;
+    }
+  }

@@ -1,0 +1,11 @@
+.footer__share-text {
+    display: flex;
+    align-items: center;
+    max-width: 72px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.65px;
+    color: #FFFFFF;
+    margin: 0;
+    text-align: center;
+}

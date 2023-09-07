@@ -1,0 +1,9 @@
+.header__menu-data {
+    display: flex;
+    justify-content: space-between;
+    min-width: 418px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
