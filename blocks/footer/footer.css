@@ -5,3 +5,10 @@
     padding: 40px 80px;
     background-color: #0D0D0D;
 }
+
+@media all and (max-width: 1279px) {
+    .footer {
+        max-width: 1196px;
+        padding: 40px 42px;
+    }
+}

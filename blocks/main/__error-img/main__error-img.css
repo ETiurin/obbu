@@ -1,4 +1,34 @@
 .main__error-img {
     position: absolute;
-    padding: 166px 461px;
+    padding: 160px 471px;
+}
+
+@media all and (max-width: 1279px) {
+    .main__error-img {
+        padding: 136px 434px;
+    }
+}
+
+@media all and (max-width: 1219px) {
+    .main__error-img {
+        padding: 136px 404px;
+    }
+}
+
+@media all and (max-width: 1159px) {
+    .main__error-img {
+        padding: 136px 374px;
+    }
+}
+
+@media all and (max-width: 1099px) {
+    .main__error-img {
+        padding: 136px 344px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .main__error-img {
+        padding: 136px 306px;
+    }
 }

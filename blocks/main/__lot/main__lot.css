@@ -7,4 +7,13 @@
     text-decoration: none;
     color: black;
     list-style-type: none;
+    letter-spacing: -0.1px;
+}
+
+@media all and (max-width: 1279px) {
+    .main__lot {
+        width: 246px;
+        font-size: 14px;
+        line-height: 16.8px;
+    }
 }

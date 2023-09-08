@@ -1,9 +1,17 @@
 .header__menu-data {
-    display: flex;
-    justify-content: space-between;
-    min-width: 418px;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: 418px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+@media all and (max-width: 1279px) {
+  .header__menu-data {
+    max-width: 356px;
+    gap: 16px;
+  }
 }

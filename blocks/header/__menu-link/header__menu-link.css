@@ -1,4 +1,15 @@
 .header__menu-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.54px;
     text-decoration: none;
     color: #0D0D0D;
+    text-overflow:ellipsis;
 }
+
+@media all and (max-width: 1279px) {
+    .header__menu-link {
+        font-size: 14px;
+        line-height: 17.09px;
+    }
+  }

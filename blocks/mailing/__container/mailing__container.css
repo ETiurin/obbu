@@ -1,5 +1,11 @@
 .mailing__container {
-    max-width: 1019px;
     display: flex;
+    justify-content: space-between;
     gap: 30px;
+}
+
+@media all and (max-width: 1279px) {
+    .mailing__container {
+        gap: 16px;
+    }
 }

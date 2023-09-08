@@ -1,8 +1,15 @@
 .header__menu {
     display: flex;
     justify-content: space-between;
-    min-width: 930px;
+    width: 90%;
     font-weight: 700;
     font-size: 16px;
     line-height: 19.54px;
 }
+
+@media all and (max-width: 1279px) {
+    .header__menu {
+      font-size: 14px;
+      line-height: 17.09px;
+    }
+  }

@@ -6,3 +6,10 @@
     font-size: 28px;
     line-height: 37.8px;
 }
+
+@media all and (max-width: 1279px) {
+    .main__header {
+        max-width: 246px;
+        padding-top: 24px;
+    }
+}

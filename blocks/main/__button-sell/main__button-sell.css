@@ -12,3 +12,11 @@
     border: 1px solid #F23B3E;
     border-radius: 4px;
 }
+
+@media all and (max-width: 1279px) {
+    .main__button-sell {
+        width: 246px;
+        font-size: 12px;
+        line-height: 14.65px;
+    }
+}

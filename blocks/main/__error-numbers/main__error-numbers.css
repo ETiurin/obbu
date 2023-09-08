@@ -1,11 +1,40 @@
 .main__error-numbers {
-    width: 263px;
+    max-width: 263px;
     position: absolute;
     margin: 0;
     padding: 128px 0 0 399px;
     font-weight: 500;
     font-size: 160px;
     line-height: 192px;
-    letter-spacing: 13.5px;
-    display: flex;
+    letter-spacing: 80px;
+}
+
+@media all and (max-width: 1279px) {
+    .main__error-numbers {
+        padding: 104px 0 0 364px;
+    }
+}
+
+@media all and (max-width: 1219px) {
+    .main__error-numbers {
+        padding: 104px 0 0 334px;
+    }
+}
+
+@media all and (max-width: 1159px) {
+    .main__error-numbers {
+        padding: 104px 0 0 304px;
+    }
+}
+
+@media all and (max-width: 1099px) {
+    .main__error-numbers {
+        padding: 104px 0 0 274px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .main__error-numbers {
+        padding: 104px 0 0 236.5px;
+    }
 }
