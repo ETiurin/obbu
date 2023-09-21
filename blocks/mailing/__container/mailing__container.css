@@ -1,6 +1,6 @@
 .mailing__container {
+    max-width: 1290px;
     display: flex;
-    justify-content: space-between;
     gap: 30px;
 }
 

@@ -1,0 +1,24 @@
+.header__blocks {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    max-width: 1290px;
+    padding: 32px 75px;
+    margin: 0 auto;
+  }
+  
+  @media all and (max-width: 1279px) {
+    .header__blocks {
+      max-width: 1279px;
+      padding: 24px 42px;
+      gap: 24px;
+    }
+  }
+  
+  @media all and (max-width: 1023px) {
+    .header__blocks {
+      max-width: 1023px;
+      padding: 0 34px;
+      flex-direction: row;
+    }
+  }

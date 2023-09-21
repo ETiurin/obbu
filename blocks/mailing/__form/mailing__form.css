@@ -1,9 +1,4 @@
 .mailing__form {
-    width: 87.5%;
-}
-
-@media all and (max-width: 1279px) {
-    .mailing__form {
-        width: 91%;
-    }
+    max-width: 1290px;
+    width: 100%;
 }
