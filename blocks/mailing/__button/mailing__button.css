@@ -14,3 +14,10 @@
 .mailing__button:hover {
     opacity: .6;
 }
+
+@media all and (max-width: 1023px) {
+    .mailing__button {
+        height: 40px;
+        min-width: 226px;
+    }
+}

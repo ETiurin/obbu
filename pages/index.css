@@ -15,7 +15,7 @@
 @import url(../blocks/header/__column-links/header__column-links.css);
 @import url(../blocks/header/__column-link/header__column-link.css);
 
-@import url(../blocks/header/__right-block/header__rright-block.css);
+@import url(../blocks/header/__right-block/header__right-block.css);
 @import url(../blocks/header/__menu-container/header__menu-container.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__menu-links/header__menu-links.css);
@@ -24,6 +24,7 @@
 @import url(../blocks/header/__basket/header__basket.css);
 @import url(../blocks/header/__number-items/header__number-items.css);
 @import url(../blocks/header/__basket-img/header__basket-img.css);
+@import url(../blocks/header/__burger-img/header__burger-menu.css);
 @import url(../blocks/header/__filter/header__filter.css);
 @import url(../blocks/header/__filter-links/header__filter-links.css);
 @import url(../blocks/header/__filter-link/header__filter-link.css);
@@ -36,7 +37,10 @@
 @import url(../blocks/main/__blocks/main__blocks.css);
 @import url(../blocks/main/__catalog-container/main__catalog-container.css);
 @import url(../blocks/main/__button-sell/main__button-sell.css);
+@import url(../blocks/main/__mobile-container/main__mobile-container.css);
+@import url(../blocks/main/__catalog-icon/main__catalog-icon.css);
 @import url(../blocks/main/__header/main__header.css);
+@import url(../blocks/main/__nav-block/main__nav-block.css);
 @import url(../blocks/main/__nav/main__nav.css);
 @import url(../blocks/main/__nav-element/main__nav-element.css);
 @import url(../blocks/main/__lot/main__lot.css);

@@ -13,3 +13,9 @@
         padding: 0 42px;
     }
 }
+
+@media all and (max-width: 1279px) {
+    .mailing__blocks {
+        padding: 0 33px;
+    }
+}

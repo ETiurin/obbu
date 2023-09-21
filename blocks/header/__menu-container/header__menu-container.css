@@ -6,6 +6,10 @@
 
 @media all and (max-width: 1023px) {
     .header__menu-container {
+      display: flex;
+      gap: 16px;
       order: 1;
+      align-items: center;
+      height: 40px;
     }
   }

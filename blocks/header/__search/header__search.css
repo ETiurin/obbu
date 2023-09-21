@@ -1,0 +1,7 @@
+@media all and (max-width: 1023px) {
+    .header__search {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+  }

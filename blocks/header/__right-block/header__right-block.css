@@ -1,0 +1,14 @@
+@media all and (max-width: 1023px) {
+    .header__right-block {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media all and (max-width: 1023px) {
+    .header__right-block {
+        width: 100%;
+        align-items: end;
+        gap: 26px;
+    }
+}

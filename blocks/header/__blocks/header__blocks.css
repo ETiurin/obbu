@@ -17,8 +17,11 @@
   
   @media all and (max-width: 1023px) {
     .header__blocks {
+      gap: 26px;
       max-width: 1023px;
-      padding: 0 34px;
+      padding: 16px 34px;
       flex-direction: row;
+      align-items: end;
+      justify-content: flex-start;
     }
   }

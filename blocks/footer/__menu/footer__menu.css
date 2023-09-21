@@ -7,3 +7,9 @@
         padding-left: 42px;
     }
 }
+
+@media all and (max-width: 1023px) {
+    .footer__menu {
+        padding-left: 33px;
+    }
+}

@@ -4,3 +4,10 @@
     max-width: 1440px;
     margin: 0 auto;
 }
+
+@media all and (max-width: 1023px) {
+    .main__blocks {
+      display: flex;
+      flex-direction: column;
+    }
+  }

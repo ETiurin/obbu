@@ -8,3 +8,9 @@
         padding-right: 42px;
     }
 }
+
+@media all and (max-width: 1023px) {
+    .footer__column-social {
+        padding-right: 33px;
+    }
+}

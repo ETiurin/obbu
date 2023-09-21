@@ -1,34 +1,16 @@
 .main__error-img {
     position: absolute;
-    padding: 160px 471px;
+    padding-top: 160px;
 }
 
 @media all and (max-width: 1279px) {
     .main__error-img {
-        padding: 149px 424px;
+        padding-top: 149px;
     }
 }
 
-@media all and (max-width: 1219px) {
+@media all and (max-width: 1023px) {
     .main__error-img {
-        padding: 149px 404px;
-    }
-}
-
-@media all and (max-width: 1159px) {
-    .main__error-img {
-        padding: 149px 374px;
-    }
-}
-
-@media all and (max-width: 1099px) {
-    .main__error-img {
-        padding: 149px 344px;
-    }
-}
-
-@media all and (max-width: 1024px) {
-    .main__error-img {
-        padding: 149px 306px;
+        padding-top: 99px;
     }
 }

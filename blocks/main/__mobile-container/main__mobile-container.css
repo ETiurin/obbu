@@ -1,0 +1,14 @@
+.main__mobile-container {
+    display: none;
+}
+
+
+
+@media all and (max-width: 1023px) {
+    .main__mobile-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+    }
+}

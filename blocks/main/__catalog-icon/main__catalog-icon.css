@@ -1,0 +1,7 @@
+.main__catalog-icon {
+    cursor: pointer;
+}
+
+.main__catalog-icon:hover {
+    opacity: .6;;
+}

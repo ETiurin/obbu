@@ -23,3 +23,10 @@
       height: 42px;
     }
   }
+
+  @media all and (max-width: 1023px) {
+    .header__search-button {
+      width: 100px;
+      height: 40px;
+    }
+  }

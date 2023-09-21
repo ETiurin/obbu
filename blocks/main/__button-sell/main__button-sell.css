@@ -24,3 +24,12 @@
         line-height: 14.65px;
     }
 }
+
+@media all and (max-width: 1023px) {
+    .main__button-sell {
+        width: 280px;
+        margin: 0;
+        padding: 0 13px;
+        order: 1;
+    }
+}
