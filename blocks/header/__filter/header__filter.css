@@ -2,3 +2,9 @@
     max-width: 100%;
     padding: 20px 0;
 }
+
+@media all and (max-width: 1023px) {
+    .header__filter {
+        display: none;
+    }
+}

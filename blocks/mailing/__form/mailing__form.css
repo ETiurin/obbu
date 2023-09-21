@@ -1,0 +1,10 @@
+.mailing__form {
+    width: 87.5%;
+}
+
+@media all and (max-width: 1279px) {
+    .mailing__form {
+        width: 91%;
+
+    }
+}

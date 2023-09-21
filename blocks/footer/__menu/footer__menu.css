@@ -1,0 +1,9 @@
+.footer__menu {
+    padding-left: 80px;
+}
+
+@media all and (max-width: 1279px) {
+    .footer__menu {
+        padding-left: 42px;
+    }
+}

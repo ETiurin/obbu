@@ -4,3 +4,9 @@
     justify-content: space-between;
     max-width: 177px;
 }
+
+@media all and (max-width: 1023px) {
+    .header__left-block {
+      max-width: 162px;
+    }
+  }

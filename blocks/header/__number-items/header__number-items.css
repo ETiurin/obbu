@@ -1,5 +1,10 @@
 .header__number-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 20px;
     height: 20px;
-    padding: 6px;
+    color: white;
+    background-color: #F23B3E;
+    border-radius: 50%;
 }

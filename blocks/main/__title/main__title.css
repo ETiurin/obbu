@@ -4,7 +4,7 @@
     font-size: 24px;
     line-height: 28.8px;
     letter-spacing: -1px;
-    margin: 336px 345px 0;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -13,30 +13,5 @@
         width: 308px;
         font-size: 20px;
         line-height: 24px;
-        margin: 312px 341.5px 0;
-    }
-}
-
-@media all and (max-width: 1219px) {
-    .main__title {
-        margin: 312px 311.5px 0;
-    }
-}
-
-@media all and (max-width: 1159px) {
-    .main__title {
-        margin: 312px 281.5px 0;
-    }
-}
-
-@media all and (max-width: 1099px) {
-    .main__title {
-        margin: 312px 251.5px 0;
-    }
-}
-
-@media all and (max-width: 1024px) {
-    .main__title {
-        margin: 312px 214px 0;
     }
 }

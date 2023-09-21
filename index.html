@@ -14,7 +14,7 @@
   </title>
 </head>
 
-<body>
+<div>
   <div class="page">
     <header class="header">
       <div class="header__left-block">
@@ -79,8 +79,7 @@
             </ul>
           </div>
           <div class="header__basket">
-            <img class="header__number-items" src="./images/__number.png" title="Количество товаров в корзине"
-              alt="Количество товаров в корзине" />
+            <h4 class="header__number-items">1</h4>
             <img class="header__basket-img" src="./images/__shoppingCart.png" title="Корзина" alt="Корзина" />
           </div>
         </div>
@@ -119,68 +118,73 @@
       </div>
     </header>
     <main class="main">
-      <div class="main__catalog-container">
-        <button class="main__button-sell" type="submit" aria-label="Продать б/у оборудование для окон">Продать б/у
-          оборудование для окон</button>
-        <div class="main__catalog">
-          <h3 class="main__header">Каталог</h3>
-          <nav>
-            <ul class="main__nav">
-              <li class="main__nav-element">
-                <a href="#" class="main__lot">Оборудование для производства окон из ПВХ и алюминия</a>
-                <img class="main__deployment" src="/images/__caretDown.png" alt=""></img>
-              </li>
-            </ul>
-            <ul class="main__nav">
-              <li class="main__nav-element">
-                <a href="#" class="main__lot">Оборудование для производства алюминиевых окон</a>
-              </li>
-              <li class="main__nav-element">
-                <a href="#" class="main__lot">Отрезное оборудование<br>для алюминиевых окон</a>
-              </li>
-              <li class="main__nav-element">
-                <a href="#" class="main__lot">Копировально-фрезерное оборудование для алюминиевых окон</a>
-              </li>
-            </ul>
-            <ul class="main__nav">
-              <li class="main__nav-element">
-                <a href="#" class="main__lot">Прочее оборудование</a>
-                <img class="main__deployment" src="/images/__caretDown.png" alt=""></img>
-              </li>
-            </ul>
-            <ul class="main__nav">
-              <li class="main__nav-element">
-                <a href="#" class="main__lot">Оборудование для производства стеклопакетов</a>
-                <img class="main__deployment" src="/images/__caretDown.png" alt=""></img>
-              </li>
-            </ul>
-            <ul class="main__nav">
-              <li class="main__nav-element">
-                <a href="#" class="main__lot">Новые пресс-матрицы для PROVEDAL</a>
-              </li>
-              <li class="main__nav-element">
-                <a href="#" class="main__lot">Деревообрабатывающее оборудование</a>
-              </li>
-            </ul>
-          </nav>
+      <div class="main__block">
+        <div class="main__catalog-container">
+          <button class="main__button-sell" type="submit" aria-label="Продать б/у оборудование для окон">Продать б/у
+            оборудование для окон</button>
+          <div class="main__catalog">
+            <h3 class="main__header">Каталог</h3>
+            <nav>
+              <ul class="main__nav">
+                <li class="main__nav-element">
+                  <a href="#" class="main__lot">Оборудование для производства окон из ПВХ и алюминия</a>
+                  <img class="main__deployment" src="./images/__caretDown.png" alt=""></img>
+                </li>
+              </ul>
+              <ul class="main__nav">
+                <li class="main__nav-element">
+                  <a href="#" class="main__lot">Оборудование для производства алюминиевых окон</a>
+                </li>
+                <li class="main__nav-element">
+                  <a href="#" class="main__lot">Отрезное оборудование<br>для алюминиевых окон</a>
+                </li>
+                <li class="main__nav-element">
+                  <a href="#" class="main__lot">Копировально-фрезерное оборудование для алюминиевых окон</a>
+                </li>
+              </ul>
+              <ul class="main__nav">
+                <li class="main__nav-element">
+                  <a href="#" class="main__lot">Прочее оборудование</a>
+                  <img class="main__deployment" src="./images/__caretDown.png" alt=""></img>
+                </li>
+              </ul>
+              <ul class="main__nav">
+                <li class="main__nav-element">
+                  <a href="#" class="main__lot">Оборудование для производства стеклопакетов</a>
+                  <img class="main__deployment" src="./images/__caretDown.png" alt=""></img>
+                </li>
+              </ul>
+              <ul class="main__nav">
+                <li class="main__nav-element">
+                  <a href="#" class="main__lot">Новые пресс-матрицы для PROVEDAL</a>
+                </li>
+                <li class="main__nav-element">
+                  <a href="#" class="main__lot">Деревообрабатывающее оборудование</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="main__error-page">
+          <h3 class="main__error-numbers">44</h3>
+          <img class="main__error-img" src="./images/__icon-error.png" alt="Логотип шестеренки"></img>
+          <p class="main__title">Данной страницы не существует!</p>
+          <p class="main__subtitle">Возможно данный товар уже реализован. Попробуйте воспользоваться категориями или
+            поиском.<br><br>У нас ещё есть много чего интересного!</p>
         </div>
       </div>
-      <div class="main__error-page">
-        <h3 class="main__error-numbers">44</h3>
-        <img class="main__error-img" src="/images/__icon-error.png" alt="Логотип шестеренки"></img>
-        <p class="main__title">Данной страницы не существует!</p>
-        <p class="main__subtitle">Возможно данный товар уже реализован. Попробуйте воспользоваться категориями или
-          поиском.<br><br>У нас ещё есть много чего интересного!</p>
-      </div>
     </main>
-    <form class="mailing" action="" method="get">
-      <h3 class="mailing__title">Подпишитесь на рассылку и получайте информацию о новых поступлениях оборудования</h3>
-      <div class="mailing__container">
-        <input class="mailing__input" type="text" placeholder="ФИО" name="ФИО" required>
-        <input class="mailing__input" type="text" placeholder="E-mail" name="E-mail" required>
-        <button class="mailing__button" type="button" name="subscribe" value="">Подписаться на рассылку</button>
-      </div>
-    </form>
+    <div class="mailing">
+      <form class="mailing__form" action="" method="get">
+        <h3 class="mailing__title">Подпишитесь на рассылку и получайте информацию<br>о новых поступлениях оборудования
+        </h3>
+        <div class="mailing__container">
+          <input class="mailing__input" type="text" placeholder="ФИО" name="ФИО" required>
+          <input class="mailing__input" type="text" placeholder="E-mail" name="E-mail" required>
+          <button class="mailing__button" type="button" name="subscribe" value="">Подписаться на рассылку</button>
+        </div>
+      </form>
+    </div>
     <footer class="footer">
       <div class="footer__menu">
         <ul class=" footer__menu-links">
@@ -236,6 +240,6 @@
         </div>
     </footer>
   </div>
-</body>
+  </body>
 
 </html>

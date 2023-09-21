@@ -1,12 +1,11 @@
 .main {
-    display: flex;
+    width: 100%;
     max-width: 1440px;
     padding-bottom: 80px;
 }
 
 @media all and (max-width: 1279px) {
     .main {
-        max-width: 1279px;
         padding-bottom: 40px;
     }
 }

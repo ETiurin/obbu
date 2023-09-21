@@ -6,3 +6,12 @@
     margin: 10px 0 0;
     padding: 0;
 }
+
+@media all and (max-width: 1023px) {
+    .header__subtitle {
+        width: 162px;
+        font-size: 7.58px;
+        line-height: 9.04px;
+        margin: 0;
+    }
+}

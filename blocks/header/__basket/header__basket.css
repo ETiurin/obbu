@@ -1,4 +1,4 @@
 .header__basket {
-    display: flex;
-    flex-direction: row;
+    display: inline-flex;
+    align-items: center;
 }

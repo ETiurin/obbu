@@ -1,12 +1,16 @@
 .mailing {
-    max-width: 1170px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    width: 100%;
     background-color: #F6F6F6;
-    padding: 56px 135px;
+    padding: 56px 0;
+    align-items: center;
 }
 
 @media all and (max-width: 1279px) {
     .mailing {
-        max-width: 1196px;
-        padding: 32px 42px;
+        max-width: 1279px;
+        padding: 32px 0;
     }
 }

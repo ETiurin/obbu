@@ -13,7 +13,6 @@
 @import url(../blocks/header/__column-links/header__column-links.css);
 @import url(../blocks/header/__column-link/header__column-link.css);
 
-@import url(../blocks/header/__right-block/header__right-block.css);
 @import url(../blocks/header/__menu-container/header__menu-container.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__menu-links/header__menu-links.css);
@@ -31,6 +30,7 @@
 @import url(../blocks/header/__search-button/header__search-button.css);
 
 @import url(../blocks/main/main.css);
+@import url(../blocks/main/__block/main__block.css);
 @import url(../blocks/main/__catalog-container/main__catalog-container.css);
 @import url(../blocks/main/__button-sell/main__button-sell.css);
 @import url(../blocks/main/__header/main__header.css);
@@ -38,18 +38,21 @@
 @import url(../blocks/main/__nav-element/main__nav-element.css);
 @import url(../blocks/main/__lot/main__lot.css);
 @import url(../blocks/main/__deployment/main__deployment.css);
+@import url(../blocks/main/__error-page/main__error-page.css);
 @import url(../blocks/main/__error-img/main__error-img.css);
 @import url(../blocks/main/__error-numbers/main__error-numbers.css);
 @import url(../blocks/main/__title/main__title.css);
 @import url(../blocks/main/__subtitle/main__subtitle.css);
 
 @import url(../blocks/mailing/mailing.css);
+@import url(../blocks/mailing/__form/mailing__form.css);
 @import url(../blocks/mailing/__title/mailing__title.css);
 @import url(../blocks/mailing/__container/mailing__container.css);
 @import url(../blocks/mailing/__button/mailing__button.css);
 @import url(../blocks/mailing/__input/mailing__input.css);
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
 @import url(../blocks/footer/__menu-links/footer__menu-links.css);
 @import url(../blocks/footer/__menu-link/footer__menu-link.css);
 @import url(../blocks/footer/__title/footer__title.css);
