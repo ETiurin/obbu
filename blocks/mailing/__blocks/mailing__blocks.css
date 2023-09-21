@@ -1,0 +1,13 @@
+.mailing__blocks {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 1279px) {
+    .mailing__blocks {
+        max-width: 1279px;
+    }
+}

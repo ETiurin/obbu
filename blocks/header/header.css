@@ -19,7 +19,9 @@
 
 @media all and (max-width: 1023px) {
   .header {
-    flex-direction: row;
     max-width: 1023px;
+    padding: 0 34px;
+    display: grid;
+    grid-template-columns: auto;
   }
 }

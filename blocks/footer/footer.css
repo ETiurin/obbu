@@ -1,16 +1,11 @@
 .footer {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1440px;
     width: 100%;
     padding: 40px 0;
     background-color: #0D0D0D;
-    align-items: center;
 }
 
 @media all and (max-width: 1279px) {
     .footer {
-        max-width: 1279px;
         padding: 40px 0;
     }
 }

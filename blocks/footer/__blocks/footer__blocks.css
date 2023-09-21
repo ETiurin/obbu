@@ -1,0 +1,12 @@
+.footer__blocks {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 1279px) {
+    .footer__blocks {
+        max-width: 1279px;
+    }
+}
