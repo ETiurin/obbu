@@ -7,3 +7,7 @@
     text-decoration: none;
     list-style-type: none;
 }
+
+.footer__menu-link:hover {
+    opacity: .6;
+}

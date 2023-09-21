@@ -3,3 +3,7 @@
     height: 32px;
     cursor: pointer;
 }
+
+.header__basket-img:hover {
+    opacity: .6;
+}

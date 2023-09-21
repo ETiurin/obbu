@@ -8,4 +8,9 @@
     color: #FFFFFF;
     margin: 0;
     text-align: center;
+    cursor: pointer;
+}
+
+.footer__share-text:hover {
+    opacity: .6;
 }

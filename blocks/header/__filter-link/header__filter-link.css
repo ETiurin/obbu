@@ -8,3 +8,7 @@
     padding: 8px;
     background-color: #F6F6F6;
 }
+
+.header__filter-link:hover {
+    opacity: .6;
+}

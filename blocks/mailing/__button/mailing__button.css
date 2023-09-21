@@ -10,3 +10,7 @@
     cursor: pointer;
     padding: 0;
 }
+
+.mailing__button:hover {
+    opacity: .6;
+}

@@ -1,21 +1,18 @@
-.main__lot {
-    max-width: 260px;
+.main-lot-catalog {
+    width: 260px;
     font-weight: 400;
     font-size: 16px;
     line-height: 19.2px;
+    max-height: 38px;
     text-decoration: none;
     color: black;
     list-style-type: none;
     letter-spacing: -0.1px;
 }
 
-.main__lot:hover {
-    opacity: .6;
-}
-
 @media all and (max-width: 1279px) {
-    .main__lot {
-        max-width: 246px;
+    .main-lot-catalog {
+        width: 246px;
         font-size: 14px;
         line-height: 16.8px;
     }

@@ -13,6 +13,10 @@
     border-radius: 0 4px 4px 0;
 }
 
+.header__search-button:hover{
+  opacity: .6;
+}
+
 @media all and (max-width: 1279px) {
     .header__search-button {
       width: 140px;
