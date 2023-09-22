@@ -1,0 +1,7 @@
+@media all and (max-width: 540px) {
+    .main__catalog {
+        max-width: 540px;
+        width: 100%;
+        order: 2;
+    }
+}

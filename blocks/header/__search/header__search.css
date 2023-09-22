@@ -5,3 +5,9 @@
         width: 100%;
     }
   }
+
+  @media all and (max-width: 540px) {
+    .header__search {
+        display: none;
+    }
+  }

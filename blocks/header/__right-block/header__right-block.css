@@ -12,3 +12,9 @@
         gap: 26px;
     }
 }
+
+@media all and (max-width: 540px) {
+    .header__right-block {
+        justify-content: end;
+    }
+}

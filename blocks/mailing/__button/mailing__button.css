@@ -21,3 +21,11 @@
         min-width: 226px;
     }
 }
+
+@media all and (max-width: 540px) {
+    .mailing__button {
+        max-width: 430px;
+        height: 55px;
+        line-height: 20px;
+    }
+}

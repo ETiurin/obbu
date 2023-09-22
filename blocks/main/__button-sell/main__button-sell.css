@@ -33,3 +33,10 @@
         order: 1;
     }
 }
+
+@media all and (max-width: 540px) {
+    .main__button-sell {
+        width: 328px;
+        order: 1;
+    }
+}

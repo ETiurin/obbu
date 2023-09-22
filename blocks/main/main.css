@@ -14,3 +14,9 @@
         padding-bottom: 60px;
     }
 }
+
+@media all and (max-width: 540px) {
+    .main {
+        padding-bottom: 32px;
+    }
+}

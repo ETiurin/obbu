@@ -7,3 +7,11 @@
     padding: 91px 0 9px;
     margin: 0;
 }
+
+@media all and (max-width: 540px) {
+    .footer__title {
+        font-size: 12px;
+        line-height: 14.65px;
+        padding: 64px 0 9px;
+    }
+}

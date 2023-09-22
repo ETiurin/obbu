@@ -12,3 +12,10 @@
         gap: 8px;
     }
 }
+
+@media all and (max-width: 540px) {
+    .main__mobile-container {
+        justify-content: space-between;
+        padding: 0 16px;
+    }
+}

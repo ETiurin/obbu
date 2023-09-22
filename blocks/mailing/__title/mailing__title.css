@@ -11,3 +11,9 @@
         line-height: 24.42px;
     }
 }
+
+@media all and (max-width: 540px) {
+    .mailing__title {
+        width: 271px;
+    }
+}

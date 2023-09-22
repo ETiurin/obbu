@@ -13,3 +13,9 @@
         padding-top: 77px;
     }
 }
+
+@media all and (max-width: 540px) {
+    .main__error-numbers {
+        padding-top: 64px;
+    }
+}

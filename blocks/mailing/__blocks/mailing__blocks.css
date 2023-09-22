@@ -14,8 +14,8 @@
     }
 }
 
-@media all and (max-width: 1279px) {
+@media all and (max-width: 1023px) {
     .mailing__blocks {
-        padding: 0 33px;
+        padding: 0 16px;
     }
 }

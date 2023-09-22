@@ -14,3 +14,9 @@
         padding-right: 33px;
     }
 }
+
+@media all and (max-width: 540px) {
+    .footer__column-social {
+        padding-right: 16px;
+    }
+}
