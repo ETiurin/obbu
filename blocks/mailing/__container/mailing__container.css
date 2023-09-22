@@ -16,7 +16,7 @@
     }
 }
 
-@media all and (max-width: 540px) {
+@media all and (max-width: 767px) {
     .mailing__container {
         flex-direction: column;
         gap: 16px;

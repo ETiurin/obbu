@@ -14,7 +14,7 @@
     }
 }
 
-@media all and (max-width: 1023px) {
+@media all and (max-width: 694px) {
     .footer__menu {
         padding-left: 16px;
     }

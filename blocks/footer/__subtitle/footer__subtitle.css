@@ -9,7 +9,7 @@
     letter-spacing: -0.1px;
 }
 
-@media all and (max-width: 540px) {
+@media all and (max-width: 694px) {
     .footer__subtitle {
         max-width: 275px;
         font-size: 12px;

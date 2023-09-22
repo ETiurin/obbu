@@ -15,7 +15,7 @@
     }
 }
 
-@media all and (max-width: 540px) {
+@media all and (max-width: 694px) {
     .main {
         padding-bottom: 32px;
     }

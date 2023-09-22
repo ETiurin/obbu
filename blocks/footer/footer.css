@@ -10,7 +10,7 @@
     }
 }
 
-@media all and (max-width: 540px) {
+@media all and (max-width: 694px) {
     .footer {
         padding: 32px 0 50px;
     }

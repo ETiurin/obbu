@@ -14,7 +14,7 @@
     }
 }
 
-@media all and (max-width: 540px) {
+@media all and (max-width: 694px) {
     .main__error-numbers {
         padding-top: 64px;
     }

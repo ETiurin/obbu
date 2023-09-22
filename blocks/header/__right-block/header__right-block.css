@@ -13,7 +13,7 @@
     }
 }
 
-@media all and (max-width: 540px) {
+@media all and (max-width: 694px) {
     .header__right-block {
         justify-content: end;
     }
