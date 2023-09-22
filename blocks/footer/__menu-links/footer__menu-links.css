@@ -17,5 +17,6 @@
     .footer__menu-links {
         flex-direction: column;
         max-width: 83px;
+        gap: 16px;
     }
 }
