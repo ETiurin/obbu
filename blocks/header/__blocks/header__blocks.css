@@ -26,7 +26,7 @@
     }
   }
 
-  @media all and (max-width: 694px) {
+  @media all and (max-width: 767px) {
     .header__blocks {
       justify-content: space-between;
       padding: 16px;

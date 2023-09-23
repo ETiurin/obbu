@@ -24,7 +24,7 @@
 @import url(../blocks/header/__basket/header__basket.css);
 @import url(../blocks/header/__number-items/header__number-items.css);
 @import url(../blocks/header/__basket-img/header__basket-img.css);
-@import url(../blocks/header/__burger-img/header__burger-menu.css);
+@import url(../blocks/header/__burger-btn/header__burger-btn.css);
 @import url(../blocks/header/__filter/header__filter.css);
 @import url(../blocks/header/__filter-links/header__filter-links.css);
 @import url(../blocks/header/__filter-link/header__filter-link.css);

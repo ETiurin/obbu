@@ -8,6 +8,7 @@
     background-color: #FEDA5A;
     cursor: pointer;
     padding: 0;
+    border-radius: 4px;
 }
 
 .mailing__button:hover {

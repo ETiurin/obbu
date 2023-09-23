@@ -1,0 +1,16 @@
+.burger__modal-overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .4, visibility .4;
+}

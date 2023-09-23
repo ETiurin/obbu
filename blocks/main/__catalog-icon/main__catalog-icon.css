@@ -1,5 +1,11 @@
 .main__catalog-icon {
+    background-image: url(../../../images/__catalog-menu.svg);
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
     cursor: pointer;
+    padding: 0;
+    border: none;
 }
 
 .main__catalog-icon:hover {

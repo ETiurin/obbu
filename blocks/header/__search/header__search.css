@@ -6,7 +6,7 @@
     }
   }
 
-  @media all and (max-width: 694px) {
+  @media all and (max-width: 767px) {
     .header__search {
         display: none;
     }

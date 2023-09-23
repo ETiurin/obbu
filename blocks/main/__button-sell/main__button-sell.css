@@ -1,16 +1,18 @@
 .main__button-sell {
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     height: 40px;
     font-weight: 700;
     font-size: 14px;
     line-height: 17.09px;
     color: #0D0D0D;
     margin: 48px 0 0 0;
-    padding: 0 9px;
+    padding: 0;
     cursor: pointer;
     background: rgba(242, 59, 62, 0.1);
     border: 1px solid #F23B3E;
     border-radius: 4px;
+    white-space: nowrap;
 }
 
 .main__button-sell:hover {
@@ -19,7 +21,7 @@
 
 @media all and (max-width: 1279px) {
     .main__button-sell {
-        width: 246px;
+        max-width: 246px;
         font-size: 12px;
         line-height: 14.65px;
     }
@@ -27,16 +29,16 @@
 
 @media all and (max-width: 1023px) {
     .main__button-sell {
-        width: 280px;
+        max-width: 280px;
         margin: 0;
         padding: 0 13px;
         order: 1;
     }
 }
 
-@media all and (max-width: 694px) {
+@media all and (max-width: 767px) {
     .main__button-sell {
-        width: 328px;
+        max-width: 328px;
         order: 1;
     }
 }

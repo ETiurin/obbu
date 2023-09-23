@@ -13,7 +13,7 @@
     }
 }
 
-@media all and (max-width: 694px) {
+@media all and (max-width: 767px) {
     .footer__menu-links {
         flex-direction: column;
         max-width: 83px;

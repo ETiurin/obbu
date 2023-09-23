@@ -12,7 +12,7 @@
     }
 }
 
-@media all and (max-width: 540px) {
+@media all and (max-width: 767px) {
     .mailing__title {
         width: 271px;
     }
