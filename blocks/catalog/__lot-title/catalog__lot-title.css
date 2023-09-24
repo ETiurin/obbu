@@ -1,0 +1,12 @@
+.catalog__lot-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: -0.1px;
+}
+
+.catalog__lot-title:hover {
+    opacity: .6;
+}

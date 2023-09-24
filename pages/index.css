@@ -106,3 +106,18 @@
 @import url(../blocks/burger/__column-links/burger__column-links.css);
 @import url(../blocks/burger/__column-link/burger__column-link.css);
 @import url(../blocks/burger/__column-icon/burger__column-icon.css);
+
+@import url(../blocks/catalog/__modal-overlay/catalog__modal-overlay.css);
+@import url(../blocks/catalog/__modal/catalog__modal.css);
+@import url(../blocks/catalog/__header/catalog__header.css);
+@import url(../blocks/catalog/__heading/catalog__heading.css);
+@import url(../blocks/catalog/__button-close/catalog__button-close.css);
+@import url(../blocks/catalog/__position/catalog__position.css);
+@import url(../blocks/catalog/__nav-block/catalog__nav-block.css);
+@import url(../blocks/catalog/__nav/catalog__nav.css);
+@import url(../blocks/catalog/__nav-elemeyn-title/catalog__nav-element-title.css);
+@import url(../blocks/catalog/__nav-element/catalog__nav-element.css);
+@import url(../blocks/catalog/__lot/catalog__lot.css);
+@import url(../blocks/catalog/__lot-title/catalog__lot-title.css);
+@import url(../blocks/catalog/__nav-title/catalog__nav-title.css);
+@import url(../blocks/catalog/__deployment/catalog__deployment.css);

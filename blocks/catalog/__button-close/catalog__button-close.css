@@ -1,0 +1,11 @@
+.catalog__button-close {
+    background: url(../../../images/__ic_round-close.svg) no-repeat center #fff;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    border: none;
+}
+
+.catalog__button-close:hover {
+    opacity: .6;
+}

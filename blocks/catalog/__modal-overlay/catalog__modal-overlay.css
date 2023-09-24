@@ -1,4 +1,4 @@
-.burger__modal-overlay {
+.catalog__modal-overlay {
     position: fixed;
     left: 0;
     top: 0;
@@ -10,7 +10,7 @@
     z-index: -1;
 }
 
-.burger__modal-overlay.open {
+.catalog__modal-overlay.open {
     visibility: visible;
     opacity: 1;
     z-index: 5;

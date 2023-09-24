@@ -1,0 +1,6 @@
+.catalog__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 33px;
+    height: 24px;
+}

@@ -1,0 +1,14 @@
+.catalog__lot {
+    max-width: 472px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: -0.1px;
+
+}
+
+.catalog__lot:hover {
+    opacity: .6;
+}
