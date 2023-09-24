@@ -1,0 +1,7 @@
+.burger__logo {
+    width: 108.96px;
+}
+
+.burger__logo:hover {
+    opacity: .6;
+}

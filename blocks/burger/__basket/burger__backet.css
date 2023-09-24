@@ -1,0 +1,5 @@
+.burger__basket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

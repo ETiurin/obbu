@@ -1,0 +1,11 @@
+.burger__contacts-link {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.98px;
+    text-decoration: none;
+    color: #0D0D0D;
+}
+
+.burger__contacts-link:hover {
+    opacity: .6;
+}

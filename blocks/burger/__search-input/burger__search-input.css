@@ -1,0 +1,11 @@
+.burger__search-input {
+    width: 100%;
+    border-radius: 4px;
+    border: 2px solid #F6F6F6;
+    height: 48px;
+    outline: none;
+    padding-left: 40px;
+    background: url(../../../images/__icon-search.svg) no-repeat #F6F6F6;
+    background-position: 10px;
+    opacity: 0.7;
+}

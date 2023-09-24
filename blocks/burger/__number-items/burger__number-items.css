@@ -1,0 +1,18 @@
+.burger__number-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    font-size: small;
+    color: white;
+    background-color: #F23B3E;
+    border-radius: 50%;
+    margin: 0;
+}
+
+@media all and (max-width: 1023px) {
+    .burger__number-items {
+        margin: auto;
+    }
+  }

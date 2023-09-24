@@ -1,0 +1,9 @@
+.burger__column-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.8px;
+    width: 91px;
+}

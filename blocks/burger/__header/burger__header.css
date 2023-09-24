@@ -1,0 +1,6 @@
+.burger__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 16px;
+  }

@@ -4,7 +4,6 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__blocks/header__blocks.css);
-
 @import url(../blocks/header/__left-block/header__left-block.css);
 @import url(../blocks/header/__logo-link/header__logo-link.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -14,7 +13,6 @@
 @import url(../blocks/header/__column-heading/header__column-heading.css);
 @import url(../blocks/header/__column-links/header__column-links.css);
 @import url(../blocks/header/__column-link/header__column-link.css);
-
 @import url(../blocks/header/__right-block/header__right-block.css);
 @import url(../blocks/header/__menu-container/header__menu-container.css);
 @import url(../blocks/header/__menu/header__menu.css);
@@ -78,3 +76,33 @@
 @import url(../blocks/footer/__share-text/footer__share-text.css);
 @import url(../blocks/footer/__share-links/footer__share-links.css);
 @import url(../blocks/footer/__share-icon/footer__share-icon.css);
+
+@import url(../blocks/burger/__modal-overlay/burger__modal-overlay.css);
+@import url(../blocks/burger/__modal/burger__modal.css);
+@import url(../blocks/burger/__header/burger__header.css);
+@import url(../blocks/burger/__logo-block/burger__logo-block.css);
+@import url(../blocks/burger/__logo/burger__logo.css);
+@import url(../blocks/burger/__subtitle/burger__subtitle.css);
+@import url(../blocks/burger/__basket-img/burger__basket-img.css);
+@import url(../blocks/burger/__button-close/burger__button-close.css);
+@import url(../blocks/burger/__basket/burger__backet.css);
+@import url(../blocks/burger/__icon-block/burger__icon-block.css);
+@import url(../blocks/burger/__number-items/burger__number-items.css);
+@import url(../blocks/burger/__search/burger__search.css);
+@import url(../blocks/burger/__search-input/burger__search-input.css);
+@import url(../blocks/burger/__menu/burger__menu.css);
+@import url(../blocks/burger/__menu-links/burger__menu-links.css);
+@import url(../blocks/burger/__menu-position/burger__menu-position.css);
+@import url(../blocks/burger/__menu-link/burger__menu-link.css);
+@import url(../blocks/burger/__filter/burger__filter.css);
+@import url(../blocks/burger/__filter-links/burger__filter-links.css);
+@import url(../blocks/burger/__position-link/burger__position-link.css);
+@import url(../blocks/burger/__filter-link/burger__filter-link.css);
+@import url(../blocks/burger/__contacts/burger__contacts.css);
+@import url(../blocks/burger/__contacts-data/burger__contacts-data.css);
+@import url(../blocks/burger/__contacts-link/burger__contacts-link.css);
+@import url(../blocks/burger/__column-social/burger__column-social.css);
+@import url(../blocks/burger/__column-heading/burger__column-heading.css);
+@import url(../blocks/burger/__column-links/burger__column-links.css);
+@import url(../blocks/burger/__column-link/burger__column-link.css);
+@import url(../blocks/burger/__column-icon/burger__column-icon.css);

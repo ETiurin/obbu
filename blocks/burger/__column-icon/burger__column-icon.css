@@ -1,0 +1,7 @@
+.burger__column-icon {
+    cursor: pointer;
+}
+
+.burger__column-icon:hover {
+    opacity: .6;
+}

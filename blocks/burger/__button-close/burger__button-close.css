@@ -1,0 +1,12 @@
+.burger__button-close {
+    background-image: url(../../../images/__close_icons.svg);
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+}
+
+.burger__button-close:hover {
+    opacity: .6;
+}

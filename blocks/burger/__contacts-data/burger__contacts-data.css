@@ -1,0 +1,14 @@
+.burger__contacts-data {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin:0;
+    list-style-type: none;
+}
+
+@media all and (max-width: 479px) {
+    .burger__contacts-data {
+        flex-direction: column;
+        gap: 12px;
+    }
+  }
