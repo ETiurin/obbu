@@ -1,3 +1,9 @@
 .burger__menu {
     padding: 0 16px 24px;
 }
+
+@media all and (max-width: 462px) {
+    .burger__menu {
+        padding-bottom: 16px;
+    }
+}

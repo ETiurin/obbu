@@ -1,3 +1,9 @@
 .burger__contacts {
     padding: 0 16px 32px;
 }
+
+@media all and (max-width: 462px) {
+    .burger__contacts {
+        padding-bottom: 20px;
+    }
+}

@@ -79,6 +79,8 @@
 
 @import url(../blocks/burger/__modal-overlay/burger__modal-overlay.css);
 @import url(../blocks/burger/__modal/burger__modal.css);
+@import url(../blocks/burger/__block/burger__block.css);
+@import url(../blocks/burger/__up-block/burger__up-block.css);
 @import url(../blocks/burger/__header/burger__header.css);
 @import url(../blocks/burger/__logo-block/burger__logo-block.css);
 @import url(../blocks/burger/__logo/burger__logo.css);
@@ -96,7 +98,6 @@
 @import url(../blocks/burger/__menu-link/burger__menu-link.css);
 @import url(../blocks/burger/__filter/burger__filter.css);
 @import url(../blocks/burger/__filter-links/burger__filter-links.css);
-@import url(../blocks/burger/__position-link/burger__position-link.css);
 @import url(../blocks/burger/__filter-link/burger__filter-link.css);
 @import url(../blocks/burger/__contacts/burger__contacts.css);
 @import url(../blocks/burger/__contacts-data/burger__contacts-data.css);

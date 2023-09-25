@@ -1,3 +1,9 @@
 .burger__search {
     padding: 16px 16px 24px;
 }
+
+@media all and (max-width: 462px) {
+    .burger__search {
+        padding-bottom: 16px;
+    }
+}
