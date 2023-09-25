@@ -6,4 +6,12 @@
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.7);
     width: 100vw;
+    opacity: 0;
+    z-index: -1;
+}
+
+.burger__modal-overlay.open {
+    visibility: visible;
+    opacity: 1;
+    z-index: 5;
 }
