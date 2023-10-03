@@ -2,8 +2,9 @@
 @import url(../fonts/fonts.css);
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/title/__header/title__header.css);
+
 @import url(../blocks/menu/menu.css);
-@import url(../blocks/menu/__header/menu__header.css);
 @import url(../blocks/menu/__ul/menu__ul.css);
 @import url(../blocks/menu/__li/menu__li.css);
 
