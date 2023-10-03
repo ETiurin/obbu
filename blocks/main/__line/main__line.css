@@ -19,6 +19,6 @@
 
 @media all and (max-width: 767px) {
     .main__line {
-        display: none;
+        gap: 4px;
     }
 }

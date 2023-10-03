@@ -1,10 +1,16 @@
 .main__line-subtitle {
     font-size: 14px;
     line-height: 16.8px;
-    line-height: 19.2px;
     text-align: center;
     color: #9E9E9E;
     margin: 0;
     text-decoration: none;
     cursor: pointer;
+}
+
+@media all and (max-width: 767px) {
+    .main__line-subtitle {
+        font-size: 12px;
+        line-height: 14.4px;
+    }
 }

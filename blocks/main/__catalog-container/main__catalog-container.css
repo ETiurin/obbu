@@ -1,12 +1,11 @@
 .main__catalog-container {
     max-width: 280px;
-    margin: 0 0 0 75px;
+    margin: 0;
 }
 
 @media all and (max-width: 1279px) {
     .main__catalog-container {
         max-width: 246px;
-        margin: 0 0 0 42px;
     }
 }
 
@@ -17,7 +16,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        margin: 28px 34px 0 ;
+        margin: 28px 0 0 ;
     }
 }
 

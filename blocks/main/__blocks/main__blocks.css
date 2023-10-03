@@ -8,7 +8,7 @@
 
 @media all and (max-width: 1279px) {
   .main__blocks {
-    padding: 0 34px;
+    padding: 0 42px;
   }
 }
 
@@ -16,6 +16,7 @@
   .main__blocks {
     display: flex;
     flex-direction: column;
+    padding: 0 34px;
   }
 }
 
