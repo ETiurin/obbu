@@ -1,0 +1,4 @@
+.main__number-links {
+    display: flex;
+    flex-direction: column;
+}

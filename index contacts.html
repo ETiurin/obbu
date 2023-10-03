@@ -16,6 +16,15 @@
 
 <body>
   <div class="page">
+    <div class="title">
+      <h1 class="menu__header">Страница контактов</h1>
+    </div>
+    <div class="menu">
+      <ul class="menu__ul">
+        <li><a class="menu__li" href="index 404.html">Страница 404</a></li>
+        <li><a class="menu__li" href="index contacts.html">Страница контактов</a></li>
+      </ul>
+    </div>
     <header class="header">
       <div class="header__blocks">
         <div class="header__left-block">
@@ -124,64 +133,45 @@
     </header>
     <main class="main">
       <div class="main__blocks">
-        <div class="main__catalog-container">
-          <button class="main__button-sell" type="submit" aria-label="Продать б/у оборудование для окон">Продать б/у
-            оборудование для окон</button>
-          <div class="main__catalog">
-            <div class="main__mobile-container">
-              <h3 class="main__header">Каталог</h3>
-              <button class="main__catalog-icon"></button>
+        <div class="main__line">
+          <a href="#" class="main__line-subtitle">Главная</a>
+          <img class="main__arrow" src="./images/__right-arrow.svg" alt="Стрелка вправо" />
+          <a href="#" class="main__line-subtitle">Контакты</a>
+        </div>
+        <div class="main__contacts-container">
+          <h3 class="main__header">Контакты</h3>
+          <div class="main__contacts">
+            <div class="main__contacts-address">
+              <div class="main__adress">
+                <img class="main__contact-img" src="./images/__location.svg" alt="Маркер отметки" />
+                <p class="main__contact-subtitle">Адрес</p>
+              </div>
+              <a href="#" class="main__adress-paragraph">Россия, Московская обл., Павлово-Посадский р-н, с. Казанское,
+                д. 54 "А" (ориентир для навигатора — д. 56).</a>
+              <p class="main__adress-paragraph-two">Ежедневно, 8:00–21:00</p>
             </div>
-            <nav class="main__nav-block">
-              <ul class="main__nav">
-                <li class="main__nav-element">
-                  <a href="#" class="main__lot">Оборудование для производства окон из ПВХ и алюминия</a>
-                  <img class="main__deployment" id="opening-a-directoty" src="./images/__caretDown.svg"
-                    alt="Позиция каталога">
-                </li>
-              </ul>
-              <ul class="main__nav">
-                <li class="main__nav-element">
-                  <a href="#" class="main__lot">Оборудование для производства алюминиевых окон</a>
-                </li>
-                <li class="main__nav-element">
-                  <a href="#" class="main__lot">Отрезное оборудование<br>для алюминиевых окон</a>
-                </li>
-                <li class="main__nav-element">
-                  <a href="#" class="main__lot">Копировально-фрезерное оборудование для алюминиевых окон</a>
-                </li>
-              </ul>
-              <ul class="main__nav">
-                <li class="main__nav-element">
-                  <a href="#" class="main__lot">Прочее оборудование</a>
-                  <img class="main__deployment" src="./images/__caretDown.svg" alt="Позиция каталога"/>
-                </li>
-              </ul>
-              <ul class="main__nav">
-                <li class="main__nav-element">
-                  <a href="#" class="main__lot">Оборудование для производства стеклопакетов</a>
-                  <img class="main__deployment" src="./images/__caretDown.svg" alt="Позиция каталога"/>
-                </li>
-              </ul>
-              <ul class="main__nav">
-                <li class="main__nav-element">
-                  <a href="#" class="main__lot">Новые пресс-матрицы для PROVEDAL</a>
-                </li>
-                <li class="main__nav-element">
-                  <a href="#" class="main__lot">Деревообрабатывающее оборудование</a>
-                </li>
-              </ul>
-            </nav>
+            <div class="main__contacts-hone-number">
+              <div class="main__adress">
+                <img class="main__contact-img" src="./images/__call.svg" alt="Маркер телефона" />
+                <p class="main__contact-subtitle">Телефоны</p>
+              </div>
+              <div class="main__number-links">
+              <a href="#" class="main__adress-paragraph">8 (800) 775 97 88</a>
+              <a href="#" class="main__adress-paragraph">+7 (969) 777 85 45</a>
+            </div>
+            </div>
+            <div class="main__contacts-email">
+              <div class="main__adress">
+                <img class="main__contact-img" src="./images/__sms.svg" alt="Маркер письма" />
+                <p class="main__contact-subtitle">E-mail</p>
+              </div>
+              <a href="#" class="main__adress-paragraph">info@obbu.ru</a>
+            </div>
           </div>
         </div>
-        <div class="main__error-page">
-          <h3 class="main__error-numbers">44</h3>
-          <img class="main__error-img" src="./images/__icon-error.png" alt="Логотип шестеренки"/>
-          <p class="main__title">Данной страницы не существует!</p>
-          <p class="main__subtitle">Возможно данный товар уже реализован. Попробуйте воспользоваться категориями или
-            поиском.<br>У нас ещё есть много чего интересного!</p>
+        <div class="main__map-block">
+          <iframe class="main__map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad8abd4d078e5ba7a9ac70e317f9eb77bacc997287eb1fe3021a94687c7fc94c0&amp;source=constructor" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-      </div>
     </main>
     <div class="mailing">
       <div class="mailing__blocks">
@@ -374,7 +364,7 @@
                   <a href="#" class="catalog__lot-title">Оборудование для&nbsp;производства окон из&nbsp;ПВХ
                     и&nbsp;алюминия</a>
                   <img class="catalog__deployment" id="closed-a-directoty" src="./images/__caretUp.svg"
-                    alt="Позиция каталога"/>
+                    alt="Позиция каталога" />
                 </li>
               </ul>
               <ul class="catalog__nav">
@@ -449,13 +439,13 @@
               <ul class="catalog__nav-title">
                 <li class="catalog__nav-element-title">
                   <a href="#" class="catalog__lot-title">Прочее оборудование</a>
-                  <img class="catalog__deployment" src="./images/__caretDown.svg" alt="Позиция каталога"/>
+                  <img class="catalog__deployment" src="./images/__caretDown.svg" alt="Позиция каталога" />
                 </li>
               </ul>
               <ul class="catalog__nav-title">
                 <li class="catalog__nav-element-title">
                   <a href="#" class="catalog__lot-title">Оборудование для&nbsp;производства стеклопакетов</a>
-                  <img class="catalog__deployment" src="./images/__caretDown.svg" alt="Позиция каталога"/>
+                  <img class="catalog__deployment" src="./images/__caretDown.svg" alt="Позиция каталога" />
                 </li>
               </ul>
               <ul class="catalog__nav-title">

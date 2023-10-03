@@ -1,0 +1,24 @@
+.main__line {
+    display: flex;
+    padding: 24px 0 0 0;
+    position: absolute;
+    gap: 8px;
+}
+
+@media all and (max-width: 1279px) {
+    .main__line {
+        padding: 40px 0 0 0;
+    }
+}
+
+@media all and (max-width: 1023px) {
+    .main__line {
+        padding: 28px 0 0 0;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .main__line {
+        display: none;
+    }
+}

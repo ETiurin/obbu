@@ -1,0 +1,5 @@
+.main__contacts-email{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

@@ -1,0 +1,26 @@
+.main__map-block {
+    display: flex;
+    max-width: 70%;
+    width: 863px;
+}
+
+@media all and (max-width: 1279px) {
+    .main__map-block {
+        min-width: 541px;
+        max-width: 60%;
+    }
+}
+
+@media all and (max-width: 1023px) {
+    .main__map-block {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .main__map-block {
+        min-height: 365px;
+        min-width: 280px;
+    }
+}

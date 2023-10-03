@@ -1,0 +1,5 @@
+.main__adress {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-start;
+}
