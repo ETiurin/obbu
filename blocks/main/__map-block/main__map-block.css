@@ -2,6 +2,7 @@
     display: flex;
     max-width: 70%;
     width: 863px;
+    margin: auto 0 0 0;
 }
 
 @media all and (max-width: 1279px) {
