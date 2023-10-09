@@ -12,3 +12,7 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
+
+.main__article-subtitle:hover {
+  opacity: .6;
+}

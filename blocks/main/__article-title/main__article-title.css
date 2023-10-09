@@ -3,6 +3,12 @@
   font-size: 20px;
   line-height: 27px;
   margin: 0;
+  text-decoration: none;
+  color: #0D0D0D;
+}
+
+.main__article-title:hover {
+  opacity: .6;
 }
 
 @media all and (max-width: 1023px) {
