@@ -1,7 +1,12 @@
 .main__article-block {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    padding-bottom: 16px;
-    border-bottom: 1px solid #F6F6F6;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.main__article-block:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
 }

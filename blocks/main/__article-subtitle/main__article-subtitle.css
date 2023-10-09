@@ -9,12 +9,6 @@
   overflow: hidden;
   word-wrap: break-word;
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-}
-
-@media all and (max-width: 767px) {
-  .main__article-subtitle {
-    height: 88px;
-  }
 }
