@@ -1,0 +1,22 @@
+.main__articles-container {
+  padding: 24px 0 0;
+  width: 100%;
+}
+
+@media all and (max-width: 1023px) {
+  .main__articles-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 49px 0 0;
+    padding: 16px 0 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__articles-container {
+    flex-direction: column;
+    gap: 16px;
+    margin: 22px 0 0;
+  }
+}

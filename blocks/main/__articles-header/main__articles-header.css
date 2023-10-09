@@ -1,0 +1,26 @@
+.main__articles-header {
+    padding-top: 40px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37.8px;
+}
+
+@media all and (max-width: 1279px) {
+    .main__articles-header {
+        padding-top: 74px;
+    }
+}
+
+@media all and (max-width: 1023px) {
+    .main__articles-header {
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .main__articles-header {
+        font-size: 24px;
+        line-height: 32.4px;
+    }
+}

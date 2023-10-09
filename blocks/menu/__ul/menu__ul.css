@@ -1,8 +1,7 @@
 .menu__ul {
     display: flex;
-    align-items: center;
     justify-content: center;
     gap: 40px;
-    padding: 0;
+    padding: 0 16px;
     list-style-type: none;
 }

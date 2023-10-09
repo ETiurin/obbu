@@ -1,0 +1,20 @@
+.main__article-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.6px;
+  margin: 0;
+  text-decoration: none;
+  color: #0d0d0d;
+  height: 66px;
+  overflow: hidden;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+@media all and (max-width: 767px) {
+  .main__article-subtitle {
+    height: 88px;
+  }
+}

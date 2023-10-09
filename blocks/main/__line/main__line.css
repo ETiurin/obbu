@@ -13,12 +13,13 @@
 
 @media all and (max-width: 1023px) {
     .main__line {
-        padding: 28px 0 0 0;
+        padding: 24px 0 0 0;
     }
 }
 
 @media all and (max-width: 767px) {
     .main__line {
+        padding: 12px 0 0 0;
         gap: 4px;
     }
 }

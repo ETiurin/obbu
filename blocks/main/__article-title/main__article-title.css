@@ -1,0 +1,19 @@
+.main__article-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  margin: 0;
+}
+
+@media all and (max-width: 1023px) {
+  .main__article-title {
+    max-width: 583px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__article-title {
+    font-size: 18px;
+    line-height: 24.3px;
+  }
+}
