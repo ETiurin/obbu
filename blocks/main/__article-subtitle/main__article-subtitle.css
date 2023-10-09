@@ -11,8 +11,21 @@
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+  max-width: 960px;
 }
 
 .main__article-subtitle:hover {
   opacity: .6;
+}
+
+@media all and (max-width: 1279px) {
+  .main__article-subtitle {
+    max-width: 869px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .main__article-subtitle {
+    max-width: 700px;
+  }
 }

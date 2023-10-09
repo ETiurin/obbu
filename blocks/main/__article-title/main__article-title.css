@@ -5,6 +5,7 @@
   margin: 0;
   text-decoration: none;
   color: #0D0D0D;
+  max-width: 723px;
 }
 
 .main__article-title:hover {
