@@ -1,4 +1,11 @@
 .header__basket {
-    display: inline-flex;
-    align-items: center;
+  display: inline-flex;
+  align-items: center;
+  order: 3;
+}
+
+@media all and (max-width: 1023px) {
+  .header__basket {
+    order: 2;
+  }
 }

@@ -1,0 +1,9 @@
+.header__burger-menu {
+  order: 2;
+}
+
+@media all and (max-width: 1023px) {
+  .header__burger-menu {
+    order: 3;
+  }
+}
