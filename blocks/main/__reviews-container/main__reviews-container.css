@@ -1,0 +1,32 @@
+.main__reviews-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 24px 0 0;
+  width: 100%;
+}
+
+@media all and (max-width: 1279px) {
+  .main__reviews-container {
+    gap: 16px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .main__reviews-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 41px 0 0;
+    padding: 16px 0 0;
+    gap: 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__reviews-container {
+    flex-direction: column;
+    margin: 29px 0 0;
+    padding: 12px 0 0;
+  }
+}

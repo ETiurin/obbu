@@ -1,0 +1,19 @@
+.main__sides {
+  display: flex;
+  justify-content: space-between;
+  max-width: 341px;
+  margin: 0;
+  border-bottom: 1px solid #efefef;
+}
+
+@media all and (max-width: 1023px) {
+  .main__sides {
+    margin: 16px 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__sides {
+    margin: 32px 0 24px;
+  }
+}

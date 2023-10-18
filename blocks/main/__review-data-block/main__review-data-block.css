@@ -1,0 +1,5 @@
+.main__review-data-block {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

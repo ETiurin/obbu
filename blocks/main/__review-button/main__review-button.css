@@ -1,0 +1,12 @@
+.main__review-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.54px;
+    color: #0D0D0D;
+    height: 54px;
+    padding: 18px 24px;
+    border-radius: 4px;
+    background-color: #FEDA5A;
+    border: none;
+    cursor: pointer;
+}

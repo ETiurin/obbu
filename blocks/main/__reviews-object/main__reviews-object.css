@@ -1,0 +1,14 @@
+.main__reviews-object {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #0d0d0d;
+  margin: 0;
+}
+
+@media all and (max-width: 767px) {
+  .main__reviews-object {
+    font-size: 18px;
+    line-height: 24.3px;
+  }
+}

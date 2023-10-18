@@ -1,0 +1,29 @@
+.main__download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #f6f6f6;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 18px 24px;
+  margin-bottom: 28px;
+}
+
+@media all and (max-width: 1279px) {
+  .main__download {
+    margin: 8px 0 32px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .main__download {
+    margin: 24px 0 48px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__download {
+    margin: 24px 0 40px;
+  }
+}

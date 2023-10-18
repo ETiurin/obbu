@@ -1,0 +1,19 @@
+.main__block-reviews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+@media all and (max-width: 1023px) {
+  .main__block-reviews {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__block-reviews {
+    max-width: 410px;
+    margin: 0 auto;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
