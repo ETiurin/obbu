@@ -5,10 +5,18 @@
     width: 100%;
     height: 56px;
     border: none;
-    color: #9E9E9E;
+    color: #0D0D0D;
     text-indent: 20px;
     padding: 0;
     border-radius: 4px;
+}
+
+.mailing__input::placeholder {
+    color: rgba(158, 158, 158, 0.9);
+}
+
+.mailing__input:focus::placeholder {
+    color: rgba(158, 158, 158, 0.3);
 }
 
 @media all and (max-width: 1023px) {
