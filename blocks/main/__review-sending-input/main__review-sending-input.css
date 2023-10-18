@@ -7,6 +7,13 @@
     height: 231px;
     outline: none;
     padding: 16px;
-    opacity: 0.5;
     white-space: wrap;
+}
+
+.main__review-sending-input::placeholder {
+    color: rgba(197, 197, 197, 0.9);
+}
+
+.main__review-sending-input:focus::placeholder {
+    color: rgba(197, 197, 197, 0.3);
 }

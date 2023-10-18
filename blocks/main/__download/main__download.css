@@ -10,6 +10,10 @@
   margin-bottom: 28px;
 }
 
+.main__download:hover {
+  opacity: .6;
+}
+
 @media all and (max-width: 1279px) {
   .main__download {
     margin: 8px 0 32px;

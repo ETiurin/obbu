@@ -16,7 +16,7 @@
 
 @media all and (max-width: 767px) {
   .main__reviews-subtitle {
-    height: 168px;
+    height: auto;
     line-height: 16.8px;
   }
 }

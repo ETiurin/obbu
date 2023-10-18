@@ -9,5 +9,13 @@
     height: 54px;
     outline: none;
     padding: 0 0 0 16px;
-    opacity: 0.5;
+    color: #0D0D0D;
+}
+
+.main__review-input::placeholder {
+    color: rgba(197, 197, 197, 0.9);
+}
+
+.main__review-input:focus::placeholder {
+    color: rgba(197, 197, 197, 0.3);
 }
