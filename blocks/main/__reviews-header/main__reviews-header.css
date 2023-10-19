@@ -17,6 +17,7 @@
 @media all and (max-width: 1023px) {
   .main__reviews-header {
     padding: 0;
+    margin-bottom: 16px;
   }
 }
 
