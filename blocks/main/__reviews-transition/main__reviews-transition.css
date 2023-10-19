@@ -3,6 +3,10 @@
     justify-content: space-between;
     align-items: start;
     cursor: pointer;
-    cursor: url(../../../images/__cursor.svg), pointer;
+    cursor: pointer;
     text-decoration: none;
+}
+
+.main__reviews-transition:hover {
+    opacity: .6;
 }
