@@ -92,6 +92,7 @@
 @import url(../blocks/main/__salesman/main__salesman.css);
 @import url(../blocks/main/__block-reviews/main__block-reviews.css);
 @import url(../blocks/main/__reviews/main__reviews.css);
+@import url(../blocks/main/__reviews-link/main__reviews-link.css);
 @import url(../blocks/main/__reviews-title/main__reviews-title.css);
 @import url(../blocks/main/__reviews-object/main__reviews-object.css);
 @import url(../blocks/main/__reviews-city/main__reviews-city.css);
