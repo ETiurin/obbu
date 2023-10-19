@@ -78,7 +78,10 @@
 @import url(../blocks/main/__article-block/main__article-block.css);
 @import url(../blocks/main/__article/main__article.css);
 @import url(../blocks/main/__article-date/main__article-date.css);
+@import url(../blocks/main/__reviews-title-block/main__reviews-title-block.css);
 @import url(../blocks/main/__article-title/main__article-title.css);
+@import url(../blocks/main/__reviews-transition/main__reviews-transition.css);
+@import url(../blocks/main/__reviews-title-transition/main__reviews-title-transition.css);
 @import url(../blocks/main/__article-subtitle/main__article-subtitle.css);
 @import url(../blocks/main/__reviews-container/main__reviews-container.css);
 @import url(../blocks/main/__reviews-header/main__reviews-header.css);

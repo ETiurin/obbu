@@ -205,7 +205,9 @@
             <a href="#" class="main__line-subtitle">Отзывы</a>
           </div>
           <div class="main__reviews-container">
-            <h3 class="main__reviews-header">OBBU.RU — надежный&nbsp;партнёр</h3>
+            <h3 class="main__reviews-header">
+              OBBU.RU — надежный&nbsp;партнёр
+            </h3>
             <div class="main__sides">
               <div class="main__sides-buyer">
                 <p class="main__buyer">Покупатель</p>
@@ -232,9 +234,21 @@
                 <p class="main__reviews-data">02.11.2022</p>
               </div>
               <div class="main__reviews">
-                <div class="main__reviews-title">
-                  <p class="main__reviews-object">OOO “Завод станков”</p>
-                  <p class="main__reviews-city">Москва</p>
+                <div class="main__reviews-title-block">
+                  <div class="main__reviews-title">
+                    <p class="main__reviews-object">OOO “Завод станков”</p>
+                    <p class="main__reviews-city">Москва</p>
+                  </div>
+                  <a href="#" class="main__reviews-transition">
+                    <p class="main__reviews-title-transition">
+                      MAER DMC-450 Автоматическая двухголовочная пила...
+                    </p>
+                    <img
+                      class="main__reviews-title-img"
+                      src="./images/__external-link.svg"
+                      alt="Переход на ссылку"
+                    />
+                  </a>
                 </div>
                 <p class="main__reviews-subtitle">
                   Если вам нужны хорошие станки после ремонта -&nbsp;обращайтесь
@@ -321,7 +335,7 @@
               <form class="main__review-form">
                 <div class="main__review-user-data">
                   <div class="main__review-data-block">
-                    <p class="main__review-data">ФИО</p>
+                    <p class="main__review-data">ФИО<span>*</span></p>
                     <input
                       class="main__review-input"
                       name="ФИО"
@@ -334,7 +348,7 @@
                     />
                   </div>
                   <div class="main__review-data-block">
-                    <p class="main__review-data">Компания</p>
+                    <p class="main__review-data">Компания<span>*</span></p>
                     <input
                       class="main__review-input"
                       name="Компания"
@@ -347,7 +361,7 @@
                     />
                   </div>
                   <div class="main__review-data-block">
-                    <p class="main__review-data">Оборудование</p>
+                    <p class="main__review-data">Оборудование<span>*</span></p>
                     <input
                       class="main__review-input"
                       name="Оборудование"
@@ -360,7 +374,7 @@
                     />
                   </div>
                   <div class="main__review-data-block">
-                    <p class="main__review-data">Город</p>
+                    <p class="main__review-data">Город<span>*</span></p>
                     <input
                       class="main__review-input"
                       name="Город"
@@ -375,7 +389,9 @@
                 </div>
                 <div class="main__review-sending">
                   <div class="main__review-data-block">
-                    <p class="main__review-data">Отзыв о сервисе</p>
+                    <p class="main__review-data">
+                      Отзыв о сервисе<span>*</span>
+                    </p>
                     <textarea
                       class="main__review-sending-input"
                       name="Отзыв о сервисе"
@@ -385,7 +401,9 @@
                       required
                     ></textarea>
                   </div>
-                  <button class="main__review-button" disabled>Оставить заявку</button>
+                  <button class="main__review-button" disabled>
+                    Оставить заявку
+                  </button>
                 </div>
               </form>
             </div>

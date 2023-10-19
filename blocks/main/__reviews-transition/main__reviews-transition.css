@@ -1,0 +1,8 @@
+.main__reviews-transition {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    cursor: pointer;
+    cursor: url(../../../images/__cursor.svg), pointer;
+    text-decoration: none;
+}

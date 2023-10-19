@@ -4,6 +4,12 @@
   gap: 30px;
 }
 
+@media all and (max-width: 1279px) {
+  .main__block-reviews {
+    gap: 20px;
+  }
+}
+
 @media all and (max-width: 1023px) {
   .main__block-reviews {
     grid-template-columns: repeat(2, 1fr);

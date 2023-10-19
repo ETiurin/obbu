@@ -1,0 +1,5 @@
+.main__reviews-title-block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
