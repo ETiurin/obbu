@@ -14,7 +14,7 @@
 
 .main__review-input:focus {
   border: none;
-  outline: 2px solid #feda5a;
+  outline: 1px solid #feda5a;
 }
 
 .main__review-input::placeholder {
