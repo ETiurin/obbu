@@ -1,0 +1,22 @@
+.main__sellUsedEquipment-bottom-contact {
+  margin: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29.3px;
+  text-align: right;
+  color: #9e9e9e;
+}
+
+@media all and (max-width: 1023px) {
+  .main__sellUsedEquipment-bottom-contact {
+    font-size: 20px;
+    line-height: 24.42px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .main__sellUsedEquipment-bottom-contact {
+    font-size: 16px;
+    line-height: 19.54px;
+  }
+}

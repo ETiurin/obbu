@@ -1,0 +1,15 @@
+.main__sellUsedEquipment-grid-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.09px;
+  margin: 0;
+  text-align: center;
+  padding: 0 15px;
+}
+
+@media all and (max-width: 1279px) {
+  .main__sellUsedEquipment-grid-text {
+    font-size: 14px;
+    line-height: 16.7px;
+  }
+}

@@ -1,0 +1,15 @@
+.main__sellUsedEquipment-sending {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 630px;
+    width: 100%;
+  }
+  
+  @media all and (max-width: 767px) {
+    .main__sellUsedEquipment-sending {
+      max-width: 100%;
+      gap: 24px;
+    }
+  }
+  

@@ -1,0 +1,12 @@
+.main__sellUsedEquipment-bottom-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media all and (max-width: 767px) {
+    .main__sellUsedEquipment-bottom-contacts {
+      flex-direction: row;
+      gap: 12px;
+    }
+  }

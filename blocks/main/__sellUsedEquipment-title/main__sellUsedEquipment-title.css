@@ -1,0 +1,30 @@
+.main__sellUsedEquipment-title {
+  padding-top: 41px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36.8px;
+  max-width: 561px;
+}
+
+@media all and (max-width: 1279px) {
+  .main__sellUsedEquipment-title {
+    font-size: 28px;
+    line-height: 37.8px;
+    padding-top: 41px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .main__sellUsedEquipment-title {
+    padding: 0;
+    margin-bottom: 16px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__sellUsedEquipment-title {
+    font-size: 28px;
+    line-height: 28px;
+  }
+}

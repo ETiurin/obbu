@@ -1,0 +1,30 @@
+.main__sellUsedEquipment-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.54px;
+  width: 261px;
+  height: 56px;
+  border: none;
+  background-color: #feda5a;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 4px;
+}
+
+.main__sellUsedEquipment-btn:hover {
+  opacity: 0.6;
+}
+
+@media all and (max-width: 1023px) {
+  .main__sellUsedEquipment-btn {
+    height: 56px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__sellUsedEquipment-btn {
+    height: 55px;
+    width: 100%;
+    max-width: 491px;
+  }
+}

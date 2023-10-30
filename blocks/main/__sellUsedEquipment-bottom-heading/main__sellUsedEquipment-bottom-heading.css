@@ -1,0 +1,11 @@
+.main__sellUsedEquipment-bottom-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media all and (max-width: 767px) {
+  .main__sellUsedEquipment-bottom-heading {
+    flex-direction: column;
+    gap: 24px;
+  }
+}

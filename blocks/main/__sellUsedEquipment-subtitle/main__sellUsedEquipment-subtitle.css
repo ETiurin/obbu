@@ -1,0 +1,14 @@
+.main__sellUsedEquipment-subtitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24.42px;
+  margin: 0;
+  max-width: 379px;
+}
+
+@media all and (max-width: 767px) {
+  .main__sellUsedEquipment-subtitle {
+    font-size: 18px;
+    line-height: 21.98px;
+  }
+}

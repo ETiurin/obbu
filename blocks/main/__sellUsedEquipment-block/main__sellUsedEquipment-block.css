@@ -1,0 +1,25 @@
+.main__sellUsedEquipment-block {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding-bottom: 60px;
+}
+
+@media all and (max-width: 1279px) {
+  .main__sellUsedEquipment-block {
+    gap: 20px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .main__sellUsedEquipment-block {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__sellUsedEquipment-block {
+    grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 40px;
+  }
+}

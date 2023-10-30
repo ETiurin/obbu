@@ -1,0 +1,29 @@
+.main__sellUsedEquipment-img {
+  height: 360px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+@media all and (max-width: 1279px) {
+  .main__sellUsedEquipment-img {
+    height: 398px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .main__sellUsedEquipment-img {
+    max-width: 700px;
+    margin: 41px 0 0;
+    padding: 24px 0 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__sellUsedEquipment-img {
+    margin: 27px 0 0;
+    padding: 12px 0 0;
+    height: 239px;
+    max-width: 491px;
+  }
+}

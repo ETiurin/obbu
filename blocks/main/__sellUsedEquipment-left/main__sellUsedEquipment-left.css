@@ -1,0 +1,12 @@
+.main__sellUsedEquipment-left {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+@media all and (max-width: 1023px) {
+  .main__sellUsedEquipment-left {
+    order: 2;
+    gap: 24px;
+  }
+}
