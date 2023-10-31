@@ -1,8 +1,14 @@
 .main__sellUsedEquipment-partners-subtitle {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19.54px;
-    color: #9E9E9E;
-    margin: 0;
-    padding: 12px 0 32px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.54px;
+  color: #9e9e9e;
+  margin: 0;
+  padding: 12px 0 32px;
+}
+
+@media all and (max-width: 1023px) {
+  .main__sellUsedEquipment-partners-subtitle {
+    padding-top: 8px;
+  }
 }
