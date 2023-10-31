@@ -1,0 +1,11 @@
+.main__sellUsedEquipment-paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media all and (max-width: 1279px) {
+  .main__sellUsedEquipment-paragraphs {
+    gap: 16px;
+  }
+}

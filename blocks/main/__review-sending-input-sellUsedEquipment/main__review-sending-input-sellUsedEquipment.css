@@ -29,3 +29,9 @@
     line-height: 17.09px;
   }
 }
+
+@media all and (max-width: 767px) {
+  .main__review-sending-input-sellUsedEquipment {
+    height: 159px;
+  }
+}
