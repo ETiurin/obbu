@@ -6,6 +6,12 @@
   max-width: 379px;
 }
 
+@media all and (max-width: 1023px) {
+  .main__sellUsedEquipment-subtitle {
+    max-width: 100%;
+  }
+}
+
 @media all and (max-width: 767px) {
   .main__sellUsedEquipment-subtitle {
     font-size: 18px;
