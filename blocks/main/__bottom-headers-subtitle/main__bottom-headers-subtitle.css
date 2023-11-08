@@ -1,0 +1,21 @@
+.main__bottom-headers-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.98px;
+  color: #0d0d0d;
+  margin: 0;
+}
+
+@media all and (max-width: 1279px) {
+  .main__bottom-headers-subtitle {
+    font-size: 16px;
+    line-height: 19.54px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__bottom-headers-subtitle {
+    font-size: 18px;
+    line-height: 21.98px;
+  }
+}

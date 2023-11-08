@@ -1,0 +1,14 @@
+.main__bottom-headers-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32.2px;
+  color: #0d0d0d;
+  margin: 0;
+}
+
+@media all and (max-width: 1279px) {
+  .main__bottom-headers-title {
+    font-size: 24px;
+    line-height: 27.6px;
+  }
+}

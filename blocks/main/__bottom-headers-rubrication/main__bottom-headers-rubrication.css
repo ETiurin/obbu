@@ -1,0 +1,18 @@
+.main__bottom-headers-rubrication {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 184px;
+}
+
+@media all and (max-width: 1023px) {
+  .main__bottom-headers-rubrication {
+    height: 255px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__bottom-headers-rubrication {
+    height: 204px;
+  }
+}

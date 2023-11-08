@@ -72,6 +72,7 @@
 @import url(../blocks/main/__number-links/main__number-links.css);
 @import url(../blocks/main/__map-block/main__map-block.css);
 @import url(../blocks/main/__map/main__map.css);
+
 @import url(../blocks/main/__articles-container/main__articles-container.css);
 @import url(../blocks/main/__articles-header/main__articles-header.css);
 @import url(../blocks/main/__articles/main__articles.css);
@@ -139,6 +140,32 @@
 @import url(../blocks/main/__sellUsedEquipment-partners-subtitle/main__sellUsedEquipment-partners-subtitle.css);
 @import url(../blocks/main/__sellUsedEquipment-partners-logo/main__sellUsedEquipment-partners-logo.css);
 @import url(../blocks/main/__sellUsedEquipment-partners-img/main__sellUsedEquipment-partners-img.css);
+
+@import url(../blocks/main/__home-catalog/main__home-catalog.css);
+@import url(../blocks/main/__panel/main__panel.css);
+@import url(../blocks/main/__panel-elements/main__panel-elements.css);
+@import url(../blocks/main/__panel-element/main__panel-element.css);
+@import url(../blocks/main/__panel-img-one/main__panel-img-one.css);
+@import url(../blocks/main/__panel-img-two/main__panel-img-two.css);
+@import url(../blocks/main/__panel-title/main__panel-title.css);
+@import url(../blocks/main/__panel-element/main__panel-element.css);
+
+@import url(../blocks/main/__home-grid-blocks/main__home-grid-blocks.css);
+@import url(../blocks/main/__home-grid-block/main__home-grid-block.css);
+@import url(../blocks/main/__home-grid-img/main__home-grid-img.css);
+@import url(../blocks/main/__home-grid-title/main__home-grid-title.css);
+@import url(../blocks/main/__home-title-span/main__home-title-span.css);
+@import url(../blocks/main/__home-grid-subtitles/main__home-grid-subtitles.css);
+@import url(../blocks/main/__home-grid-subtitle/main__home-grid-subtitle.css);
+@import url(../blocks/main/__home-grid-bottom/main__home-grid-bottom.css);
+@import url(../blocks/main/__home-bottom-title/main__home-bottom-title.css);
+@import url(../blocks/main/__home-button/main__home-button.css);
+@import url(../blocks/main/__home-grid-rubrication/main__home-grid-rubrication.css);
+@import url(../blocks/main/__bottom-headers/main__bottom-headers.css);
+@import url(../blocks/main/__bottom-headers-rubrication/main__bottom-headers-rubrication.css);
+@import url(../blocks/main/__bottom-headers-title/main__bottom-headers-title.css);
+@import url(../blocks/main/__bottom-headers-subtitle/main__bottom-headers-subtitle.css);
+@import url(../blocks/main/__bottom-subtitle/main__bottom-subtitle.css);
 
 @import url(../blocks/mailing/mailing.css);
 @import url(../blocks/mailing/__blocks/mailing__blocks.css);

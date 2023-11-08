@@ -1,0 +1,7 @@
+.main__home-grid-subtitles {
+    display: flex;
+    flex-direction: row;
+    padding: 0 16px;
+    justify-content: space-between;
+    align-items: end;
+}

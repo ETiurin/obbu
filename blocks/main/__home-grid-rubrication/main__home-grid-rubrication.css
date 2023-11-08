@@ -1,0 +1,12 @@
+.main__home-grid-rubrication {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 156px;
+}
+
+@media all and (max-width: 1023px) {
+  .main__home-grid-rubrication {
+    height: 146px;
+  }
+}
