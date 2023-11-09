@@ -11,3 +11,9 @@
   cursor: pointer;
   overflow: scroll;
 }
+
+@media all and (max-width: 767px) {
+  .main__panel-manufacturer {
+    width: 152px;
+  }
+}

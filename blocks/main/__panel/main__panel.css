@@ -17,7 +17,8 @@
       "one two"
       "last last";
     grid-template-rows: repeat(2, auto);
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto 1fr;
     justify-content: space-between;
+    margin-bottom: 24px;
   }
 }

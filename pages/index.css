@@ -253,6 +253,7 @@
 @import url(../blocks/home/__nav-element/home__nav-element.css);
 @import url(../blocks/home/__lot/home__lot.css);
 
+@import url(../blocks/main/__popup/main__popup.css);
 @import url(../blocks/main/__panel-popup/main__panel-popup.css);
 @import url(../blocks/main/__panel-year/main__panel-year.css);
 @import url(../blocks/main/__panel-year-title/main__panel-year-title.css);

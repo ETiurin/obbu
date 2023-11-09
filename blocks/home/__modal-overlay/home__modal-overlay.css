@@ -6,9 +6,6 @@
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.7);
   width: 100vw;
-  opacity: 0;
-  z-index: -2;
-  visibility: hidden;
 }
 
 .home__modal-overlay.open {

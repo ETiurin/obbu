@@ -1,0 +1,15 @@
+.main__popup {
+  position: relative;
+  width: 100%;
+  top: 50px;
+  left: -375px;
+  z-index: 5;
+}
+
+@media all and (max-width: 767px) {
+  .main__popup {
+    margin: 0;
+    top: 0;
+    left: 0;
+  }
+}
