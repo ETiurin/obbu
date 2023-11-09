@@ -1,15 +1,28 @@
 .main__panel-element {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 8px;
-    padding: 8px 12px;
-    background-color: #F6F6F6;
-    border-radius: 4px;
-    cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px 12px;
+  background-color: #f6f6f6;
+  border-radius: 4px;
+  cursor: pointer;
+  min-height: 24px;
 }
 
 .main__panel-element:hover {
-    opacity: .6;
+  opacity: 0.6;
+}
+
+.main__panel-element-one {
+  grid-area: one;
+}
+
+.main__panel-element-two {
+  grid-area: two;
+}
+
+.main__panel-element-last {
+  grid-area: last;
 }

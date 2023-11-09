@@ -1,0 +1,12 @@
+.main__panel-year {
+    width: 156.41px;
+    height: 46px;
+    background-color: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    padding: 12px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    cursor: pointer;
+}

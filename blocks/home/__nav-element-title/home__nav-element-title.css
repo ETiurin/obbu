@@ -1,0 +1,5 @@
+.home__nav-element-title {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}

@@ -30,6 +30,8 @@
 @media all and (max-width: 1023px) {
     .main__button-sell {
         max-width: 280px;
+        font-size: 14px;
+        line-height: 17.09px;
         margin: 0;
         padding: 0 13px;
         order: 1;

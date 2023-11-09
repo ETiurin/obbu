@@ -4,13 +4,20 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
-  background: #FEDA5A;
+  background: #feda5a;
   cursor: pointer;
   border: none;
   border-radius: 4px;
   padding: 4px 8px;
+  display: block;
 }
 
 .main__home-button:hover {
-  opacity: .6;
+  opacity: 0.6;
+}
+
+@media all and (max-width: 767px) {
+  .main__home-button {
+    width: 100%;
+  }
 }

@@ -1,0 +1,12 @@
+.main__elements {
+  position: sticky;
+  top: 0;
+  min-width: 278px;
+  width: 100%;
+}
+
+@media all and (max-width: 1279px) {
+  .main__elements {
+    min-width: 246px;
+  }
+}

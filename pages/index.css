@@ -41,6 +41,8 @@
 @import url(../blocks/main/main.css);
 @import url(../blocks/main/__blocks/main__blocks.css);
 @import url(../blocks/main/__catalog-container/main__catalog-container.css);
+@import url(../blocks/main/__elements/main__elements.css);
+@import url(../blocks/main/__buttons-mobile/main__buttons-mobile.css);
 @import url(../blocks/main/__button-sell/main__button-sell.css);
 @import url(../blocks/main/__catalog/main__catalog.css);
 @import url(../blocks/main/__mobile-container/main__mobile-container.css);
@@ -239,3 +241,22 @@
 @import url(../blocks/catalog/__lot-title/catalog__lot-title.css);
 @import url(../blocks/catalog/__nav-title/catalog__nav-title.css);
 @import url(../blocks/catalog/__deployment/catalog__deployment.css);
+
+@import url(../blocks/home/__modal-overlay/home__modal-overlay.css);
+@import url(../blocks/home/__modal/home__modal.css);
+@import url(../blocks/home/__nav-block/home__nav-block.css);
+@import url(../blocks/home/__nav-title/home__nav-title.css);
+@import url(../blocks/home/__nav-element-title/home__nav-element-title.css);
+@import url(../blocks/home/__lot-title/home__lot-title.css);
+@import url(../blocks/home/__deployment/home__deployment.css);
+@import url(../blocks/home/__nav/home__nav.css);
+@import url(../blocks/home/__nav-element/home__nav-element.css);
+@import url(../blocks/home/__lot/home__lot.css);
+
+@import url(../blocks/main/__panel-popup/main__panel-popup.css);
+@import url(../blocks/main/__panel-year/main__panel-year.css);
+@import url(../blocks/main/__panel-year-title/main__panel-year-title.css);
+@import url(../blocks/main/__panel-manufacturer/main__panel-manufacturer.css);
+@import url(../blocks/main/__panel-manufacturer-title/main__panel-manufacturer-title.css);
+@import url(../blocks/main/__panel-manufacturer-header-subtitle/main__panel-manufacturer-header-subtitle.css);
+@import url(../blocks/main/__panel-manufacturer-subtitle/main__panel-manufacturer-subtitle.css);

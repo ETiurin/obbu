@@ -9,3 +9,10 @@
     margin: 40px 0 0;
   }
 }
+
+
+@media all and (max-width: 767px) {
+  .main__home-catalog {
+    margin: 24px 0 0;
+  }
+}

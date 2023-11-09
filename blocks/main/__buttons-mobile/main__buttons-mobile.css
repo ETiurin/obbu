@@ -1,0 +1,11 @@
+.main__buttons-mobile {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media all and (max-width: 767px) {
+    .main__buttons-mobile {
+        flex-direction: column;
+        height: 96px;
+    }
+  }

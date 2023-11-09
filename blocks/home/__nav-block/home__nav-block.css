@@ -1,0 +1,13 @@
+.home__nav-block {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+@media all and (max-width: 1023px) {
+    .home__nav-block {
+        display: none;
+    }
+  }
+  

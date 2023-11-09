@@ -1,3 +1,8 @@
+.main__nav-block {
+  display: flex;
+  flex-direction: column;
+}
+
 @media all and (max-width: 1023px) {
     .main__nav-block {
       display: none;

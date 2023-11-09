@@ -1,19 +1,20 @@
 .main__mobile-container {
-    display: none;
+  display: none;
 }
 
 @media all and (max-width: 1023px) {
-    .main__mobile-container {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 8px;
-    }
+  .main__mobile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
 }
 
 @media all and (max-width: 767px) {
-    .main__mobile-container {
-        justify-content: space-between;
-        padding: 0;
-    }
+  .main__mobile-container {
+    justify-content: space-between;
+    padding: 0;
+    order: 2;
+  }
 }

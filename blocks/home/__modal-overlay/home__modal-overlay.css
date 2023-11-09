@@ -1,0 +1,18 @@
+.home__modal-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  opacity: 0;
+  z-index: -2;
+  visibility: hidden;
+}
+
+.home__modal-overlay.open {
+  visibility: visible;
+  opacity: 1;
+  z-index: 4;
+}
