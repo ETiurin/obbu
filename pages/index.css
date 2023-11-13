@@ -149,7 +149,7 @@
 @import url(../blocks/main/__panel-element/main__panel-element.css);
 @import url(../blocks/main/__panel-img-one/main__panel-img-one.css);
 @import url(../blocks/main/__panel-img-two/main__panel-img-two.css);
-@import url(../blocks/main/__panel-title/main__panel-title.css);
+@import url(../blocks/main/__panel-button/main__panel-button.css);
 @import url(../blocks/main/__panel-element/main__panel-element.css);
 
 @import url(../blocks/main/__home-grid-blocks/main__home-grid-blocks.css);
@@ -261,3 +261,10 @@
 @import url(../blocks/main/__panel-manufacturer-title/main__panel-manufacturer-title.css);
 @import url(../blocks/main/__panel-manufacturer-header-subtitle/main__panel-manufacturer-header-subtitle.css);
 @import url(../blocks/main/__panel-manufacturer-subtitle/main__panel-manufacturer-subtitle.css);
+
+@import url(../blocks/main/__panel-dropdown/main__panel-dropdown.css);
+@import url(../blocks/main/__panel-dropdown-list/main__panel-dropdown-list.css);
+@import url(../blocks/main/__panel-item/main__panel-item.css);
+@import url(../blocks/main/__panel-link/main__panel-link.css);
+@import url(../blocks/main/__panel-item-one/main__panel-item-one.css);
+@import url(../blocks/main/__panel-item-two/main__panel-item-two.css);

@@ -1,0 +1,9 @@
+.main__panel-item-one {
+  width: 183px;
+}
+
+@media all and (max-width: 767px) {
+  .main__panel-item-one {
+    width: 80%;
+  }
+}

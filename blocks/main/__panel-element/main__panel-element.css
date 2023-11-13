@@ -1,18 +1,8 @@
 .main__panel-element {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-  padding: 8px 12px;
-  background-color: #f6f6f6;
-  border-radius: 4px;
-  cursor: pointer;
-  min-height: 24px;
-}
-
-.main__panel-element:hover {
-  opacity: 0.6;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
 }
 
 .main__panel-element-one {

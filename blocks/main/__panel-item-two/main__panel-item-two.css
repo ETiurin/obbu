@@ -1,0 +1,11 @@
+.main__panel-item-two {
+    width: 201px;
+    height: 331px;
+    overflow: scroll;
+}
+
+@media all and (max-width: 767px) {
+  .main__panel-item-two {
+    width: 80%;
+  }
+}
