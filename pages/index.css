@@ -242,29 +242,15 @@
 @import url(../blocks/catalog/__nav-title/catalog__nav-title.css);
 @import url(../blocks/catalog/__deployment/catalog__deployment.css);
 
-@import url(../blocks/home/__modal-overlay/home__modal-overlay.css);
-@import url(../blocks/home/__modal/home__modal.css);
-@import url(../blocks/home/__nav-block/home__nav-block.css);
-@import url(../blocks/home/__nav-title/home__nav-title.css);
-@import url(../blocks/home/__nav-element-title/home__nav-element-title.css);
-@import url(../blocks/home/__lot-title/home__lot-title.css);
-@import url(../blocks/home/__deployment/home__deployment.css);
-@import url(../blocks/home/__nav/home__nav.css);
-@import url(../blocks/home/__nav-element/home__nav-element.css);
-@import url(../blocks/home/__lot/home__lot.css);
-
-@import url(../blocks/main/__popup/main__popup.css);
-@import url(../blocks/main/__panel-popup/main__panel-popup.css);
-@import url(../blocks/main/__panel-year/main__panel-year.css);
-@import url(../blocks/main/__panel-year-title/main__panel-year-title.css);
-@import url(../blocks/main/__panel-manufacturer/main__panel-manufacturer.css);
-@import url(../blocks/main/__panel-manufacturer-title/main__panel-manufacturer-title.css);
-@import url(../blocks/main/__panel-manufacturer-header-subtitle/main__panel-manufacturer-header-subtitle.css);
-@import url(../blocks/main/__panel-manufacturer-subtitle/main__panel-manufacturer-subtitle.css);
-
 @import url(../blocks/main/__panel-dropdown/main__panel-dropdown.css);
+@import url(../blocks/main/__panel-dropdown/_active/main__panel-dropdown_active.css);
 @import url(../blocks/main/__panel-dropdown-list/main__panel-dropdown-list.css);
 @import url(../blocks/main/__panel-item/main__panel-item.css);
 @import url(../blocks/main/__panel-link/main__panel-link.css);
 @import url(../blocks/main/__panel-item-one/main__panel-item-one.css);
 @import url(../blocks/main/__panel-item-two/main__panel-item-two.css);
+
+@import url(../blocks/main/__home-grid-loading-block/main__home-grid-loading-block.css);
+@import url(../blocks/main/__home-grid-loading/main__home-grid-loading.css);
+@import url(../blocks/main/__home-grid-loading-title/main__home-grid-loading-title.css);
+@import url(../blocks/main/__home-grid-loading-img/main__home-grid-loading-img.css);

@@ -1,0 +1,23 @@
+.main__home-grid-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 0;
+  margin: 0;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  background-color: #f6f6f6;
+  cursor: pointer;
+}
+
+.main__home-grid-loading:hover {
+  opacity: 0.6;
+}
+
+@media all and (max-width: 767px) {
+  .main__home-grid-loading {
+    padding: 8px 0;
+}
+}

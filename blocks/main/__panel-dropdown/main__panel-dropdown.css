@@ -2,5 +2,7 @@
   background-color: #fff;
   top: 100%;
   left: 0;
-  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .3s ease-in-out, visibility .3s ease-in-out;
 }

@@ -1,9 +1,0 @@
-.home__deployment {
-  width: 20px;
-  height: 20px;
-  cursor: pointer;
-}
-
-.home__deployment:hover {
-  opacity: 0.6;
-}

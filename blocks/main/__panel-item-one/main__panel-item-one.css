@@ -4,6 +4,7 @@
 
 @media all and (max-width: 767px) {
   .main__panel-item-one {
-    width: 80%;
+    width: 100%;
+    box-sizing: border-box;
   }
 }
