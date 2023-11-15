@@ -50,6 +50,7 @@
 @import url(../blocks/main/__header/main__header.css);
 @import url(../blocks/main/__nav-block/main__nav-block.css);
 @import url(../blocks/main/__nav/main__nav.css);
+@import url(../blocks/main/__nav_header/main__nav_header.css);
 @import url(../blocks/main/__nav-element/main__nav-element.css);
 @import url(../blocks/main/__lot/main__lot.css);
 @import url(../blocks/main/__deployment/main__deployment.css);
