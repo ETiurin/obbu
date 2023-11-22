@@ -1,0 +1,13 @@
+.main__basket-panel-button {
+  width: 15px;
+  height: 15px;
+  background: url(../../../images/__close_icons.svg) no-repeat center;
+  border: none;
+  background-color: white;
+  padding: 0;
+  cursor: pointer;
+}
+
+.main__basket-panel-button:hover {
+  opacity: 0.6;
+}

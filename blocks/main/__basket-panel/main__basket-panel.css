@@ -1,0 +1,14 @@
+.main__basket-panel {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 24px;
+  padding: 0 0 32px;
+}
+
+@media all and (max-width: 767px) {
+  .main__basket-panel {
+    justify-content: space-between;
+    padding-bottom: 24px;
+  }
+}

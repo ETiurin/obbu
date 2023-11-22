@@ -1,0 +1,17 @@
+.main__basket-form-blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media all and (max-width: 1023px) {
+  .main__basket-form-blocks {
+    flex-direction: row;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__basket-form-blocks {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,12 @@
+.main__basket-container-main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+
+@media all and (max-width: 1023px) {
+    .main__basket-container-main {
+        flex-direction: column;
+    }
+  }

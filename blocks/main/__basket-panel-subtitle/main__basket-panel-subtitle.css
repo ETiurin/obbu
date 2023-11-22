@@ -1,0 +1,18 @@
+.main__basket-panel-subtitle {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.54px;
+  color: #0d0d0d;
+}
+
+@media all and (max-width: 767px) {
+  .main__basket-panel-subtitle {
+    font-size: 14px;
+    line-height: 17.09px;
+  }
+}
+
+.main__basket-panel-subtitle:hover {
+  opacity: 0.6;
+}

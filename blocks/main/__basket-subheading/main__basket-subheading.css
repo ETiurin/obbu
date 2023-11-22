@@ -1,0 +1,11 @@
+.main__basket-subheading {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 12px;
+}
+
+@media all and (max-width: 767px) {
+    .main__basket-subheading {
+      display: none;
+    }
+  }

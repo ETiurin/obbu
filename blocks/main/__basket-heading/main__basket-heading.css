@@ -1,0 +1,13 @@
+.main__basket-heading {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  gap: 12px;
+  padding: 65px 0 40px;
+}
+
+@media all and (max-width: 767px) {
+  .main__basket-heading {
+    padding: 60px 0 24px;
+  }
+}

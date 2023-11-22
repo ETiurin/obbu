@@ -1,0 +1,41 @@
+.modal__state {
+  height: 40px;
+  width: 280px;
+  position: relative;
+  bottom: 55px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+@media all and (max-width: 1279px) {
+  .modal__state {
+    width: 252px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .modal__state {
+    position: absolute;
+    width: 252px;
+    bottom: -171px;
+    right: 50px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .modal__state {
+    position: relative;
+    width: 100%;
+    bottom: 55px;
+    right: 0;
+  }
+}
+
+.modal__state:checked + .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-state:checked + .modal .modal__inner {
+  top: 0;
+}

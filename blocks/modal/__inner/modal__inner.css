@@ -1,0 +1,25 @@
+.modal__inner {
+  transition: top 0.25s ease;
+  position: absolute;
+  top: -20%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 374px;
+  margin: auto;
+  overflow: auto;
+  background: #fff;
+  border-radius: 4px;
+  padding: 32px;
+  height: 296px;
+}
+
+@media all and (max-width: 767px) {
+  .modal__inner {
+    border-radius: 10px 10px 0 0;
+    width: 328px;
+    padding: 24px 16px;
+    margin: auto;
+    height: 378px;
+  }
+}

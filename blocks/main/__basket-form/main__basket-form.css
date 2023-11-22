@@ -1,0 +1,21 @@
+.main__basket-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6;
+  padding: 24px;
+  border-radius: 4px;
+  max-height: 447px;
+}
+
+@media all and (max-width: 1279px) {
+  .main__basket-form {
+    max-height: 453px;
+    padding: 16px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .main__basket-form {
+    max-width: 100%;
+  }
+}

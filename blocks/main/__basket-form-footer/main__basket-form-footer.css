@@ -1,0 +1,19 @@
+.main__basket-form-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media all and (max-width: 1023px) {
+  .main__basket-form-footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__basket-form-footer {
+    flex-direction: column;
+  }
+}
+

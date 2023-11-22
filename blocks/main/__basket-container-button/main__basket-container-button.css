@@ -1,0 +1,19 @@
+.main__basket-container-button {
+  width: 15px;
+  height: 15px;
+  background: url(../../../images/__vector-delete-grey.svg) no-repeat center;
+  border: none;
+  background-color: white;
+  padding: 0;
+  cursor: pointer;
+}
+
+.main__basket-container-button:hover {
+  opacity: 0.6;
+}
+
+@media all and (max-width: 767px) {
+  .main__basket-container-button {
+    display: none;
+  }
+}

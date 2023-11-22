@@ -1,0 +1,27 @@
+.main__basket-container-right {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  max-width: 169px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+@media all and (max-width: 1279px) {
+  .main__basket-container-right {
+    max-width: 123px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .main__basket-container-right {
+    max-width: 140px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__basket-container-right {
+    max-height: 20px;
+  }
+}

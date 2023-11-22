@@ -1,0 +1,24 @@
+.main__basket-form-container {
+  padding: 65px 0 0;
+  max-width: 328px;
+  width: 100%;
+}
+
+@media all and (max-width: 1279px) {
+  .main__basket-form-container {
+    max-width: 284px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .main__basket-form-container {
+    padding: 59px 0 0;
+    max-width: 100%;
+  }
+}
+
+@media all and (max-width: 767px) {
+    .main__basket-form-container {
+      padding: 24px 0 0;
+    }
+  }

@@ -1,0 +1,10 @@
+.main__basket-block-input {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.main__basket-block-input:hover {
+    opacity: .6;
+}

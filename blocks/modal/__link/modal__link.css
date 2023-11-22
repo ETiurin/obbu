@@ -1,0 +1,19 @@
+.modal__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 374px;
+  padding: 10px 24px;
+  background-color: #feda5a;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  color: #0d0d0d;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.54px;
+}
+
+.modal__link:hover {
+  opacity: 0.6;
+}
