@@ -293,10 +293,10 @@
 @import url(../blocks/main/__basket-form-footer-subtitle/main__basket-form-footer-subtitle.css);
 @import url(../blocks/main/__basket-form-footer-numbers/main__basket-form-footer-numbers.css);
 @import url(../blocks/main/__basket-form-modal/main__basket-form-modal.css);
+@import url(../blocks/main/__modal-state/main__modal-state.css);
 
 @import url(../blocks/modal/modal.css);
 @import url(../blocks/modal/__bg/modal__bg.css);
-@import url(../blocks/modal/__state/modal__state.css);
 @import url(../blocks/modal/__inner/modal__inner.css);
 @import url(../blocks/modal/__close/modal__close.css);
 @import url(../blocks/modal/__title/modal__title.css);

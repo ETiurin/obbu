@@ -1,4 +1,4 @@
-.modal__state {
+.main__modal-state {
   height: 40px;
   width: 280px;
   position: relative;
@@ -8,13 +8,13 @@
 }
 
 @media all and (max-width: 1279px) {
-  .modal__state {
+  .main__modal-state {
     width: 252px;
   }
 }
 
 @media all and (max-width: 1023px) {
-  .modal__state {
+  .main__modal-state {
     position: absolute;
     width: 252px;
     bottom: -171px;
@@ -23,7 +23,7 @@
 }
 
 @media all and (max-width: 767px) {
-  .modal__state {
+  .main__modal-state {
     position: relative;
     width: 100%;
     bottom: 55px;
@@ -31,11 +31,11 @@
   }
 }
 
-.modal__state:checked + .modal {
+.main__modal-state:checked + .modal {
   opacity: 1;
   visibility: visible;
 }
 
-.modal-state:checked + .modal .modal__inner {
+.main__modal-state:checked + .modal .modal__inner {
   top: 0;
 }
