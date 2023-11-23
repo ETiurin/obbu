@@ -27,6 +27,6 @@
   .main__reviews-container {
     flex-direction: column;
     margin: 29px 0 0;
-    padding: 12px 0 0;
+    padding: 16px 0 0;
   }
 }

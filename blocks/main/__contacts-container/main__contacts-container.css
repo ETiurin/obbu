@@ -23,6 +23,6 @@
   .main__contacts-container {
     flex-direction: column;
     gap: 24px;
-    margin: 59px 0;
+    margin: 44px 0;
   }
 }
