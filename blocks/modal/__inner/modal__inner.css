@@ -17,7 +17,7 @@
 @media all and (max-width: 767px) {
   .modal__inner {
     border-radius: 10px 10px 0 0;
-    width: 328px;
+    width: auto;
     padding: 24px 16px;
     margin: auto;
     height: 378px;

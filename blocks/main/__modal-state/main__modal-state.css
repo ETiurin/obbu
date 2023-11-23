@@ -7,6 +7,15 @@
   cursor: pointer;
 }
 
+.main__modal-state:checked + .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.main__modal-state:checked + .modal .modal__inner {
+  top: 0;
+}
+
 @media all and (max-width: 1279px) {
   .main__modal-state {
     width: 252px;
@@ -29,13 +38,4 @@
     bottom: 55px;
     right: 0;
   }
-}
-
-.main__modal-state:checked + .modal {
-  opacity: 1;
-  visibility: visible;
-}
-
-.main__modal-state:checked + .modal .modal__inner {
-  top: 0;
 }
