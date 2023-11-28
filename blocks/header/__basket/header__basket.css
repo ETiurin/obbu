@@ -1,7 +1,9 @@
 .header__basket {
   display: inline-flex;
   align-items: center;
+  margin: auto 0;
   order: 3;
+  text-decoration: none;
 }
 
 @media all and (max-width: 1023px) {

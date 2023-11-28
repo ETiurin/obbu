@@ -1,7 +1,6 @@
-.main__line-subtitle {
+.main__line-subtitle-two {
   font-size: 14px;
   line-height: 16.8px;
-  text-align: center;
   color: #9e9e9e;
   margin: 0;
   text-decoration: none;
@@ -9,7 +8,10 @@
 }
 
 @media all and (max-width: 767px) {
-  .main__line-subtitle {
+  .main__line-subtitle-two {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
     font-size: 12px;
     line-height: 14.4px;
     text-align: start;

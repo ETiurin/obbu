@@ -6,10 +6,18 @@
   list-style-type: none;
 }
 
+@media all and (max-width: 1023px) {
+  .menu__ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+}
+
 @media all and (max-width: 767px) {
   .menu__ul {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 15px;
   }
 }

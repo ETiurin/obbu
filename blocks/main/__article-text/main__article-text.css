@@ -1,0 +1,11 @@
+.main__article-text {
+  border-top: 1px solid #f6f6f6;
+  padding: 16px 0 0;
+}
+
+@media all and (max-width: 1023px) {
+  .main__article-text {
+    border-top: none;
+    padding: 24px 0 0;
+  }
+}

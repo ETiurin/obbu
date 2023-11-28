@@ -1,0 +1,26 @@
+.main__article-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 48px;
+  padding: 24px 0 0;
+  width: 100%;
+  max-width: 1290px;
+}
+
+@media all and (max-width: 1023px) {
+  .main__article-container {
+    flex-direction: column;
+    gap: 0;
+    margin: 41px 0 0;
+    padding: 24px 0 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__article-container {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+}

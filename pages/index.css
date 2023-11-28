@@ -62,6 +62,7 @@
 @import url(../blocks/main/__line/main__line.css);
 @import url(../blocks/main/__arrow/main__arrow.css);
 @import url(../blocks/main/__line-subtitle/main__line-subtitle.css);
+@import url(../blocks/main/__line-subtitle-two/main__line-subtitle-two.css);
 @import url(../blocks/main/__contacts/main__contacts.css);
 @import url(../blocks/main/__contacts-container/main__contacts-container.css);
 @import url(../blocks/main/__contacts-address/main__contacts-address.css);
@@ -304,3 +305,15 @@
 @import url(../blocks/modal/__span/modal__span.css);
 @import url(../blocks/modal/__link/modal__link.css);
 @import url(../blocks/modal/__contacts/modal__contacts.css);
+
+@import url(../blocks/main/__article-container/main__article-container.css);
+@import url(../blocks/main/__article-header/main__article-header.css);
+@import url(../blocks/main/__article-left-block/main__article-left-block.css);
+@import url(../blocks/main/__article-text/main__article-text.css);
+@import url(../blocks/main/__article-subtitle-heading/main__article-subtitle-heading.css);
+@import url(../blocks/main/__article-subtitle-text/main__article-subtitle-text.css);
+@import url(../blocks/main/__article-subtitle-block/main__article-subtitle-block.css);
+@import url(../blocks/main/__article-subtitle-span/main__article-subtitle-span.css);
+@import url(../blocks/main/__article-right-block/main__article-right-block.css);
+@import url(../blocks/main/__article-grid-subtitle/main__article-grid-subtitle.css);
+@import url(../blocks/main/__article-grid/main__article-grid.css);

@@ -1,0 +1,18 @@
+.main__article-right-block {
+  padding: 40px 0 0;
+  min-width: 300px;
+  width: 300px;
+}
+
+@media all and (max-width: 1023px) {
+  .main__article-right-block {
+    width: 100%;
+    padding: 60px 0 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__article-right-block {
+    padding: 40px 0 0;
+  }
+}
