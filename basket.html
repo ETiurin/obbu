@@ -336,7 +336,9 @@
                     class="main__basket-form-input"
                     name="Номер телефона"
                     placeholder="+ 7 999 999 99 99"
-                    type="number"
+                    type="tel"
+                    pattern="[0-9]{3} [0-9]{3} [0-9]{4}"
+                    maxlength="12"
                     required
                   />
                 </div>
@@ -347,9 +349,10 @@
                     name="E-mail"
                     placeholder="ivanov@gmail.com"
                     type="email"
+                    pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
                     value=""
                     minlength="2"
-                    maxlength="20"
+                    maxlength="30"
                     required
                   />
                 </div>

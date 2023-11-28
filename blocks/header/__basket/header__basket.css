@@ -1,6 +1,7 @@
 .header__basket {
   display: inline-flex;
   align-items: center;
+  gap: 8px;
   margin: auto 0;
   order: 3;
   text-decoration: none;

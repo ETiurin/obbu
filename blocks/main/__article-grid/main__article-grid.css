@@ -1,4 +1,6 @@
 .main__article-grid {
+  position: sticky;
+  top: 50px;
   display: grid;
   gap: 30px;
 }
