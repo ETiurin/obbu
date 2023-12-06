@@ -1,0 +1,22 @@
+.main__search-NotFound-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.3px;
+  color: #c5c5c5;
+  margin: 16px auto 0;
+}
+
+@media all and (max-width: 1279px) {
+  .main__search-NotFound-subtitle {
+    font-size: 16px;
+    line-height: 21.6px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__search-NotFound-subtitle {
+    margin: 8px auto 0;
+    font-size: 14px;
+    line-height: 18.9px;
+  }
+}

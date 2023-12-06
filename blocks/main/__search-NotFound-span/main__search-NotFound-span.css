@@ -1,0 +1,20 @@
+.main__search-NotFound-span {
+  color: #0d0d0d;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37.8px;
+}
+
+@media all and (max-width: 1279px) {
+  .main__search-NotFound-span {
+    font-size: 24px;
+    line-height: 32.4px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__search-NotFound-span {
+    font-size: 20px;
+    line-height: 27px;
+  }
+}

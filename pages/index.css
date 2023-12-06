@@ -317,3 +317,9 @@
 @import url(../blocks/main/__article-right-block/main__article-right-block.css);
 @import url(../blocks/main/__article-grid-subtitle/main__article-grid-subtitle.css);
 @import url(../blocks/main/__article-grid/main__article-grid.css);
+
+@import url(../blocks/main/__search-NotFound/main__search-NotFound.css);
+@import url(../blocks/main/__search-NotFound-title/main__search-NotFound-title.css);
+@import url(../blocks/main/__search-NotFound-span/main__search-NotFound-span.css);
+@import url(../blocks/main/__search-NotFound-subtitle/main__search-NotFound-subtitle.css);
+@import url(../blocks/main/__search-NotFound-img/main__search-NotFound-img.css);
