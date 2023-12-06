@@ -1,4 +1,4 @@
-.main__nav_header {
+.main__nav-header {
     margin: 0;
     padding: 40px 0 8px;
     font-weight: 700;
@@ -8,7 +8,7 @@
 }
 
 @media all and (max-width: 1279px) {
-    .main__nav_header {
+    .main__nav-header {
       padding: 24px 0 0;
     }
   }

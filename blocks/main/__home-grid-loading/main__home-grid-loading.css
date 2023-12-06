@@ -10,6 +10,10 @@
   border-radius: 4px;
   background-color: #f6f6f6;
   cursor: pointer;
+  color: #0d0d0d;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.54px;
 }
 
 .main__home-grid-loading:hover {
@@ -19,5 +23,7 @@
 @media all and (max-width: 767px) {
   .main__home-grid-loading {
     padding: 12px 0;
-}
+    font-size: 14px;
+    line-height: 16px;
+  }
 }

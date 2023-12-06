@@ -1,0 +1,29 @@
+.main__home-grid-titleSearch {
+  margin: 0;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 37.8px;
+  color: #0d0d0d;
+  padding-bottom: 40px;
+}
+
+@media all and (max-width: 1279px) {
+  .main__home-grid-titleSearch {
+    font-size: 24px;
+    line-height: 32.4px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .main__home-grid-titleSearch {
+    padding-bottom: 24px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__home-grid-titleSearch {
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 16px;
+  }
+}

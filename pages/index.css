@@ -50,7 +50,7 @@
 @import url(../blocks/main/__header/main__header.css);
 @import url(../blocks/main/__nav-block/main__nav-block.css);
 @import url(../blocks/main/__nav/main__nav.css);
-@import url(../blocks/main/__nav_header/main__nav_header.css);
+@import url(../blocks/main/__nav-header/main__nav-header.css);
 @import url(../blocks/main/__nav-element/main__nav-element.css);
 @import url(../blocks/main/__lot/main__lot.css);
 @import url(../blocks/main/__deployment/main__deployment.css);
@@ -323,3 +323,6 @@
 @import url(../blocks/main/__search-NotFound-span/main__search-NotFound-span.css);
 @import url(../blocks/main/__search-NotFound-subtitle/main__search-NotFound-subtitle.css);
 @import url(../blocks/main/__search-NotFound-img/main__search-NotFound-img.css);
+
+@import url(../blocks/main/__home-grid-titleSearch/main__home-grid-titleSearch.css);
+@import url(../blocks/main/__home-grid-titleSearch-span/main__home-grid-titleSearch-span.css);

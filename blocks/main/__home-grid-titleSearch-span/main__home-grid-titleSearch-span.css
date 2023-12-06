@@ -1,0 +1,13 @@
+.main__home-grid-titleSearch-span {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37.8px;
+  color: #0d0d0d;
+}
+
+@media all and (max-width: 767px) {
+  .main__home-grid-titleSearch-span {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
