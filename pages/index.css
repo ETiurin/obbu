@@ -326,3 +326,10 @@
 
 @import url(../blocks/main/__home-grid-titleSearch/main__home-grid-titleSearch.css);
 @import url(../blocks/main/__home-grid-titleSearch-span/main__home-grid-titleSearch-span.css);
+
+@import url(../blocks/main/__container-telegram/main__container-telegram.css);
+@import url(../blocks/main/__container_telegram-title/main__container_telegram-title.css);
+@import url(../blocks/main/__container-telegram-link/main__container-telegram-link.css);
+@import url(../blocks/main/__container-telegram-subtitle/main__container-telegram-subtitle.css);
+@import url(../blocks/main/__top-block/main__top-block.css);
+@import url(../blocks/main/__bottom-block/main__bottom-block.css);

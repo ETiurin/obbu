@@ -11,19 +11,6 @@
 
 @media all and (max-width: 1023px) {
   .main__catalog-container {
-    max-width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 24px 0 0;
-  }
-}
-
-@media all and (max-width: 767px) {
-  .main__catalog-container {
-    flex-direction: column;
-    gap: 24px;
-    margin: 32px 0 0 0;
+    display: none;
   }
 }

@@ -1,15 +1,14 @@
 .main__nav-header {
-    margin: 0;
-    padding: 40px 0 8px;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 37.8px;
-    color: #0D0D0D;
+  margin: 0;
+  padding: 40px 0 8px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37.8px;
+  color: #0d0d0d;
 }
 
 @media all and (max-width: 1279px) {
-    .main__nav-header {
-      padding: 24px 0 0;
-    }
+  .main__nav-header {
+    padding: 30px 0 0;
   }
-  
+}

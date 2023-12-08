@@ -1,12 +1,18 @@
 .main__buttons-mobile {
-    display: flex;
+  display: flex;
+  flex-direction: row;
+}
+
+@media all and (max-width: 1023px) {
+  .main__buttons-mobile {
     justify-content: space-between;
+  }
 }
 
 @media all and (max-width: 767px) {
-    .main__buttons-mobile {
-        flex-direction: column;
-        height: 96px;
-        align-items: center;
-    }
+  .main__buttons-mobile {
+    flex-direction: column;
+    height: 96px;
+    align-items: center;
   }
+}

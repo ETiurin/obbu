@@ -1,0 +1,5 @@
+.main__bottom-block {
+    display: flex;
+    flex-direction: row;
+    gap: 78px;
+}

@@ -1,0 +1,26 @@
+.main__container-telegram {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  order: 2;
+}
+
+@media all and (max-width: 1279px) {
+  .main__container-telegram {
+    justify-content: space-between;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .main__container-telegram {
+    margin-bottom: 24px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__container-telegram {
+    gap: 12px;
+    margin-bottom: 32px;
+    flex-direction: column;
+  }
+}
