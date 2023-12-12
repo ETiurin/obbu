@@ -1,16 +1,16 @@
 .main__error-img {
-    position: absolute;
-    padding-top: 160px;
-}
-
-@media all and (max-width: 1279px) {
-    .main__error-img {
-        padding-top: 149px;
-    }
+  position: absolute;
+  padding-top: 165px;
 }
 
 @media all and (max-width: 1023px) {
-    .main__error-img {
-        padding-top: 99px;
-    }
+  .main__error-img {
+    padding-top: 115px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__error-img {
+    padding-top: 103px;
+  }
 }

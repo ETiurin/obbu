@@ -40,6 +40,7 @@
 
 @import url(../blocks/main/main.css);
 @import url(../blocks/main/__blocks/main__blocks.css);
+@import url(../blocks/main/__blocks-home/main__blocks-home.css);
 @import url(../blocks/main/__catalog-container/main__catalog-container.css);
 @import url(../blocks/main/__elements/main__elements.css);
 @import url(../blocks/main/__buttons-mobile/main__buttons-mobile.css);
@@ -91,6 +92,7 @@
 @import url(../blocks/main/__reviews-container/main__reviews-container.css);
 @import url(../blocks/main/__reviews-header/main__reviews-header.css);
 @import url(../blocks/main/__sides/main__sides.css);
+@import url(../blocks/main/__sides-two/main__sides-two.css);
 @import url(../blocks/main/__sides-buyer/main__sides-buer.css);
 @import url(../blocks/main/__buyer/main__buyer.css);
 @import url(../blocks/main/__sides-salesman/main__sides-salesman.css);

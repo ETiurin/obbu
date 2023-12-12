@@ -1,11 +1,13 @@
 .main__catalog-container {
   max-width: 280px;
   margin: 0;
+  padding-top: 48px;
 }
 
 @media all and (max-width: 1279px) {
   .main__catalog-container {
     max-width: 246px;
+    padding-top: 30px;
   }
 }
 

@@ -1,7 +1,4 @@
-.main__blocks {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.main__blocks-home {
   max-width: 1290px;
   margin: 0 auto;
   padding: 0 75px;
@@ -9,13 +6,13 @@
 }
 
 @media all and (max-width: 1279px) {
-  .main__blocks {
+  .main__blocks-home {
     padding: 0 42px;
   }
 }
 
 @media all and (max-width: 1023px) {
-  .main__blocks {
+  .main__blocks-home {
     display: flex;
     flex-direction: column;
     padding: 0 34px;
@@ -24,7 +21,7 @@
 }
 
 @media all and (max-width: 767px) {
-  .main__blocks {
+  .main__blocks-home {
     padding: 0 16px;
   }
 }
