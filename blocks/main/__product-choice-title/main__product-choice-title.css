@@ -1,0 +1,31 @@
+.main__product-choice-title {
+    margin: 0;
+    padding: 12px 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.6px;
+    letter-spacing: -0.01em;
+    color: #C5C5C5;
+    cursor: pointer;
+    text-align: center;
+    width: 146px;
+}
+
+.main__product-choice-title:hover {
+    color: #0D0D0D;
+    border-bottom: 4px solid #F23B3E;
+    padding-bottom: 8px;
+    z-index: 2;
+}
+
+.main__product-choice-title:first-child {
+    color: #0D0D0D;
+}
+
+@media all and (max-width: 767px) {
+    .main__product-choice-title {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 12px 0;
+    }
+}

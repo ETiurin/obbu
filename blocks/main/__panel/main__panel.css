@@ -7,7 +7,7 @@
 
 @media all and (max-width: 1023px) {
   .main__panel {
-    margin-bottom: 40px;
+    margin: -40px 0 40px;
   }
 }
 
@@ -20,6 +20,6 @@
     grid-template-rows: repeat(2, auto);
     grid-template-columns: auto 1fr;
     justify-content: space-between;
-    margin-bottom: 24px;
+    margin: -56px 0 24px;
   }
 }

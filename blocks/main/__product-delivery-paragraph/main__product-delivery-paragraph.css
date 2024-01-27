@@ -1,0 +1,9 @@
+.main__product-delivery-paragraph {
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.main__product-delivery-paragraph:hover {
+    opacity: .6;
+}

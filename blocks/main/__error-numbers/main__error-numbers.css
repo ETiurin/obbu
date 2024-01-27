@@ -1,21 +1,15 @@
 .main__error-numbers {
     max-width: 263px;
     margin: 0;
-    padding-top: 128px;
+    padding: 0;
     font-weight: 500;
     font-size: 160px;
     line-height: 192px;
     letter-spacing: 80px;
 }
 
-@media all and (max-width: 1023px) {
-    .main__error-numbers {
-        padding-top: 77px;
-    }
-}
-
 @media all and (max-width: 767px) {
     .main__error-numbers {
-        padding-top: 64px;
+        margin-top: -9px;
     }
 }

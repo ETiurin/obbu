@@ -20,7 +20,7 @@
 @media all and (max-width: 767px) {
   .main__container-telegram {
     gap: 12px;
-    margin-bottom: 32px;
+    margin: -8px 0 32px;
     flex-direction: column;
   }
 }

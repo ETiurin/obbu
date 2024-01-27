@@ -1,0 +1,11 @@
+.main__product-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+@media all and (max-width: 767px) {
+    .main__product-buttons {
+        flex-direction: column;
+        gap: 8px;
+    }
+}

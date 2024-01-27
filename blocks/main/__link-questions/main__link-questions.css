@@ -1,0 +1,17 @@
+.main__link-questions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.main__link-questions:hover {
+  opacity: 0.6;
+}
+
+@media all and (max-width: 767px) {
+  .main__link-questions {
+    display: none;
+  }
+}

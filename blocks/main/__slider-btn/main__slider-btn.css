@@ -1,0 +1,53 @@
+.main__slider-btn {
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.2s ease-in-out;
+}
+
+.btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.main__slider-btn:hover {
+  opacity: 0.6;
+}
+
+.slider-prev {
+  left: -45px;
+}
+
+.slider-next {
+  right: -45px;
+}
+
+@media all and (max-width: 1023px) {
+  .slider-prev {
+    left: -21px;
+    top: -180px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .slider-next {
+    right: -363px;
+    top: -180px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .slider-prev {
+    left: -16px;
+    top: 30px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .slider-next {
+    right: -16px;
+    top: 30px;
+  }
+}

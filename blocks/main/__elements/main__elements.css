@@ -1,6 +1,6 @@
 .main__elements {
   position: sticky;
-  top: 0;
+  top: 30px;
   min-width: 278px;
   width: 100%;
 }

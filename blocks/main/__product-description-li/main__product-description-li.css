@@ -1,0 +1,13 @@
+.main__product-description-li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.6px;
+  color: #0d0d0d;
+  padding-left: 5px;
+}
+
+@media all and (max-width: 767px) {
+  .main__product-description-li {
+    padding: 0;
+  }
+}

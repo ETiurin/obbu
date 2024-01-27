@@ -4,7 +4,7 @@
   font-size: 28px;
   line-height: 37.8px;
   color: #0d0d0d;
-  padding-bottom: 40px;
+  padding: 0;
 }
 
 @media all and (max-width: 1279px) {
@@ -16,7 +16,7 @@
 
 @media all and (max-width: 1023px) {
   .main__home-grid-titleSearch {
-    padding-bottom: 24px;
+    margin: 24px 0 0;
   }
 }
 
@@ -24,6 +24,5 @@
   .main__home-grid-titleSearch {
     font-size: 20px;
     line-height: 28px;
-    padding-bottom: 16px;
   }
 }

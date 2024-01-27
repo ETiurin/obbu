@@ -1,0 +1,13 @@
+.main__product-paragraph {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 0 0 16px;
+  margin: 0;
+}
+
+@media all and (max-width: 767px) {
+  .main__product-paragraph {
+    padding: 0 0 8px;
+  }
+}

@@ -33,7 +33,9 @@
             <a class="menu__a" href="reviews.html">Отзывы</a>
           </li>
           <li class="menu__li">
-            <a class="menu__a" href="sellUsedEquipment.html">Продажа б/у оборудования</a>
+            <a class="menu__a" href="sellUsedEquipment.html"
+              >Продажа б/у оборудования</a
+            >
           </li>
           <li class="menu__li">
             <a class="menu__a" href="home.html">Главная</a>
@@ -43,6 +45,15 @@
           </li>
           <li class="menu__li">
             <a class="menu__a" href="arcticle.html">Статья</a>
+          </li>
+          <li class="menu__li">
+            <a class="menu__a" href="search.html">Поиск найдено</a>
+          </li>
+          <li class="menu__li">
+            <a class="menu__a" href="searchNotFound.html">Поиск не найдено</a>
+          </li>
+          <li class="menu__li">
+            <a class="menu__a" href="cardProduct.html">Карточка товара</a>
           </li>
         </ul>
       </div>
@@ -216,190 +227,198 @@
             />
             <a href="basket.html" class="main__line-subtitle">Корзина</a>
           </div>
-          <div class="main__basket">
-            <div class="main__basket-heading">
-              <h3 class="main__basket-heading-title">Корзина</h3>
-              <h4 class="main__basket-heading-subtitle">2 товара</h4>
-            </div>
-            <div class="main__basket-panel">
-              <div class="main__basket-block-input">
-                <input
-                  class="main__basket-input"
-                  type="checkbox"
-                  id="check-mark"
-                  name="check-mark"
-                  value="yes"
-                />
-                <label class="main__basket-label" for="check-mark"
-                  >Выделить все</label
-                >
+          <div class="main__top-block">
+            <div class="main__basket">
+              <div class="main__basket-heading">
+                <h3 class="main__basket-heading-title">Корзина</h3>
+                <h4 class="main__basket-heading-subtitle">2 товара</h4>
               </div>
-              <div class="main__basket-panel-delete">
-                <button class="main__basket-panel-button"></button>
-                <h4 class="main__basket-panel-subtitle">Удалить выбранные</h4>
-              </div>
-            </div>
-            <div class="main__basket-subheading">
-              <p class="main__basket-subheading-mini">Наименование</p>
-              <p class="main__basket-subheading-mini">Стоимость</p>
-            </div>
-            <div class="main__basket-container">
-              <div class="main__basket-container-positions">
-                <div class="main__basket-container-position">
-                  <div class="main__basket-container-block">
-                    <input
-                      class="main__basket-container-input"
-                      type="checkbox"
-                      id="check-container-mark"
-                      name="check-container-mark"
-                      value="yes"
-                    />
-                    <label
-                      class="main__basket-container-label"
-                      for="check-container-mark"
-                    ></label>
-                    <img
-                      class="main__basket-container-img"
-                      src="images/__rectangle_1988.jpg"
-                      alt="Фотография оборудования"
-                    />
-                    <div class="main__basket-container-main">
-                      <p class="main__basket-container-description">
-                        YILMAZ DC 421 PS Автоматическая двухголовочная пила
-                        с&nbsp;охлаждением и дисками 420 мм для конвеерного
-                        выпиливания металлопластмассовых и алюминиевых профилей
-                        под различными углами (Б/У оборудование)
-                      </p>
-                      <div class="main__basket-container-right">
-                        <p class="main__basket-container-numbers">
-                          1 390 000 р.
-                        </p>
-                        <button class="main__basket-container-button"></button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="main__basket-container-position">
-                  <div class="main__basket-container-block">
-                    <input
-                      class="main__basket-container-input"
-                      type="checkbox"
-                      id="check-container-mark-two"
-                      name="check-container-mark-two"
-                      value="yes"
-                    />
-                    <label
-                      class="main__basket-container-label"
-                      for="check-container-mark-two"
-                    ></label>
-                    <img
-                      class="main__basket-container-img"
-                      src="images/__rectangle_1989.jpg"
-                      alt="Фотография оборудования"
-                    />
-                    <div class="main__basket-container-main">
-                      <p class="main__basket-container-description">
-                        ELUMATEC DG 79/31 Двухголовочная усорезная пила
-                        с&nbsp;подачей СОЖ для алюминиевого или ПВХ профиля (Б/У
-                        оборудование)
-                      </p>
-                      <div class="main__basket-container-right">
-                        <p class="main__basket-container-numbers">550 000 р.</p>
-                        <button class="main__basket-container-button"></button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="main__basket-form-container">
-            <form class="main__basket-form">
-              <h3 class="main__basket-form-title">Ваш заказ</h3>
-              <div class="main__basket-form-blocks">
-                <div class="main__basket-form-block">
-                  <p class="main__basket-data">ФИО<span> *</span></p>
+              <div class="main__basket-panel">
+                <div class="main__basket-block-input">
                   <input
-                    class="main__basket-form-input"
-                    name="ФИО"
-                    placeholder="Иванов Иван Иванович"
-                    type="text"
-                    value=""
-                    minlength="2"
-                    maxlength="40"
-                    required
+                    class="main__basket-input"
+                    type="checkbox"
+                    id="check-mark"
+                    name="check-mark"
+                    value="yes"
                   />
-                </div>
-                <div class="main__basket-form-block">
-                  <p class="main__basket-data">Номер телефона<span> *</span></p>
-                  <input
-                    class="main__basket-form-input"
-                    name="Номер телефона"
-                    placeholder="+ 7 999 999 99 99"
-                    type="tel"
-                    pattern="[0-9]{3} [0-9]{3} [0-9]{4}"
-                    maxlength="12"
-                    required
-                  />
-                </div>
-                <div class="main__basket-form-block">
-                  <p class="main__basket-data">E-mail<span> *</span></p>
-                  <input
-                    class="main__basket-form-input"
-                    name="E-mail"
-                    placeholder="ivanov@gmail.com"
-                    type="email"
-                    pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
-                    value=""
-                    minlength="2"
-                    maxlength="30"
-                    required
-                  />
-                </div>
-              </div>
-              <p class="main__basket-form-subtitle">
-                Доставка:<span class="main__basket-form-span"
-                  >&nbsp;Самовывоз или доставка транспортной компанией</span
-                >
-              </p>
-
-              <div class="main__basket-form-footer">
-                <div class="main__basket-form-footer-heading">
-                  <p class="main__basket-form-footer-subtitle">Итого:</p>
-                  <p class="main__basket-form-footer-numbers">1 940 000 р.</p>
-                </div>
-
-                <div class="main__basket-form-modal">
-                  <label
-                    class="main__basket-form-footer-button"
+                  <label class="main__basket-label" for="check-mark"
+                    >Выделить все</label
                   >
-                    Оформить заказ
-                  </label>
                 </div>
-                <input class="main__modal-state" id="modal" type="checkbox" />
-                <div class="modal">
-                  <label class="modal__bg"></label>
-                  <div class="modal__inner">
-                    <label class="modal__close "></label>
-                    <h2 class="modal__title">Ваш заказ принят!</h2>
-                    <p class="modal__subtitle">
-                      В ближайшее время с Вами свяжется менеджер
-                      для&nbsp;уточнения деталей заказа.
-                    </p>
-                    <p class="modal__subtitle">
-                      Если у Вас возникли какие-либо вопросы, то Вы
-                      можете&nbsp;связаться с нами по телефону:
-                    </p>
-                    <p class="modal__contacts">
-                      8 (800) 775-97-88<br /><span class="modal__span"
-                        >Бесплатный звонок из любого региона России</span
-                      >
-                    </p>
-                    <a href="/home.html" class="modal__link">Спасибо!</a>
+                <div class="main__basket-panel-delete">
+                  <button class="main__basket-panel-button"></button>
+                  <h4 class="main__basket-panel-subtitle">Удалить выбранные</h4>
+                </div>
+              </div>
+              <div class="main__basket-subheading">
+                <p class="main__basket-subheading-mini">Наименование</p>
+                <p class="main__basket-subheading-mini">Стоимость</p>
+              </div>
+              <div class="main__basket-container">
+                <div class="main__basket-container-positions">
+                  <div class="main__basket-container-position">
+                    <div class="main__basket-container-block">
+                      <input
+                        class="main__basket-container-input"
+                        type="checkbox"
+                        id="check-container-mark"
+                        name="check-container-mark"
+                        value="yes"
+                      />
+                      <label
+                        class="main__basket-container-label"
+                        for="check-container-mark"
+                      ></label>
+                      <img
+                        class="main__basket-container-img"
+                        src="images/__rectangle_1988.jpg"
+                        alt="Фотография оборудования"
+                      />
+                      <div class="main__basket-container-main">
+                        <p class="main__basket-container-description">
+                          YILMAZ DC 421 PS Автоматическая двухголовочная пила
+                          с&nbsp;охлаждением и дисками 420 мм для конвеерного
+                          выпиливания металлопластмассовых и алюминиевых
+                          профилей под различными углами (Б/У оборудование)
+                        </p>
+                        <div class="main__basket-container-right">
+                          <p class="main__basket-container-numbers">
+                            1 390 000 р.
+                          </p>
+                          <button
+                            class="main__basket-container-button"
+                          ></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="main__basket-container-position">
+                    <div class="main__basket-container-block">
+                      <input
+                        class="main__basket-container-input"
+                        type="checkbox"
+                        id="check-container-mark-two"
+                        name="check-container-mark-two"
+                        value="yes"
+                      />
+                      <label
+                        class="main__basket-container-label"
+                        for="check-container-mark-two"
+                      ></label>
+                      <img
+                        class="main__basket-container-img"
+                        src="images/__rectangle_1989.jpg"
+                        alt="Фотография оборудования"
+                      />
+                      <div class="main__basket-container-main">
+                        <p class="main__basket-container-description">
+                          ELUMATEC DG 79/31 Двухголовочная усорезная пила
+                          с&nbsp;подачей СОЖ для алюминиевого или ПВХ профиля
+                          (Б/У оборудование)
+                        </p>
+                        <div class="main__basket-container-right">
+                          <p class="main__basket-container-numbers">
+                            550 000 р.
+                          </p>
+                          <button
+                            class="main__basket-container-button"
+                          ></button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </form>
+            </div>
+            <div class="main__basket-form-container">
+              <form class="main__basket-form">
+                <h3 class="main__basket-form-title">Ваш заказ</h3>
+                <div class="main__basket-form-blocks">
+                  <div class="main__basket-form-block">
+                    <p class="main__basket-data">ФИО<span> *</span></p>
+                    <input
+                      class="main__basket-form-input"
+                      name="ФИО"
+                      placeholder="Иванов Иван Иванович"
+                      type="text"
+                      value=""
+                      minlength="2"
+                      maxlength="40"
+                      required
+                    />
+                  </div>
+                  <div class="main__basket-form-block">
+                    <p class="main__basket-data">
+                      Номер телефона<span> *</span>
+                    </p>
+                    <input
+                      class="main__basket-form-input"
+                      name="Номер телефона"
+                      placeholder="+ 7 999 999 99 99"
+                      type="tel"
+                      pattern="[0-9]{3} [0-9]{3} [0-9]{4}"
+                      maxlength="12"
+                      required
+                    />
+                  </div>
+                  <div class="main__basket-form-block">
+                    <p class="main__basket-data">E-mail<span> *</span></p>
+                    <input
+                      class="main__basket-form-input"
+                      name="E-mail"
+                      placeholder="ivanov@gmail.com"
+                      type="email"
+                      pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                      value=""
+                      minlength="2"
+                      maxlength="30"
+                      required
+                    />
+                  </div>
+                </div>
+                <p class="main__basket-form-subtitle">
+                  Доставка:<span class="main__basket-form-span"
+                    >&nbsp;Самовывоз или доставка транспортной компанией</span
+                  >
+                </p>
+
+                <div class="main__basket-form-footer">
+                  <div class="main__basket-form-footer-heading">
+                    <p class="main__basket-form-footer-subtitle">Итого:</p>
+                    <p class="main__basket-form-footer-numbers">1 940 000 р.</p>
+                  </div>
+
+                  <div class="main__basket-form-modal">
+                    <label class="main__basket-form-footer-button">
+                      Оформить заказ
+                    </label>
+                  </div>
+                  <input class="main__modal-state" id="modal" type="checkbox" />
+                  <div class="modal">
+                    <label class="modal__bg"></label>
+                    <div class="modal__inner">
+                      <label class="modal__close"></label>
+                      <h2 class="modal__title">Ваш заказ принят!</h2>
+                      <p class="modal__subtitle">
+                        В ближайшее время с Вами свяжется менеджер
+                        для&nbsp;уточнения деталей заказа.
+                      </p>
+                      <p class="modal__subtitle">
+                        Если у Вас возникли какие-либо вопросы, то Вы
+                        можете&nbsp;связаться с нами по телефону:
+                      </p>
+                      <p class="modal__contacts">
+                        8 (800) 775-97-88<br /><span class="modal__span"
+                          >Бесплатный звонок из любого региона России</span
+                        >
+                      </p>
+                      <a href="/home.html" class="modal__link">Спасибо!</a>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </main>
@@ -576,10 +595,14 @@
                       <a href="#" class="burger__menu-link">О сервисе</a>
                     </li>
                     <li class="burger__menu-position">
-                      <a href="reviews.html" class="burger__menu-link">Отзывы</a>
+                      <a href="reviews.html" class="burger__menu-link"
+                        >Отзывы</a
+                      >
                     </li>
                     <li class="burger__menu-position">
-                      <a href="contacts.html" class="burger__menu-link">Контакты</a>
+                      <a href="contacts.html" class="burger__menu-link"
+                        >Контакты</a
+                      >
                     </li>
                   </ul>
                 </div>

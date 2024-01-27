@@ -17,7 +17,7 @@
   .main__articles-container {
     flex-direction: column;
     gap: 16px;
-    margin: 28px 0 0;
-    padding: 16px 0 0;
+    margin: 0;
+    padding: 0;
   }
 }

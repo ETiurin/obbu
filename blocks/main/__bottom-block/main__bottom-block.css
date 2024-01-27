@@ -1,5 +1,14 @@
 .main__bottom-block {
     display: flex;
     flex-direction: row;
-    gap: 78px;
+    justify-content: space-between;
+    gap: 48px;
+    padding: 40px 0 0;
 }
+
+@media all and (max-width: 1023px) {
+    .main__bottom-block {
+        flex-direction: column;
+        gap: 0;
+    }
+  }

@@ -1,7 +1,9 @@
 .menu__ul {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
   padding: 0 16px;
   list-style-type: none;
 }

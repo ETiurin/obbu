@@ -3,11 +3,18 @@
   align-items: center;
   margin: 0;
   gap: 12px;
-  padding: 65px 0 40px;
+  padding: 31px 0 40px;
 }
 
 @media all and (max-width: 767px) {
   .main__basket-heading {
+    margin: -24px 0 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__basket-heading {
+    margin: -32px 0 0;
     padding: 0 0 24px;
   }
 }

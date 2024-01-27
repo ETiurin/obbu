@@ -33,7 +33,9 @@
             <a class="menu__a" href="reviews.html">Отзывы</a>
           </li>
           <li class="menu__li">
-            <a class="menu__a" href="sellUsedEquipment.html">Продажа б/у оборудования</a>
+            <a class="menu__a" href="sellUsedEquipment.html"
+              >Продажа б/у оборудования</a
+            >
           </li>
           <li class="menu__li">
             <a class="menu__a" href="home.html">Главная</a>
@@ -45,7 +47,13 @@
             <a class="menu__a" href="arcticle.html">Статья</a>
           </li>
           <li class="menu__li">
+            <a class="menu__a" href="search.html">Поиск найдено</a>
+          </li>
+          <li class="menu__li">
             <a class="menu__a" href="searchNotFound.html">Поиск не найдено</a>
+          </li>
+          <li class="menu__li">
+            <a class="menu__a" href="cardProduct.html">Карточка товара</a>
           </li>
         </ul>
       </div>
@@ -116,7 +124,9 @@
                     <a href="reviews.html" class="header__menu-link">Отзывы</a>
                   </li>
                   <li>
-                    <a href="contacts.html" class="header__menu-link">Контакты</a>
+                    <a href="contacts.html" class="header__menu-link"
+                      >Контакты</a
+                    >
                   </li>
                 </ul>
                 <ul class="header__menu-data">
@@ -211,95 +221,109 @@
       <main class="main">
         <div class="main__blocks">
           <div class="main__catalog-container">
-            <button
-              class="main__button-sell"
-              type="submit"
-              aria-label="Продать б/у оборудование для окон"
-            >
-              Продать б/у оборудование для окон
-            </button>
             <div class="main__catalog">
-              <div class="main__mobile-container">
-                <h3 class="main__header">Каталог</h3>
-                <button class="main__catalog-icon"></button>
+              <div class="main__top-block">
+                <div class="main__buttons-mobile">
+                  <div class="main__mobile-container">
+                    <h3 class="main__header">Каталог</h3>
+                    <button class="main__catalog-icon"></button>
+                  </div>
+                  <button
+                    class="main__button-sell"
+                    type="submit"
+                    aria-label="Продать б/у оборудование для окон"
+                  >
+                    Продать б/у оборудование для окон
+                  </button>
+                </div>
               </div>
-              <nav class="main__nav-block">
-                <ul class="main__nav">
-                  <li class="main__nav-element">
-                    <a href="#" class="main__lot"
-                      >Оборудование для производства окон из ПВХ и алюминия</a
+              <div class="main__bottom-block">
+                <nav class="main__nav-block">
+                  <h3 class="main__nav-header">Каталог</h3>
+                  <ul class="main__nav">
+                    <li class="main__nav-element">
+                      <a href="#" class="main__lot"
+                        >Оборудование для производства окон из ПВХ и алюминия</a
+                      >
+                      <img
+                        class="main__deployment"
+                        id="opening-a-directoty"
+                        src="./images/__caretDown.svg"
+                        alt="Позиция каталога"
+                      />
+                    </li>
+                  </ul>
+                  <ul class="main__nav">
+                    <li class="main__nav-element">
+                      <a href="#" class="main__lot"
+                        >Оборудование для производства алюминиевых окон</a
+                      >
+                    </li>
+                    <li class="main__nav-element">
+                      <a href="#" class="main__lot"
+                        >Отрезное оборудование<br />для алюминиевых окон</a
+                      >
+                    </li>
+                    <li class="main__nav-element">
+                      <a href="#" class="main__lot"
+                        >Копировально-фрезерное оборудование для алюминиевых
+                        окон</a
+                      >
+                    </li>
+                  </ul>
+                  <ul class="main__nav">
+                    <li class="main__nav-element">
+                      <a href="#" class="main__lot">Прочее оборудование</a>
+                      <img
+                        class="main__deployment"
+                        src="./images/__caretDown.svg"
+                        alt="Позиция каталога"
+                      />
+                    </li>
+                  </ul>
+                  <ul class="main__nav">
+                    <li class="main__nav-element">
+                      <a href="#" class="main__lot"
+                        >Оборудование для производства стеклопакетов</a
+                      >
+                      <img
+                        class="main__deployment"
+                        src="./images/__caretDown.svg"
+                        alt="Позиция каталога"
+                      />
+                    </li>
+                  </ul>
+                  <ul class="main__nav">
+                    <li class="main__nav-element">
+                      <a href="#" class="main__lot"
+                        >Новые пресс-матрицы для PROVEDAL</a
+                      >
+                    </li>
+                    <li class="main__nav-element">
+                      <a href="#" class="main__lot"
+                        >Деревообрабатывающее оборудование</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+                <div class="main__search-NotFound">
+                  <img
+                    class="main__search-NotFound-img"
+                    src="./images/__magnifiying_glass.svg"
+                    alt="Изображение невыполненного поиска"
+                  />
+                  <p class="main__search-NotFound-title">
+                    По запросу&nbsp;<span class="main__search-NotFound-span"
+                      >“PERTICI”</span
                     >
-                    <img
-                      class="main__deployment"
-                      id="opening-a-directoty"
-                      src="./images/__caretDown.svg"
-                      alt="Позиция каталога"
-                    />
-                  </li>
-                </ul>
-                <ul class="main__nav">
-                  <li class="main__nav-element">
-                    <a href="#" class="main__lot"
-                      >Оборудование для производства алюминиевых окон</a
-                    >
-                  </li>
-                  <li class="main__nav-element">
-                    <a href="#" class="main__lot"
-                      >Отрезное оборудование<br />для алюминиевых окон</a
-                    >
-                  </li>
-                  <li class="main__nav-element">
-                    <a href="#" class="main__lot"
-                      >Копировально-фрезерное оборудование для алюминиевых
-                      окон</a
-                    >
-                  </li>
-                </ul>
-                <ul class="main__nav">
-                  <li class="main__nav-element">
-                    <a href="#" class="main__lot">Прочее оборудование</a>
-                    <img
-                      class="main__deployment"
-                      src="./images/__caretDown.svg"
-                      alt="Позиция каталога"
-                    />
-                  </li>
-                </ul>
-                <ul class="main__nav">
-                  <li class="main__nav-element">
-                    <a href="#" class="main__lot"
-                      >Оборудование для производства стеклопакетов</a
-                    >
-                    <img
-                      class="main__deployment"
-                      src="./images/__caretDown.svg"
-                      alt="Позиция каталога"
-                    />
-                  </li>
-                </ul>
-                <ul class="main__nav">
-                  <li class="main__nav-element">
-                    <a href="#" class="main__lot"
-                      >Новые пресс-матрицы для PROVEDAL</a
-                    >
-                  </li>
-                  <li class="main__nav-element">
-                    <a href="#" class="main__lot"
-                      >Деревообрабатывающее оборудование</a
-                    >
-                  </li>
-                </ul>
-              </nav>
+                    ничего не найдено
+                  </p>
+                  <p class="main__search-NotFound-subtitle">
+                    Попробуйте использовать другой запрос
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="main__search-NotFound">
-            <img
-              class="main__search-NotFound-img"
-              src="./images/__magnifiying_glass.svg"
-              alt="Изображение невыполненного поиска"
-            />
-            <p class="main__search-NotFound-title">По запросу&nbsp;<span class="main__search-NotFound-span">“PERTICI”</span> ничего не найдено</p>
-            <p class="main__search-NotFound-subtitle">Попробуйте использовать другой запрос</p>
           </div>
         </div>
       </main>
@@ -476,10 +500,14 @@
                       <a href="#" class="burger__menu-link">О сервисе</a>
                     </li>
                     <li class="burger__menu-position">
-                      <a href="reviews.html" class="burger__menu-link">Отзывы</a>
+                      <a href="reviews.html" class="burger__menu-link"
+                        >Отзывы</a
+                      >
                     </li>
                     <li class="burger__menu-position">
-                      <a href="contacts.html" class="burger__menu-link">Контакты</a>
+                      <a href="contacts.html" class="burger__menu-link"
+                        >Контакты</a
+                      >
                     </li>
                   </ul>
                 </div>

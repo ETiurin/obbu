@@ -1,0 +1,16 @@
+.main__slider-img-two {
+  max-width: 100%;
+  width: 80px;
+  height: 100%;
+  border-radius: 4px;
+  display: block;
+  object-fit: cover;
+  height: 59px;
+  cursor: pointer;
+}
+
+@media all and (max-width: 767px) {
+  .main__slider-img-two{
+    width: 75px;
+  }
+}

@@ -44,6 +44,15 @@
           <li class="menu__li">
             <a class="menu__a" href="arcticle.html">Статья</a>
           </li>
+          <li class="menu__li">
+            <a class="menu__a" href="search.html">Поиск найдено</a>
+          </li>
+          <li class="menu__li">
+            <a class="menu__a" href="searchNotFound.html">Поиск не найдено</a>
+          </li>
+          <li class="menu__li">
+            <a class="menu__a" href="cardProduct.html">Карточка товара</a>
+          </li>
         </ul>
       </div>
       <header class="header">
@@ -207,101 +216,111 @@
       </header>
       <main class="main">
         <div class="main__blocks">
-          <div class="main__catalog-container">
-            <button
-              class="main__button-sell"
-              type="submit"
-              aria-label="Продать б/у оборудование для окон"
-            >
-              Продать б/у оборудование для окон
-            </button>
-            <div class="main__catalog">
+          <div class="main__top-block">
+            <div class="main__buttons-mobile">
               <div class="main__mobile-container">
                 <h3 class="main__header">Каталог</h3>
                 <button class="main__catalog-icon"></button>
               </div>
-              <nav class="main__nav-block">
-                <ul class="main__nav">
-                  <li class="main__nav-element">
-                    <a href="#" class="main__lot"
-                      >Оборудование для производства окон из ПВХ и алюминия</a
-                    >
-                    <img
-                      class="main__deployment"
-                      id="opening-a-directoty"
-                      src="./images/__caretDown.svg"
-                      alt="Позиция каталога"
-                    />
-                  </li>
-                </ul>
-                <ul class="main__nav">
-                  <li class="main__nav-element">
-                    <a href="#" class="main__lot"
-                      >Оборудование для производства алюминиевых окон</a
-                    >
-                  </li>
-                  <li class="main__nav-element">
-                    <a href="#" class="main__lot"
-                      >Отрезное оборудование<br />для алюминиевых окон</a
-                    >
-                  </li>
-                  <li class="main__nav-element">
-                    <a href="#" class="main__lot"
-                      >Копировально-фрезерное оборудование для алюминиевых
-                      окон</a
-                    >
-                  </li>
-                </ul>
-                <ul class="main__nav">
-                  <li class="main__nav-element">
-                    <a href="#" class="main__lot">Прочее оборудование</a>
-                    <img
-                      class="main__deployment"
-                      src="./images/__caretDown.svg"
-                      alt="Позиция каталога"
-                    />
-                  </li>
-                </ul>
-                <ul class="main__nav">
-                  <li class="main__nav-element">
-                    <a href="#" class="main__lot"
-                      >Оборудование для производства стеклопакетов</a
-                    >
-                    <img
-                      class="main__deployment"
-                      src="./images/__caretDown.svg"
-                      alt="Позиция каталога"
-                    />
-                  </li>
-                </ul>
-                <ul class="main__nav">
-                  <li class="main__nav-element">
-                    <a href="#" class="main__lot"
-                      >Новые пресс-матрицы для PROVEDAL</a
-                    >
-                  </li>
-                  <li class="main__nav-element">
-                    <a href="#" class="main__lot"
-                      >Деревообрабатывающее оборудование</a
-                    >
-                  </li>
-                </ul>
-              </nav>
+              <button
+                class="main__button-sell"
+                type="submit"
+                aria-label="Продать б/у оборудование для окон"
+              >
+                Продать б/у оборудование для окон
+              </button>
             </div>
           </div>
-          <div class="main__error-page">
-            <h3 class="main__error-numbers">44</h3>
-            <img
-              class="main__error-img"
-              src="./images/__icon-error.png"
-              alt="Логотип шестеренки"
-            />
-            <p class="main__title">Данной страницы не существует!</p>
-            <p class="main__subtitle">
-              Возможно данный товар уже реализован. Попробуйте воспользоваться
-              категориями или поиском.<br />У нас ещё есть много чего
-              интересного!
-            </p>
+          <div class="main__bottom-block">
+            <div class="main__catalog-container">
+              <div class="main__elements">
+                <div class="main__catalog">
+                  <div class="main__nav-block">
+                    <h3 class="main__nav-header">Каталог</h3>
+                    <ul class="main__nav">
+                      <li class="main__nav-element">
+                        <a href="#" class="main__lot"
+                          >Оборудование для производства окон из ПВХ и
+                          алюминия</a
+                        >
+                        <img
+                          class="main__deployment"
+                          id="opening-a-directoty"
+                          src="./images/__caretDown.svg"
+                          alt="Позиция каталога"
+                        />
+                      </li>
+                    </ul>
+                    <ul class="main__nav">
+                      <li class="main__nav-element">
+                        <a href="#" class="main__lot"
+                          >Оборудование для производства алюминиевых окон</a
+                        >
+                      </li>
+                      <li class="main__nav-element">
+                        <a href="#" class="main__lot"
+                          >Отрезное оборудование<br />для алюминиевых окон</a
+                        >
+                      </li>
+                      <li class="main__nav-element">
+                        <a href="#" class="main__lot"
+                          >Копировально-фрезерное оборудование для алюминиевых
+                          окон</a
+                        >
+                      </li>
+                    </ul>
+                    <ul class="main__nav">
+                      <li class="main__nav-element">
+                        <a href="#" class="main__lot">Прочее оборудование</a>
+                        <img
+                          class="main__deployment"
+                          src="./images/__caretDown.svg"
+                          alt="Позиция каталога"
+                        />
+                      </li>
+                    </ul>
+                    <ul class="main__nav">
+                      <li class="main__nav-element">
+                        <a href="#" class="main__lot"
+                          >Оборудование для производства стеклопакетов</a
+                        >
+                        <img
+                          class="main__deployment"
+                          src="./images/__caretDown.svg"
+                          alt="Позиция каталога"
+                        />
+                      </li>
+                    </ul>
+                    <ul class="main__nav">
+                      <li class="main__nav-element">
+                        <a href="#" class="main__lot"
+                          >Новые пресс-матрицы для PROVEDAL</a
+                        >
+                      </li>
+                      <li class="main__nav-element">
+                        <a href="#" class="main__lot"
+                          >Деревообрабатывающее оборудование</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main__error-page">
+              <h3 class="main__error-numbers">44</h3>
+              <img
+                class="main__error-img"
+                src="./images/__icon-error.png"
+                alt="Логотип шестеренки"
+              />
+              <p class="main__title">Данной страницы не существует!</p>
+              <p class="main__subtitle">
+                Возможно данный товар уже реализован. Попробуйте воспользоваться
+                категориями или поиском.<br />У нас ещё есть много чего
+                интересного!
+              </p>
+            </div>  
           </div>
         </div>
       </main>

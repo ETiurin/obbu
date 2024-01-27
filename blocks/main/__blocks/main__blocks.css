@@ -1,11 +1,9 @@
 .main__blocks {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
   max-width: 1290px;
   margin: 0 auto;
   padding: 0 75px;
-  gap: 49px;
 }
 
 @media all and (max-width: 1279px) {

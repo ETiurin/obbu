@@ -1,0 +1,9 @@
+.main__sliders-two .main__slider-block {
+  border-radius: 4px;
+}
+
+@media all and (max-width: 1023px) {
+  .main__slider-block {
+    width: 100%;
+  }
+}
