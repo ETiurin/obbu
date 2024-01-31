@@ -1,0 +1,6 @@
+.main__medium-block {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 0;
+    gap: 48px;
+}

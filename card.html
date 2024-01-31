@@ -16,7 +16,7 @@
   <body>
     <div class="page">
       <div class="title">
-        <h1 class="title__header">Страница отзывов</h1>
+        <h1>Карта</h1>
       </div>
       <div class="menu">
         <ul class="menu__ul">
@@ -91,21 +91,24 @@
                       alt="иконка WhatsApp"
                     />
                   </a>
-                  <a href="#" class="header__column-link">
+                  <a href="https://vk.com/obburu" class="header__column-link">
                     <img
                       class="header__social-icon"
                       src="./images/__icon_VK.svg"
                       alt="иконка ВКонтакте"
                     />
                   </a>
-                  <a href="#" class="header__column-link">
+                  <a href="https://t.me/obburu" class="header__column-link">
                     <img
                       class="header__social-icon"
                       src="./images/__icon_Telegram.svg"
                       alt="иконка Telegram"
                     />
                   </a>
-                  <a href="#" class="header__column-link">
+                  <a
+                    href="https://www.youtube.com/channel/UCMyfBehAnscHI1p3bXxnlXQ"
+                    class="header__column-link"
+                  >
                     <img
                       class="header__social-icon"
                       src="./images/__icon_YouTube.svg"
@@ -130,7 +133,9 @@
                     <a href="reviews.html" class="header__menu-link">Отзывы</a>
                   </li>
                   <li>
-                    <a href="contacts.html" class="header__menu-link">Контакты</a>
+                    <a href="contacts.html" class="header__menu-link"
+                      >Контакты</a
+                    >
                   </li>
                 </ul>
                 <ul class="header__menu-data">
@@ -223,218 +228,531 @@
         </div>
       </header>
       <main class="main">
-        <div class="main__blocks">
-          <div class="main__line">
-            <a href="home.html" class="main__line-subtitle">Главная</a>
-            <img
-              class="main__arrow"
-              src="./images/__right-arrow.svg"
-              alt="Стрелка вправо"
-            />
-            <a href="reviews.html" class="main__line-subtitle">Отзывы</a>
+        <div class="main__blocks-home">
+          <div class="main__top-block">
+            <div class="main__container-telegram">
+              <p class="main__container-telegram-title">
+                Подписывайтесь, чтобы быть в курсе новых
+                поступлений&nbsp;оборудования.
+              </p>
+              <a href="https://t.me/obburu" class="main__container-telegram-link">
+                <img
+                  class="main__container-telegram-img"
+                  src="./images/__telegram-group.svg"
+                  alt="иконка Telegram"
+                />
+                <p class="main__container-telegram-subtitle">Telegram-канал</p>
+              </a>
+            </div>
+            <div class="main__buttons-mobile">
+              <div class="main__mobile-container">
+                <h3 class="main__header">Каталог</h3>
+                <button class="main__catalog-icon"></button>
+              </div>
+              <button
+                class="main__button-sell"
+                type="submit"
+                aria-label="Продать б/у оборудование для окон"
+              >
+                Продать б/у оборудование для окон
+              </button>
+            </div>
           </div>
-          <div class="main__reviews-container">
-            <h3 class="main__reviews-header">
-              OBBU.RU — надежный&nbsp;партнёр
-            </h3>
-            <div class="main__sides">
-              <div class="main__sides-buyer">
-                <p class="main__buyer">Покупатель</p>
-              </div>
-              <div class="main__sides-salesman">
-                <p class="main__salesman">Продавец</p>
-              </div>
-            </div>
-            <div class="main__block-reviews">
-              <div class="main__reviews">
-                <div class="main__reviews-title">
-                  <p class="main__reviews-object">OOO “Завод станков”</p>
-                  <p class="main__reviews-city">Москва</p>
-                </div>
-                <p class="main__reviews-subtitle">
-                  Искал очень долго и&nbsp;наконец-то нашел через интернет
-                  недорогой Фуговально-рейсмусовый станок&nbsp;Д-400&nbsp;ФР
-                  б/у. Сами мы&nbsp;из&nbsp;Москвы, но&nbsp;съездили посмотреть
-                  его&nbsp;в&nbsp;СПб,&nbsp;т.к.&nbsp;б/у&nbsp;оборудование
-                  приобретали впервые. Нас&nbsp;любезно встретили,
-                  продемонстрировали станок в&nbsp;работе, и&nbsp;мы&nbsp;сразу
-                  приняли решение о&nbsp;его&nbsp;покупке.
-                </p>
-                <p class="main__reviews-data">02.11.2022</p>
-              </div>
-              <div class="main__reviews">
-                <div class="main__reviews-title-block">
-                  <div class="main__reviews-title">
-                    <p class="main__reviews-object">OOO “Завод станков”</p>
-                    <p class="main__reviews-city">Москва</p>
+          <div class="main__bottom-block">
+            <div class="main__catalog-container">
+                <div class="main__elements">
+                  <div class="main__catalog">
+                    <div class="main__nav-block">
+                      <h3 class="main__nav-header">Каталог</h3>
+                      <ul class="main__nav">
+                        <li class="main__nav-element">
+                          <a href="#" class="main__lot"
+                            >Оборудование для производства окон из ПВХ и
+                            алюминия</a
+                          >
+                          <img
+                            class="main__deployment"
+                            id="opening-a-directoty"
+                            src="./images/__caretDown.svg"
+                            alt="Позиция каталога"
+                          />
+                        </li>
+                      </ul>
+                      <ul class="main__nav">
+                        <li class="main__nav-element">
+                          <a href="#" class="main__lot"
+                            >Оборудование для производства алюминиевых окон</a
+                          >
+                        </li>
+                        <li class="main__nav-element">
+                          <a href="#" class="main__lot"
+                            >Отрезное оборудование<br />для алюминиевых окон</a
+                          >
+                        </li>
+                        <li class="main__nav-element">
+                          <a href="#" class="main__lot"
+                            >Копировально-фрезерное оборудование для алюминиевых
+                            окон</a
+                          >
+                        </li>
+                      </ul>
+                      <ul class="main__nav">
+                        <li class="main__nav-element">
+                          <a href="#" class="main__lot">Прочее оборудование</a>
+                          <img
+                            class="main__deployment"
+                            src="./images/__caretDown.svg"
+                            alt="Позиция каталога"
+                          />
+                        </li>
+                      </ul>
+                      <ul class="main__nav">
+                        <li class="main__nav-element">
+                          <a href="#" class="main__lot"
+                            >Оборудование для производства стеклопакетов</a
+                          >
+                          <img
+                            class="main__deployment"
+                            src="./images/__caretDown.svg"
+                            alt="Позиция каталога"
+                          />
+                        </li>
+                      </ul>
+                      <ul class="main__nav">
+                        <li class="main__nav-element">
+                          <a href="#" class="main__lot"
+                            >Новые пресс-матрицы для PROVEDAL</a
+                          >
+                        </li>
+                        <li class="main__nav-element">
+                          <a href="#" class="main__lot"
+                            >Деревообрабатывающее оборудование</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-                  <a href="#" class="main__reviews-transition">
-                    <p class="main__reviews-title-transition">
-                      MAER DMC-450 Автоматическая двухголовочная пила...
-                    </p>
+                </div>
+              </div>
+              <div class="main__home-catalog">
+              <ul class="main__panel">
+                <li class="main__panel-element main__panel-element-one">
+                  <button class="main__panel-button">
+                    Цена
                     <img
-                      class="main__reviews-title-img"
-                      src="./images/__external-link.svg"
-                      alt="Переход на ссылку"
+                      class="main__panel-img-one"
+                      src="./images/__sortDescending.svg"
+                      alt="Иконка увеличения/уменьшения"
                     />
-                  </a>
-                </div>
-                <p class="main__reviews-subtitle">
-                  Если вам нужны хорошие станки после ремонта -&nbsp;обращайтесь
-                  смело сюда! Компания хорошая, склад очень большой! Нужен был
-                  станок для&nbsp;гибки арматуры -&nbsp;подобрали бюджетный
-                  и&nbsp;что немаловажно качественный! Работаем и&nbsp;радуемся!
-                  Буду рекомендовать обращаться к&nbsp;ребятам в&nbsp;Пушкине!
-                </p>
-                <p class="main__reviews-data">02.11.2022</p>
-              </div>
-              <div class="main__reviews">
-                <div class="main__reviews-title">
-                  <p class="main__reviews-object">OOO “Завод станков”</p>
-                  <p class="main__reviews-city">Москва</p>
-                </div>
-                <p class="main__reviews-subtitle">
-                  Помогли подобрать станок под мой бюджет.&nbsp; Благодаря
-                  им&nbsp;запускаю свой малый бизнес в&nbsp;гараже
-                </p>
-                <p class="main__reviews-data">02.11.2022</p>
-              </div>
-              <div class="main__reviews">
-                <div class="main__reviews-title">
-                  <p class="main__reviews-object">OOO “Завод станков”</p>
-                  <p class="main__reviews-city">Москва</p>
-                </div>
-                <p class="main__reviews-subtitle">
-                  Мы приобрели здесь несколько круглопильных
-                  станков&nbsp;Ц6&nbsp;бу. Достаточно большой ассортимент
-                  станков. Есть&nbsp;из&nbsp;чего выбрать. Уже на осмотре
-                  определились с&nbsp;выбором. Так как покупали два станка нам
-                  сделали хорошую скидку, что не&nbsp;могло не&nbsp;порадовать.
-                  Менеджер компании Ремстанкомаш помог организовать недорогую
-                  и&nbsp;быструю доставку станков. Ремонт проведен
-                  добросовестно!
-                </p>
-                <p class="main__reviews-data">02.11.2022</p>
-              </div>
-              <div class="main__reviews">
-                <div class="main__reviews-title">
-                  <p class="main__reviews-object">OOO “Завод станков”</p>
-                  <p class="main__reviews-city">Москва</p>
-                </div>
-                <p class="main__reviews-subtitle">
-                  Покупали в&nbsp;данной компании год назад устройство
-                  клеенанесения Бакаут. Станок полностью оправдал ожидания,
-                  отлично выполняет свои функции! Работает на&nbsp;ура! Если
-                  возникнет необходимость в &nbsp;станках, обратимся
-                  к&nbsp;ребятам. Станки хорошие, ремонт выполнен
-                  на&nbsp;совесть.
-                </p>
-                <p class="main__reviews-data">02.11.2022</p>
-              </div>
-              <div class="main__reviews">
-                <div class="main__reviews-title">
-                  <p class="main__reviews-object">OOO “Завод станков”</p>
-                  <p class="main__reviews-city">Москва</p>
-                </div>
-                <p class="main__reviews-subtitle">
-                  Помогли подобрать станок под мой бюджет.&nbsp; Благодаря
-                  им&nbsp;запускаю свой малый бизнес в&nbsp;гараже
-                </p>
-                <p class="main__reviews-data">02.11.2022</p>
-              </div>
-            </div>
-            <div class="main__download">
-              <p class="main__download-text">Загрузить еще</p>
-              <img
-                class="main__deployment"
-                src="./images/__caretDown.svg"
-                alt="Позиция каталога"
-              />
-            </div>
-            <div class="main__review">
-              <div class="main__review-title">Оставьте свой отзыв как</div>
-              <div class="main__sides-two">
-                <div class="main__sides-buyer">
-                  <p class="main__buyer">Покупатель</p>
-                </div>
-                <div class="main__sides-salesman">
-                  <p class="main__salesman">Продавец</p>
-                </div>
-              </div>
-              <form class="main__review-form">
-                <div class="main__review-user-data">
-                  <div class="main__review-data-block">
-                    <p class="main__review-data">ФИО<span> *</span></p>
-                    <input
-                      class="main__review-input"
-                      name="ФИО"
-                      placeholder="Иванов Иван Иванович"
-                      type="text"
-                      value=""
-                      minlength="2"
-                      maxlength="40"
-                      required
+                  </button>
+                </li>
+                <li class="main__panel-element main__panel-element-two">
+                  <button class="main__panel-button">
+                    Год производства
+                    <img
+                      class="main__panel-img-two"
+                      src="./images/__caretDown.svg"
+                      alt="Позиция каталога"
                     />
+                  </button>
+                  <div class="main__panel-dropdown">
+                    <ul class="main__panel-dropdown-list">
+                      <li class="main__panel-item main__panel-item-one">
+                        <a href="#" class="main__panel-link">По возрастанию</a>
+                        <a href="#" class="main__panel-link">По убыванию</a>
+                      </li>
+                    </ul>
                   </div>
-                  <div class="main__review-data-block">
-                    <p class="main__review-data">Компания<span> *</span></p>
-                    <input
-                      class="main__review-input"
-                      name="Компания"
-                      placeholder="Obbu"
-                      type="text"
-                      value=""
-                      minlength="2"
-                      maxlength="40"
-                      required
+                </li>
+                <li class="main__panel-element main__panel-element-last">
+                  <button class="main__panel-button">
+                    Производитель
+                    <img
+                      class="main__panel-img-two"
+                      src="./images/__caretDown.svg"
+                      alt="Позиция каталога"
                     />
+                  </button>
+                  <div class="main__panel-dropdown">
+                    <ul class="main__panel-dropdown-list">
+                      <li class="main__panel-item main__panel-item-two">
+                        <a href="#" class="main__panel-link"
+                          >Все производители</a
+                        >
+                        <a href="#" class="main__panel-link">YILMAZ</a>
+                        <a href="#" class="main__panel-link">PERTICI UNIVER</a>
+                        <a href="#" class="main__panel-link">ALTECH UNICA</a>
+                        <a href="#" class="main__panel-link">OZCELIK</a>
+                        <a href="#" class="main__panel-link">ELUMATEC</a>
+                        <a href="#" class="main__panel-link">ELUMATEC</a>
+                        <a href="#" class="main__panel-link">ELUMATEC</a>
+                        <a href="#" class="main__panel-link">ELUMATEC</a>
+                        <a href="#" class="main__panel-link">ELUMATEC</a>
+                        <a href="#" class="main__panel-link">ELUMATEC</a>
+                        <a href="#" class="main__panel-link">ELUMATEC</a>
+                        <a href="#" class="main__panel-link">ELUMATEC</a>
+                        <a href="#" class="main__panel-link">ELUMATEC</a>
+                        <a href="#" class="main__panel-link">ELUMATEC</a>
+                        <a href="#" class="main__panel-link">ELUMATEC</a>
+                        <a href="#" class="main__panel-link">ELUMATEC</a>
+                        <a href="#" class="main__panel-link">ELUMATEC</a>
+                        <a href="#" class="main__panel-link">ELUMATEC</a>
+                        <a href="#" class="main__panel-link">ELUMATEC</a>
+                      </li>
+                    </ul>
                   </div>
-                  <div class="main__review-data-block">
-                    <p class="main__review-data">Оборудование<span> *</span></p>
-                    <input
-                      class="main__review-input"
-                      name="Оборудование"
-                      placeholder="Станок"
-                      type="text"
-                      value=""
-                      minlength="2"
-                      maxlength="20"
-                      required
+                </li>
+              </ul>
+              <section class="main__home-grid">
+                <div class="main__home-grid-blocks">
+                  <div class="main__home-grid-block">
+                    <img
+                      class="main__home-grid-img"
+                      src="images/__image_1.jpg"
+                      alt="Фотография станка"
                     />
+                    <div class="main__home-grid-rubrication">
+                      <p class="main__home-grid-title">
+                        PERTICI HP 601 Пресс&nbsp;углообжимной
+                        гидравлический<span class="main__home-title-span"
+                          >&nbsp;(Б/У оборудование)</span
+                        >
+                      </p>
+                      <div class="main__home-grid-subtitles">
+                        <p class="main__home-grid-subtitle">
+                          Московская обл. Павловский Посад
+                        </p>
+                        <p class="main__home-grid-subtitle">Италия 2008 г.</p>
+                      </div>
+                    </div>
+                    <div class="main__home-grid-bottom">
+                      <p class="main__home-bottom-title">550 000 р.</p>
+                      <button class="main__home-button">В корзину</button>
+                    </div>
                   </div>
-                  <div class="main__review-data-block">
-                    <p class="main__review-data">Город<span> *</span></p>
-                    <input
-                      class="main__review-input"
-                      name="Город"
-                      placeholder="Москва"
-                      type="text"
-                      value=""
-                      minlength="2"
-                      maxlength="30"
-                      required
+                  <div class="main__home-grid-block">
+                    <img
+                      class="main__home-grid-img"
+                      src="images/__image_2.png"
+                      alt="Фотография станка"
                     />
+                    <div class="main__home-grid-rubrication">
+                      <p class="main__home-grid-title">
+                        YILMAZ DC 420 P Автоматическая двухголовочная пила с
+                        тактовым резом&nbsp;для...<span
+                          class="main__home-title-span"
+                          >&nbsp;(Б/У оборудование)</span
+                        >
+                      </p>
+                      <div class="main__home-grid-subtitles">
+                        <p class="main__home-grid-subtitle">
+                          Московская обл. Павловский Посад
+                        </p>
+                        <p class="main__home-grid-subtitle">Турция 2008 г.</p>
+                      </div>
+                    </div>
+                    <div class="main__home-grid-bottom">
+                      <p class="main__home-bottom-title">830 000 р.</p>
+                      <button class="main__home-button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="main__home-grid-block">
+                    <img
+                      class="main__home-grid-img"
+                      src="images/__image_3.jpg"
+                      alt="Фотография станка"
+                    />
+                    <div class="main__home-grid-rubrication">
+                      <p class="main__home-grid-title">
+                        PERTICI UNIVER 500 D2K Электронная двухголовочная
+                        отрезная машина на&nbsp;Windows с принтером...<span
+                          class="main__home-title-span"
+                          >&nbsp;(Б/У оборудование)</span
+                        >
+                      </p>
+                      <div class="main__home-grid-subtitles">
+                        <p class="main__home-grid-subtitle">
+                          Московская обл. Павловский Посад
+                        </p>
+                        <p class="main__home-grid-subtitle">Италия 2007 г.</p>
+                      </div>
+                    </div>
+                    <div class="main__home-grid-bottom">
+                      <p class="main__home-bottom-title">1 090 000 р.</p>
+                      <button class="main__home-button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="main__home-grid-block">
+                    <img
+                      class="main__home-grid-img"
+                      src="images/__image_3.jpg"
+                      alt="Фотография станка"
+                    />
+                    <div class="main__home-grid-rubrication">
+                      <p class="main__home-grid-title">
+                        PERTICI UNIVER 500 D2K Электронная двухголовочная
+                        отрезная машина на&nbsp;Windows с принтером...<span
+                          class="main__home-title-span"
+                          >&nbsp;(Б/У оборудование)</span
+                        >
+                      </p>
+                      <div class="main__home-grid-subtitles">
+                        <p class="main__home-grid-subtitle">
+                          Московская обл. Павловский Посад
+                        </p>
+                        <p class="main__home-grid-subtitle">Италия 2007 г.</p>
+                      </div>
+                    </div>
+                    <div class="main__home-grid-bottom">
+                      <p class="main__home-bottom-title">1 090 000 р.</p>
+                      <button class="main__home-button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="main__home-grid-block">
+                    <img
+                      class="main__home-grid-img"
+                      src="images/__image_2.png"
+                      alt="Фотография станка"
+                    />
+                    <div class="main__home-grid-rubrication">
+                      <p class="main__home-grid-title">
+                        YILMAZ DC 420 P Автоматическая двухголовочная пила с
+                        тактовым резом&nbsp;для...<span
+                          class="main__home-title-span"
+                          >&nbsp;(Б/У оборудование)</span
+                        >
+                      </p>
+                      <div class="main__home-grid-subtitles">
+                        <p class="main__home-grid-subtitle">
+                          Московская обл. Павловский Посад
+                        </p>
+                        <p class="main__home-grid-subtitle">Турция 2008 г.</p>
+                      </div>
+                    </div>
+                    <div class="main__home-grid-bottom">
+                      <p class="main__home-bottom-title">830 000 р.</p>
+                      <button class="main__home-button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="main__home-grid-block">
+                    <img
+                      class="main__home-grid-img"
+                      src="images/__image_1.jpg"
+                      alt="Фотография станка"
+                    />
+                    <div class="main__home-grid-rubrication">
+                      <p class="main__home-grid-title">
+                        PERTICI HP 601 Пресс&nbsp;углообжимной
+                        гидравлический<span class="main__home-title-span"
+                          >&nbsp;(Б/У оборудование)</span
+                        >
+                      </p>
+                      <div class="main__home-grid-subtitles">
+                        <p class="main__home-grid-subtitle">
+                          Московская обл. Павловский Посад
+                        </p>
+                        <p class="main__home-grid-subtitle">Италия 2008 г.</p>
+                      </div>
+                    </div>
+                    <div class="main__home-grid-bottom">
+                      <p class="main__home-bottom-title">550 000 р.</p>
+                      <button class="main__home-button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="main__home-grid-block">
+                    <img
+                      class="main__home-grid-img"
+                      src="images/__image_1.jpg"
+                      alt="Фотография станка"
+                    />
+                    <div class="main__home-grid-rubrication">
+                      <p class="main__home-grid-title">
+                        PERTICI HP 601 Пресс&nbsp;углообжимной
+                        гидравлический<span class="main__home-title-span"
+                          >&nbsp;(Б/У оборудование)</span
+                        >
+                      </p>
+                      <div class="main__home-grid-subtitles">
+                        <p class="main__home-grid-subtitle">
+                          Московская обл. Павловский Посад
+                        </p>
+                        <p class="main__home-grid-subtitle">Италия 2008 г.</p>
+                      </div>
+                    </div>
+                    <div class="main__home-grid-bottom">
+                      <p class="main__home-bottom-title">550 000 р.</p>
+                      <button class="main__home-button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="main__home-grid-block">
+                    <img
+                      class="main__home-grid-img"
+                      src="images/__image_3.jpg"
+                      alt="Фотография станка"
+                    />
+                    <div class="main__home-grid-rubrication">
+                      <p class="main__home-grid-title">
+                        PERTICI UNIVER 500 D2K Электронная двухголовочная
+                        отрезная машина на&nbsp;Windows с принтером...<span
+                          class="main__home-title-span"
+                          >&nbsp;(Б/У оборудование)</span
+                        >
+                      </p>
+                      <div class="main__home-grid-subtitles">
+                        <p class="main__home-grid-subtitle">
+                          Московская обл. Павловский Посад
+                        </p>
+                        <p class="main__home-grid-subtitle">Италия 2007 г.</p>
+                      </div>
+                    </div>
+                    <div class="main__home-grid-bottom">
+                      <p class="main__home-bottom-title">1 090 000 р.</p>
+                      <button class="main__home-button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="main__home-grid-block">
+                    <img
+                      class="main__home-grid-img"
+                      src="images/__image_2.png"
+                      alt="Фотография станка"
+                    />
+                    <div class="main__home-grid-rubrication">
+                      <p class="main__home-grid-title">
+                        YILMAZ DC 420 P Автоматическая двухголовочная пила
+                        с&nbsp;тактовым резом&nbsp;для...<span
+                          class="main__home-title-span"
+                          >&nbsp;(Б/У оборудование)</span
+                        >
+                      </p>
+                      <div class="main__home-grid-subtitles">
+                        <p class="main__home-grid-subtitle">
+                          Московская обл. Павловский Посад
+                        </p>
+                        <p class="main__home-grid-subtitle">Турция 2008 г.</p>
+                      </div>
+                    </div>
+                    <div class="main__home-grid-bottom">
+                      <p class="main__home-bottom-title">830 000 р.</p>
+                      <button class="main__home-button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="main__home-grid-block">
+                    <img
+                      class="main__home-grid-img"
+                      src="images/__image_3.jpg"
+                      alt="Фотография станка"
+                    />
+                    <div class="main__home-grid-rubrication">
+                      <p class="main__home-grid-title">
+                        PERTICI UNIVER 500 D2K Электронная двухголовочная
+                        отрезная машина на&nbsp;Windows с принтером...<span
+                          class="main__home-title-span"
+                          >&nbsp;(Б/У оборудование)</span
+                        >
+                      </p>
+                      <div class="main__home-grid-subtitles">
+                        <p class="main__home-grid-subtitle">
+                          Московская обл. Павловский Посад
+                        </p>
+                        <p class="main__home-grid-subtitle">Италия 2007 г.</p>
+                      </div>
+                    </div>
+                    <div class="main__home-grid-bottom">
+                      <p class="main__home-bottom-title">1 090 000 р.</p>
+                      <button class="main__home-button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="main__home-grid-block">
+                    <img
+                      class="main__home-grid-img"
+                      src="images/__image_2.png"
+                      alt="Фотография станка"
+                    />
+                    <div class="main__home-grid-rubrication">
+                      <p class="main__home-grid-title">
+                        YILMAZ DC 420 P Автоматическая двухголовочная пила
+                        с&nbsp;тактовым резом&nbsp;для...<span
+                          class="main__home-title-span"
+                          >&nbsp;(Б/У оборудование)</span
+                        >
+                      </p>
+                      <div class="main__home-grid-subtitles">
+                        <p class="main__home-grid-subtitle">
+                          Московская обл. Павловский Посад
+                        </p>
+                        <p class="main__home-grid-subtitle">Турция 2008 г.</p>
+                      </div>
+                    </div>
+                    <div class="main__home-grid-bottom">
+                      <p class="main__home-bottom-title">830 000 р.</p>
+                      <button class="main__home-button">В корзину</button>
+                    </div>
+                  </div>
+                  <div class="main__home-grid-block">
+                    <img
+                      class="main__home-grid-img"
+                      src="images/__image_1.jpg"
+                      alt="Фотография станка"
+                    />
+                    <div class="main__home-grid-rubrication">
+                      <p class="main__home-grid-title">
+                        PERTICI HP 601 Пресс&nbsp;углообжимной
+                        гидравлический<span class="main__home-title-span"
+                          >&nbsp;(Б/У оборудование)</span
+                        >
+                      </p>
+                      <div class="main__home-grid-subtitles">
+                        <p class="main__home-grid-subtitle">
+                          Московская обл. Павловский Посад
+                        </p>
+                        <p class="main__home-grid-subtitle">Италия 2008 г.</p>
+                      </div>
+                    </div>
+                    <div class="main__home-grid-bottom">
+                      <p class="main__home-bottom-title">550 000 р.</p>
+                      <button class="main__home-button">В корзину</button>
+                    </div>
                   </div>
                 </div>
-                <div class="main__review-sending">
-                  <div class="main__review-data-block">
-                    <p class="main__review-data">
-                      Отзыв о сервисе<span> *</span>
-                    </p>
-                    <textarea
-                      class="main__review-sending-input"
-                      name="Отзыв о сервисе"
-                      placeholder="Отзыв о сервисе"
-                      minlength="10"
-                      maxlength="500"
-                      required
-                    ></textarea>
-                  </div>
-                  <button class="main__review-button" disabled>
-                    Оставить заявку
+                <div class="main__home-grid-loading-block">
+                  <button class="main__home-grid-loading">
+                    Загрузить еще
+                    <img
+                      class="main__home-grid-loading-img"
+                      src="./images/__caretDown.svg"
+                      alt="Позиция каталога"
+                    />
                   </button>
                 </div>
-              </form>
+              </section>
+              <div class="main__bottom-headers">
+                <div class="main__bottom-headers-rubrication">
+                  <h3 class="main__bottom-headers-title">
+                    Новое и б/у оборудование для&nbsp;производства окон&nbsp;ПВХ
+                  </h3>
+                  <p class="main__bottom-headers-subtitle">
+                    Obbu.ru – сервис, позволяющий покупать и&nbsp;продавать
+                    оборудование&nbsp;и&nbsp;станки для&nbsp;производства окон
+                    из ПВХ.
+                  </p>
+                </div>
+                <p class="main__bottom-subtitle">
+                  На сайте представлен большой каталог продукции. Вы&nbsp;можете
+                  самостоятельно выбрать интересующий Вас товар, добавить его
+                  в&nbsp;корзину и после оформить заказ или связаться с нашим
+                  специалистом по телефону или, написав на&nbsp;почту.
+                  Специалист поможет выбрать наиболее подходящий станок для
+                  Ваших целей и&nbsp;подскажет возможные варианты доставки или
+                  самовывоза.
+                  <br />
+                  <br />Специалисты также помогут Вам быстро и&nbsp;выгодно
+                  продать Ваше б/у оборудование. Просто сообщите о&nbsp;своём
+                  намерении по&nbsp;телефону или&nbsp;e-mail адресу.
+                  Вам&nbsp;будет доступна профессиональная оценка б/у
+                  оборудования для&nbsp;окон и&nbsp;бесплатное размещение
+                  объявления о&nbsp;продаже на сайте obbu.ru
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -612,10 +930,14 @@
                       <a href="#" class="burger__menu-link">О сервисе</a>
                     </li>
                     <li class="burger__menu-position">
-                      <a href="reviews.html" class="burger__menu-link">Отзывы</a>
+                      <a href="reviews.html" class="burger__menu-link"
+                        >Отзывы</a
+                      >
                     </li>
                     <li class="burger__menu-position">
-                      <a href="contacts.html" class="burger__menu-link">Контакты</a>
+                      <a href="contacts.html" class="burger__menu-link"
+                        >Контакты</a
+                      >
                     </li>
                   </ul>
                 </div>
@@ -887,5 +1209,6 @@
         </div>
       </div>
     </div>
+    <script src="./js/script.js"></script>
   </body>
 </html>

@@ -1,0 +1,44 @@
+.main__button-sell-two {
+  width: 280px;
+  height: 42px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17.09px;
+  color: #0d0d0d;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  background: rgba(91, 208, 104, 0.1);
+  border: 1px solid #5BD068;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.main__button-sell-two:hover {
+  opacity: 0.6;
+}
+
+@media all and (max-width: 1279px) {
+  .main__button-sell-two {
+    width: 246px;
+    font-size: 12px;
+    line-height: 14.65px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .main__button-sell-two {
+    max-width: 280px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 17.09px;
+    padding: 0 13px;
+    order: 1;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__button-sell-two {
+    max-width: 100%;
+  }
+}

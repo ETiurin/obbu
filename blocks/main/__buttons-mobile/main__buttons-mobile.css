@@ -6,13 +6,13 @@
 @media all and (max-width: 1023px) {
   .main__buttons-mobile {
     justify-content: space-between;
+    gap: 16px;
   }
 }
 
 @media all and (max-width: 767px) {
   .main__buttons-mobile {
     flex-direction: column;
-    height: 96px;
     align-items: center;
   }
 }

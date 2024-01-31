@@ -1,13 +1,14 @@
 .main__panel {
   display: inline-flex;
   gap: 15px;
-  margin: 0 0 24px;
+  margin: 0;
   padding: 0;
 }
 
 @media all and (max-width: 1023px) {
   .main__panel {
-    margin: -40px 0 40px;
+    margin: -16px 0 0;
+    order: 1;
   }
 }
 
@@ -20,6 +21,6 @@
     grid-template-rows: repeat(2, auto);
     grid-template-columns: auto 1fr;
     justify-content: space-between;
-    margin: -56px 0 24px;
+    margin: -24px 0 0;
   }
 }

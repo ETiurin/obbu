@@ -24,8 +24,7 @@
 
 @media all and (max-width: 767px) {
     .main__product-choice-title {
-        font-size: 14px;
-        line-height: 16px;
-        padding: 12px 0;
+        font-size: 16px;
+        line-height: 19px;
     }
 }

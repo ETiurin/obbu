@@ -1,5 +1,18 @@
 .main__home-catalog {
   display: flex;
   flex-direction: column;
+  gap: 24px;
   margin: 0;
+}
+
+@media all and (max-width: 1023px) {
+  .main__home-catalog {
+    gap: 40px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__home-catalog {
+    gap: 24px;
+  }
 }

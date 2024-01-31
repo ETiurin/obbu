@@ -1,0 +1,13 @@
+.main__buttons-sell {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+@media all and (max-width: 767px) {
+  .main__buttons-sell {
+    width: 100%;
+  }
+}
