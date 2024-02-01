@@ -1,8 +1,14 @@
 .main__product-price {
-    margin: 0;
-    padding: 0 0 24px;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 43px;
-    color: #0D0D0D;
+  margin: 0 0 24px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43px;
+  color: #0d0d0d;
+}
+
+@media all and (max-width: 1279px) {
+  .main__product-price {
+    margin-top: 12px;
+  }
 }

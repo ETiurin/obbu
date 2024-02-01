@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: row;
   gap: 40px;
-  max-width: 960px;
-  margin-bottom: 36px;
+  max-width: 100%;
+  margin-bottom: 40px;
 }
 
 @media all and (max-width: 1279px) {

@@ -1,0 +1,6 @@
+.main__product-choice-title_active {
+    color: #0D0D0D;
+    border-bottom: 4px solid #F23B3E;
+    padding-bottom: 8px;
+    z-index: 2;
+}

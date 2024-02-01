@@ -360,6 +360,7 @@
 @import url(../blocks/main/__product-price/main__product-price.css);
 @import url(../blocks/main/__product-buttons/main__product-buttons.css);
 @import url(../blocks/main/__product-button/main__product-button.css);
+@import url(../blocks/main/__product-button/_active/main__product-button_active.css);
 @import url(../blocks/main/__product-description/main__product-description.css);
 @import url(../blocks/main/__product-choice/main__product-choice.css);
 @import url(../blocks/main/__product-choice-title/main__product-choice-title.css);
@@ -374,6 +375,9 @@
 @import url(../blocks/main/__review-sending-input-two/main__review-sending-input-two.css);
 @import url(../blocks/main/__product-goods-title/main__product-goods-title.css);
 @import url(../blocks/main/__link-questions-two/main__link-questions-two.css);
+@import url(../blocks/main/__product-info-block/main__product-info-block.css);
+@import url(../blocks/main/__product-paragraphs/main__product-paragraphs.css);
+@import url(../blocks/main/__product-choice-title/_active/main__product-choice-title_active.css);
 
 @import url(../blocks/main/__button-sell-two/main__button-sell-two.css);
 @import url(../blocks/main/__medium-block/main__medium-block.css);

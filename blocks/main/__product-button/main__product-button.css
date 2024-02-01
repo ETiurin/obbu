@@ -1,6 +1,7 @@
 .main__product-button {
   text-align: center;
-  width: 221px;
+  max-width: 221px;
+  width: 100%;
   min-height: 42px;
   padding: 8px 20px;
   border: none;
@@ -12,14 +13,19 @@
   color: #9e9e9e;
 }
 
-.main__product-button:hover {
-  background-color: #feda5a;
-  color: #0d0d0d;
-  cursor: pointer;
+@media all and (max-width: 1279px) {
+  .main__product-button {
+    max-width: 300px;
+  }
 }
 
 @media all and (max-width: 767px) {
   .main__product-button {
-    width: 100%;
+    max-width: 100%;
   }
+}
+
+.main__product-button:hover {
+  opacity: 0.6;
+  cursor: pointer;
 }
