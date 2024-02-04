@@ -1,5 +1,6 @@
 .main__product-delivery {
   display: flex;
+  flex-direction: column;
   gap: 24px;
   width: 100%;
   margin: 0;
@@ -8,7 +9,6 @@
 
 @media all and (max-width: 1279px) {
   .main__product-delivery {
-    flex-direction: column;
     padding: 0;
     gap: 12px;
   }
