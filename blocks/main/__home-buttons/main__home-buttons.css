@@ -1,0 +1,12 @@
+.main__home-buttons {
+    display: flex;
+    width: 143px;
+    justify-content: space-between;
+}
+
+@media all and (max-width: 767px) {
+    .main__home-buttons {
+        width: 100%;
+        gap: 8px;
+    }
+}

@@ -28,17 +28,16 @@
 
 @media all and (max-width: 1023px) {
   .main__button-sell-two {
-    max-width: 280px;
-    width: 100%;
+    width: 170px;
     font-size: 14px;
     line-height: 17.09px;
-    padding: 0 13px;
+    padding: 10px 12px;
     order: 1;
   }
 }
 
 @media all and (max-width: 767px) {
   .main__button-sell-two {
-    max-width: 100%;
+    width: 100%;
   }
 }

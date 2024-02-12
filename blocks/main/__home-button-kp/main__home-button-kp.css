@@ -1,0 +1,23 @@
+.main__home-button-kp {
+    height: 32px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    background: #5BD068;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    display: block;
+  }
+  
+  .main__home-button-kp:hover {
+    opacity: 0.6;
+  }
+  
+  @media all and (max-width: 767px) {
+    .main__home-button-kp {
+      width: 100%;
+    }
+  }

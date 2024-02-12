@@ -6,8 +6,16 @@
   padding: 0;
 }
 
+@media all and (max-width: 1023px) {
+  .main__buttons-sell {
+    flex-direction: row;
+  }
+}
+
 @media all and (max-width: 767px) {
   .main__buttons-sell {
+    flex-direction: column;
     width: 100%;
+    order: 1;
   }
 }

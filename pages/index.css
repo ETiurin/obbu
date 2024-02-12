@@ -165,7 +165,9 @@
 @import url(../blocks/main/__home-grid-subtitle/main__home-grid-subtitle.css);
 @import url(../blocks/main/__home-grid-bottom/main__home-grid-bottom.css);
 @import url(../blocks/main/__home-bottom-title/main__home-bottom-title.css);
+@import url(../blocks/main/__home-buttons/main__home-buttons.css);
 @import url(../blocks/main/__home-button/main__home-button.css);
+@import url(../blocks/main/__home-button-kp/main__home-button-kp.css);
 @import url(../blocks/main/__home-grid-rubrication/main__home-grid-rubrication.css);
 @import url(../blocks/main/__bottom-headers/main__bottom-headers.css);
 @import url(../blocks/main/__bottom-headers-rubrication/main__bottom-headers-rubrication.css);

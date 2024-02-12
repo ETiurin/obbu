@@ -3,11 +3,22 @@
   gap: 15px;
   margin: 0;
   padding: 0;
+  height: 42px;
+  position: absolute;
+  top: 103px;
+  left: 328px;
+}
+
+@media all and (max-width: 1279px) {
+  .main__panel {
+    left: 294px;
+  }
 }
 
 @media all and (max-width: 1023px) {
   .main__panel {
-    margin: -16px 0 0;
+    position: static;
+    margin: 24px 0 0;
     order: 1;
   }
 }
@@ -21,6 +32,7 @@
     grid-template-rows: repeat(2, auto);
     grid-template-columns: auto 1fr;
     justify-content: space-between;
-    margin: -24px 0 0;
+    margin: 24px 0 38px;
+    width: 100%;
   }
 }
