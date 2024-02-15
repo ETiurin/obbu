@@ -18,6 +18,7 @@
   
   @media all and (max-width: 767px) {
     .main__home-button-kp {
+      height: 40px;
       width: 100%;
     }
   }
