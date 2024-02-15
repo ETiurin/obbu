@@ -1,0 +1,24 @@
+.main__navigate-block {
+  width: 100%;
+  display: grid;
+  row-gap: 12px;
+  grid-template-areas:
+    "button-mobile telegram"
+    "button-kp panel";
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: 332px 1fr;
+}
+
+@media all and (max-width: 1279px) {
+  .main__navigate-block {
+    grid-template-columns: 294px 1fr;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .main__navigate-block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+}

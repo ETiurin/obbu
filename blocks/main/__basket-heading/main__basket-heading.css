@@ -8,13 +8,15 @@
 
 @media all and (max-width: 767px) {
   .main__basket-heading {
-    margin: -24px 0 0;
+    display: inline-flex;
+    margin: -32px 0 0;
+    padding: 0 0 32px;
+    align-items: end;
   }
 }
 
-@media all and (max-width: 767px) {
-  .main__basket-heading {
-    margin: -32px 0 0;
-    padding: 0 0 24px;
+@media all and (max-width: 515px) {
+  .main__basket-heading-title {
+    gap: 0;
   }
 }

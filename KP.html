@@ -16,7 +16,7 @@
   <body>
     <div class="page">
       <div class="title">
-        <h1>Поиск найдено</h1>
+        <h1 class="title__header">КП</h1>
       </div>
       <div class="menu">
         <ul class="menu__ul">
@@ -91,24 +91,21 @@
                       alt="иконка WhatsApp"
                     />
                   </a>
-                  <a href="https://vk.com/obburu" class="header__column-link">
+                  <a href="#" class="header__column-link">
                     <img
                       class="header__social-icon"
                       src="./images/__icon_VK.svg"
                       alt="иконка ВКонтакте"
                     />
                   </a>
-                  <a href="https://t.me/obburu" class="header__column-link">
+                  <a href="#" class="header__column-link">
                     <img
                       class="header__social-icon"
                       src="./images/__icon_Telegram.svg"
                       alt="иконка Telegram"
                     />
                   </a>
-                  <a
-                    href="https://www.youtube.com/channel/UCMyfBehAnscHI1p3bXxnlXQ"
-                    class="header__column-link"
-                  >
+                  <a href="#" class="header__column-link">
                     <img
                       class="header__social-icon"
                       src="./images/__icon_YouTube.svg"
@@ -133,9 +130,7 @@
                     <a href="reviews.html" class="header__menu-link">Отзывы</a>
                   </li>
                   <li>
-                    <a href="contacts.html" class="header__menu-link"
-                      >Контакты</a
-                    >
+                    <a href="#" class="header__menu-link">Контакты</a>
                   </li>
                 </ul>
                 <ul class="header__menu-data">
@@ -229,213 +224,136 @@
       </header>
       <main class="main">
         <div class="main__blocks">
-          <div class="main__catalog-container">
-            <div class="main__top-block">
-              <div class="main__buttons-mobile">
-                <div class="main__mobile-container">
-                  <h3 class="main__header">Каталог</h3>
-                  <button class="main__catalog-icon"></button>
-                </div>
-                <button
-                  class="main__button-sell"
-                  type="submit"
-                  aria-label="Продать б/у оборудование для окон"
-                >
-                  Продать б/у оборудование для окон
-                </button>
+          <div class="main__line">
+            <a href="home.html" class="main__line-subtitle">Главная</a>
+            <img
+              class="main__arrow"
+              src="./images/__right-arrow.svg"
+              alt="Стрелка вправо"
+            />
+            <a href="basket.html" class="main__line-subtitle">Корзина</a>
+          </div>
+          <div class="main__top-block">
+            <div class="main__basket">
+              <div class="main__basket-heading">
+                <h3 class="main__basket-heading-title">
+                  Коммерческое предложение
+                </h3>
+                <h4 class="main__basket-heading-subtitle">2 товара</h4>
               </div>
-              <h3 class="main__home-grid-titleSearch">
-                Результаты поиска по запросу:
-                <span class="main__home-grid-titleSearch-span">“PERTICI”</span>
-              </h3>
+              <div class="main__basket-panel">
+                <div class="main__basket-block-input">
+                  <input
+                    class="main__basket-input"
+                    type="checkbox"
+                    id="check-mark"
+                    name="check-mark"
+                    value="yes"
+                  />
+                  <label class="main__basket-label" for="check-mark"
+                    >Выделить все</label
+                  >
+                </div>
+                <div class="main__basket-panel-delete">
+                  <button class="main__basket-panel-button"></button>
+                  <h4 class="main__basket-panel-subtitle">Удалить выбранные</h4>
+                </div>
+              </div>
+              <div class="main__basket-subheading">
+                <p class="main__basket-subheading-mini">Наименование</p>
+                <p class="main__basket-subheading-mini">Стоимость</p>
+              </div>
+              <div class="main__basket-container">
+                <div class="main__basket-container-positions">
+                  <div class="main__basket-container-position">
+                    <div class="main__basket-container-block">
+                      <input
+                        class="main__basket-container-input"
+                        type="checkbox"
+                        id="check-container-mark"
+                        name="check-container-mark"
+                        value="yes"
+                      />
+                      <label
+                        class="main__basket-container-label"
+                        for="check-container-mark"
+                      ></label>
+                      <img
+                        class="main__basket-container-img"
+                        src="images/__rectangle_1988.jpg"
+                        alt="Фотография оборудования"
+                      />
+                      <div class="main__basket-container-main">
+                        <p class="main__basket-container-description">
+                          YILMAZ DC 421 PS Автоматическая двухголовочная пила
+                          с&nbsp;охлаждением и дисками 420 мм для конвеерного
+                          выпиливания металлопластмассовых и алюминиевых
+                          профилей под различными углами (Б/У оборудование)
+                        </p>
+                        <div class="main__basket-container-right">
+                          <p class="main__basket-container-numbers">
+                            1 390 000 р.
+                          </p>
+                          <button
+                            class="main__basket-container-button"
+                          ></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="main__basket-container-position">
+                    <div class="main__basket-container-block">
+                      <input
+                        class="main__basket-container-input"
+                        type="checkbox"
+                        id="check-container-mark-two"
+                        name="check-container-mark-two"
+                        value="yes"
+                      />
+                      <label
+                        class="main__basket-container-label"
+                        for="check-container-mark-two"
+                      ></label>
+                      <img
+                        class="main__basket-container-img"
+                        src="images/__rectangle_1989.jpg"
+                        alt="Фотография оборудования"
+                      />
+                      <div class="main__basket-container-main">
+                        <p class="main__basket-container-description">
+                          ELUMATEC DG 79/31 Двухголовочная усорезная пила
+                          с&nbsp;подачей СОЖ для алюминиевого или ПВХ профиля
+                          (Б/У оборудование)
+                        </p>
+                        <div class="main__basket-container-right">
+                          <p class="main__basket-container-numbers">
+                            550 000 р.
+                          </p>
+                          <button
+                            class="main__basket-container-button"
+                          ></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main__basket-form-container">
+              <form class="main__basket-form">
+                <h3 class="main__basket-form-title">Итого</h3>
+                <div class="main__basket-form-footer">
+                  <div class="main__basket-form-footer-heading">
+                    <p class="main__basket-form-footer-subtitle">Итого:</p>
+                    <p class="main__basket-form-footer-numbers">1 940 000 р.</p>
+                  </div>
+                  <button class="main__basket-form-footer-button-kp">
+                    Создать КП
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
-          <div class="main__bottom-block">
-            <div class="main__catalog-container">
-              <div class="main__elements">
-                <div class="main__catalog">
-                  <div class="main__nav-block">
-                    <h3 class="main__nav-header">Каталог</h3>
-                    <ul class="main__nav">
-                      <li class="main__nav-element">
-                        <a href="#" class="main__lot"
-                          >Оборудование для производства окон из ПВХ и
-                          алюминия</a
-                        >
-                        <img
-                          class="main__deployment"
-                          id="opening-a-directoty"
-                          src="./images/__caretDown.svg"
-                          alt="Позиция каталога"
-                        />
-                      </li>
-                    </ul>
-                    <ul class="main__nav">
-                      <li class="main__nav-element">
-                        <a href="#" class="main__lot"
-                          >Оборудование для производства алюминиевых окон</a
-                        >
-                      </li>
-                      <li class="main__nav-element">
-                        <a href="#" class="main__lot"
-                          >Отрезное оборудование<br />для алюминиевых окон</a
-                        >
-                      </li>
-                      <li class="main__nav-element">
-                        <a href="#" class="main__lot"
-                          >Копировально-фрезерное оборудование для алюминиевых
-                          окон</a
-                        >
-                      </li>
-                    </ul>
-                    <ul class="main__nav">
-                      <li class="main__nav-element">
-                        <a href="#" class="main__lot">Прочее оборудование</a>
-                        <img
-                          class="main__deployment"
-                          src="./images/__caretDown.svg"
-                          alt="Позиция каталога"
-                        />
-                      </li>
-                    </ul>
-                    <ul class="main__nav">
-                      <li class="main__nav-element">
-                        <a href="#" class="main__lot"
-                          >Оборудование для производства стеклопакетов</a
-                        >
-                        <img
-                          class="main__deployment"
-                          src="./images/__caretDown.svg"
-                          alt="Позиция каталога"
-                        />
-                      </li>
-                    </ul>
-                    <ul class="main__nav">
-                      <li class="main__nav-element">
-                        <a href="#" class="main__lot"
-                          >Новые пресс-матрицы для PROVEDAL</a
-                        >
-                      </li>
-                      <li class="main__nav-element">
-                        <a href="#" class="main__lot"
-                          >Деревообрабатывающее оборудование</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="main__home-catalog">
-              <section class="main__home-grid">
-                <div class="main__home-grid-blocks">
-                  <div class="main__home-grid-block">
-                    <img
-                      class="main__home-grid-img"
-                      src="images/__image_1.jpg"
-                      alt="Фотография станка"
-                    />
-                    <div class="main__home-grid-rubrication">
-                      <p class="main__home-grid-title">
-                        PERTICI HP 601 Пресс&nbsp;углообжимной гидравлический<span
-                          class="main__home-title-span"
-                          >&nbsp;(Б/У оборудование)</span
-                        >
-                      </p>
-                      <div class="main__home-grid-subtitles">
-                        <p class="main__home-grid-subtitle">
-                          Московская обл. Павловский Посад
-                        </p>
-                        <p class="main__home-grid-subtitle">Италия 2008 г.</p>
-                      </div>
-                    </div>
-                    <div class="main__home-grid-bottom">
-                      <p class="main__home-bottom-title">550 000 р.</p>
-                      <button class="main__home-button">В корзину</button>
-                    </div>
-                  </div>
-                  <div class="main__home-grid-block">
-                    <img
-                      class="main__home-grid-img"
-                      src="images/__image_2.png"
-                      alt="Фотография станка"
-                    />
-                    <div class="main__home-grid-rubrication">
-                      <p class="main__home-grid-title">
-                        YILMAZ DC 420 P Автоматическая двухголовочная пила с
-                        тактовым резом&nbsp;для...<span
-                          class="main__home-title-span"
-                          >&nbsp;(Б/У оборудование)</span
-                        >
-                      </p>
-                      <div class="main__home-grid-subtitles">
-                        <p class="main__home-grid-subtitle">
-                          Московская обл. Павловский Посад
-                        </p>
-                        <p class="main__home-grid-subtitle">Турция 2008 г.</p>
-                      </div>
-                    </div>
-                    <div class="main__home-grid-bottom">
-                      <p class="main__home-bottom-title">830 000 р.</p>
-                      <button class="main__home-button">В корзину</button>
-                    </div>
-                  </div>
-                  <div class="main__home-grid-block">
-                    <img
-                      class="main__home-grid-img"
-                      src="images/__image_3.jpg"
-                      alt="Фотография станка"
-                    />
-                    <div class="main__home-grid-rubrication">
-                      <p class="main__home-grid-title">
-                        PERTICI UNIVER 500 D2K Электронная двухголовочная отрезная
-                        машина на&nbsp;Windows с принтером...<span
-                          class="main__home-title-span"
-                          >&nbsp;(Б/У оборудование)</span
-                        >
-                      </p>
-                      <div class="main__home-grid-subtitles">
-                        <p class="main__home-grid-subtitle">
-                          Московская обл. Павловский Посад
-                        </p>
-                        <p class="main__home-grid-subtitle">Италия 2007 г.</p>
-                      </div>
-                    </div>
-                    <div class="main__home-grid-bottom">
-                      <p class="main__home-bottom-title">1 090 000 р.</p>
-                      <button class="main__home-button">В корзину</button>
-                    </div>
-                  </div>
-                  <div class="main__home-grid-block">
-                    <img
-                      class="main__home-grid-img"
-                      src="images/__image_3.jpg"
-                      alt="Фотография станка"
-                    />
-                    <div class="main__home-grid-rubrication">
-                      <p class="main__home-grid-title">
-                        PERTICI UNIVER 500 D2K Электронная двухголовочная отрезная
-                        машина на&nbsp;Windows с принтером...<span
-                          class="main__home-title-span"
-                          >&nbsp;(Б/У оборудование)</span
-                        >
-                      </p>
-                      <div class="main__home-grid-subtitles">
-                        <p class="main__home-grid-subtitle">
-                          Московская обл. Павловский Посад
-                        </p>
-                        <p class="main__home-grid-subtitle">Италия 2007 г.</p>
-                      </div>
-                    </div>
-                    <div class="main__home-grid-bottom">
-                      <p class="main__home-bottom-title">1 090 000 р.</p>
-                      <button class="main__home-button">В корзину</button>
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-            </div>
         </div>
       </main>
       <div class="mailing">
@@ -890,6 +808,5 @@
         </div>
       </div>
     </div>
-    <script src="./js/script.js"></script>
   </body>
 </html>

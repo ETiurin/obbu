@@ -174,6 +174,7 @@
 @import url(../blocks/main/__bottom-headers-title/main__bottom-headers-title.css);
 @import url(../blocks/main/__bottom-headers-subtitle/main__bottom-headers-subtitle.css);
 @import url(../blocks/main/__bottom-subtitle/main__bottom-subtitle.css);
+@import url(../blocks/main/__navigate-block/main__navigate-block.css);
 
 @import url(../blocks/mailing/mailing.css);
 @import url(../blocks/mailing/__blocks/mailing__blocks.css);
@@ -293,6 +294,7 @@
 @import url(../blocks/main/__basket-data/main__basket-data.css);
 @import url(../blocks/main/__basket-form-input/main__basket-form-input.css);
 @import url(../blocks/main/__basket-form-footer-button/main__basket-form-footer-button.css);
+@import url(../blocks/main/__basket-form-footer-button-kp/main__basket-form-footer-button-kp.css);
 @import url(../blocks/main/__basket-form-footer-heading/main__basket-form-footer-heading.css);
 @import url(../blocks/main/__basket-form-footer/main__basket-form-footer.css);
 @import url(../blocks/main/__basket-form-footer-subtitle/main__basket-form-footer-subtitle.css);

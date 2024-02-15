@@ -6,6 +6,7 @@
 
 @media all and (max-width: 767px) {
   .main__product-choice {
+    width: 100%;
     margin-bottom: 24px;
     overflow: hidden;
     overflow-x: scroll;

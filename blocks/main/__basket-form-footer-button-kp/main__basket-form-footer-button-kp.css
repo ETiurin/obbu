@@ -1,0 +1,31 @@
+.main__basket-form-footer-button-kp {
+  display: inline-block;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.54px;
+  width: 100%;
+  color: #fff;
+  padding: 10px 0;
+  border-radius: 4px;
+  background-color: rgb(91, 208, 104, 1);
+  border: none;
+  cursor: pointer;
+}
+
+@media all and (max-width: 1023px) {
+  .main__basket-form-footer-button-kp {
+    max-width: 252px;
+  }
+}
+
+@media all and (max-width: 767px) {
+    .main__basket-form-footer-button-kp {
+      max-width: 100%;
+    }
+  }
+
+.main__basket-form-footer-button-kp:hover {
+   opacity: .6;
+}
+

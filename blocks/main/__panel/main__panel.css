@@ -4,22 +4,13 @@
   margin: 0;
   padding: 0;
   height: 42px;
-  position: absolute;
-  top: 103px;
-  left: 328px;
-}
-
-@media all and (max-width: 1279px) {
-  .main__panel {
-    left: 294px;
-  }
+  grid-area: panel;
 }
 
 @media all and (max-width: 1023px) {
   .main__panel {
-    position: static;
     margin: 24px 0 0;
-    order: 1;
+    order: 3;
   }
 }
 
