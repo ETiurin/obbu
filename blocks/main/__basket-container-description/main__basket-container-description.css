@@ -24,6 +24,7 @@
 
 @media all and (max-width: 767px) {
   .main__basket-container-description {
+    max-width: calc(100% - 20px);
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;

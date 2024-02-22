@@ -1,6 +1,7 @@
 .main__basket-container-button {
   width: 15px;
   height: 15px;
+  margin: 9px;
   background: url(../../../images/__vector-delete-grey.svg) no-repeat center;
   border: none;
   background-color: white;
@@ -8,12 +9,25 @@
   cursor: pointer;
 }
 
-.main__basket-container-button:hover {
-  opacity: 0.6;
+@media all and (max-width: 1279px) {
+  .main__basket-container-button {
+    width: 12.5px;
+    height: 12.5px;
+    margin: 7.5px;
+  }
 }
 
 @media all and (max-width: 767px) {
   .main__basket-container-button {
-    display: none;
+    width: 10px;
+    height: 10px;
+    margin: 3px;  
+    position: absolute;
+    top: 0;
+    right: 0;
   }
+}
+
+.main__basket-container-button:hover {
+  opacity: 0.6;
 }
