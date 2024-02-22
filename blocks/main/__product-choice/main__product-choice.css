@@ -10,6 +10,7 @@
     margin-bottom: 24px;
     overflow: hidden;
     overflow-x: scroll;
+    scrollbar-width: none;
     gap: 16px;
   }
 }
