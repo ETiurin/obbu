@@ -1,0 +1,4 @@
+.main__product-description-title-block {
+    display: flex;
+    justify-content: space-between;
+}

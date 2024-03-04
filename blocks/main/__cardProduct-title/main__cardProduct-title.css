@@ -14,8 +14,3 @@
   }
 }
 
-@media all and (max-width: 767x) {
-  .main__cardProduct-title {
-    margin: 0 0 20px;
-  }
-}

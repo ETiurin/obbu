@@ -1,0 +1,18 @@
+.main__product-link-managers {
+    font-weight: 700;
+    padding: 0;
+    min-height: 42px;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+}
+
+.main__product-link-managers:hover {
+    opacity: .6;
+}

@@ -1,0 +1,11 @@
+.main__product-button-basket-kp {
+  background: rgba(91, 208, 104, 1);
+  max-width: 154px;
+  width: 100%;
+}
+
+@media all and (max-width: 767px) {
+  .main__product-button-basket-kp {
+    max-width: 100%;
+  }
+}

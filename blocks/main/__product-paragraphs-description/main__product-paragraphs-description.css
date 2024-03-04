@@ -1,0 +1,5 @@
+.main__product-paragraphs-description {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

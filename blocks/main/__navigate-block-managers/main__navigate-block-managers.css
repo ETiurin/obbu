@@ -1,0 +1,26 @@
+.main__navigate-block-managers {
+  width: 100%;
+  display: grid;
+  row-gap: 12px;
+  grid-template-areas:
+    "button-mobile telegram"
+    "button-kp panel";
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: 332px 1fr;
+}
+
+@media all and (max-width: 1279px) {
+  .main__navigate-block-managers {
+    grid-template-columns: 294px 1fr;
+    row-gap: 18px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .main__navigate-block-managers {
+    position: relative;
+    row-gap: 0;
+    display: flex;
+    flex-direction: column;
+  }
+}

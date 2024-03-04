@@ -1,0 +1,5 @@
+.main__product-description-block-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

@@ -1,0 +1,52 @@
+.main__button-sell-managers {
+    width: 280px;
+    height: 42px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.09px;
+    color: #0d0d0d;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    background: rgba(91, 208, 104, 0.1);
+    border: 1px solid #5BD068;
+    border-radius: 4px;
+    white-space: nowrap;
+    grid-area: button-kp;
+  }
+  
+  .main__button-sell-managers:hover {
+    opacity: 0.6;
+  }
+  
+  @media all and (max-width: 1279px) {
+    .main__button-sell-managers {
+      width: 246px;
+      font-size: 12px;
+      line-height: 14.65px;
+    }
+  }
+  
+  @media all and (max-width: 1023px) {
+    .main__button-sell-managers {
+      position: absolute;
+      top: 0;
+      left: calc(100% - 466px);
+      width: 170px;
+      font-size: 14px;
+      line-height: 17.09px;
+      padding: 10px 12px;
+      order: 1;
+    }
+  }
+  
+  @media all and (max-width: 767px) {
+    .main__button-sell-managers {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      margin-bottom: 12px;
+    }
+  }
+  

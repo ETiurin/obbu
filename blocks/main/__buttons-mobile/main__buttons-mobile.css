@@ -1,7 +1,7 @@
 .main__buttons-mobile {
   display: flex;
   flex-direction: row;
-  grid-area: button-mobile;
+  order: 1;
 }
 
 @media all and (max-width: 1023px) {

@@ -1,0 +1,11 @@
+.main__product-link-provider {
+  background: rgba(12, 106, 173, 1);
+  max-width: 206px;
+  width: 100%;
+}
+
+@media all and (max-width: 767px) {
+  .main__product-link-provider {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+.main__product-button-managers {
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin: 0;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  min-height: 42px;
+}
+
+.main__product-button-managers:hover {
+  opacity: 0.6;
+}

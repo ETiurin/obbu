@@ -1,0 +1,11 @@
+.main__product-button-basket-crm {
+  background: rgba(13, 13, 13, 1);
+  max-width: 132px;
+  width: 100%;
+}
+
+@media all and (max-width: 767px) {
+  .main__product-button-basket-crm {
+    max-width: 100%;
+  }
+}

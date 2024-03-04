@@ -1,0 +1,30 @@
+.main__card-title-managers {
+  max-width: 742px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0d0d0d;
+  margin: -68px 0 24px;
+  white-space: wrap;
+}
+
+@media all and (max-width: 1279px) {
+  .main__card-title-managers {
+    margin-bottom: 0;
+    margin: -58px 0 24px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .main__card-title-managers {
+    max-width: 100%;
+    margin: 0 0 24px;
+    order: 3;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__card-title-managers {
+    margin: 0 0 12px;
+  }
+}

@@ -1,0 +1,26 @@
+.main__home-catalog-superUsers {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: -81px 5px 0 0;
+}
+
+@media all and (max-width: 1279px) {
+    .main__home-catalog-superUsers {
+      gap: 24px;
+      margin: -65px 5px 0 0;
+    }
+  }
+
+@media all and (max-width: 1023px) {
+  .main__home-catalog-superUsers {
+    gap: 40px;
+    margin: 0 0 0 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__home-catalog-superUsers {
+    gap: 24px;
+  }
+}

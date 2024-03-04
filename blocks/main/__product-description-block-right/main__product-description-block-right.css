@@ -1,0 +1,32 @@
+.main__product-description-block-right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 418px;
+  background: #f6f6f6;
+  padding: 16px 24px;
+  position: absolute;
+  right: 0;
+  top: 71px;
+}
+
+@media all and (max-width: 1279px) {
+  .main__product-description-block-right {
+    position: relative;
+    order: 1;
+    top: 0;
+    margin-bottom: 60px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .main__product-description-block-right {
+    width: calc(100% - 48px);
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__product-description-block-right {
+    margin-bottom: 40px;
+  }
+}

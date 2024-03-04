@@ -5,6 +5,7 @@
   line-height: 37.8px;
   color: #0d0d0d;
   padding: 0;
+  order: 2;
 }
 
 @media all and (max-width: 1279px) {

@@ -30,8 +30,8 @@
 @media all and (max-width: 1023px) {
   .main__button-sell-two {
     position: absolute;
-    top: 78px;
-    left: calc(100% - 460px);
+    top: 66px;
+    left: calc(100% - 466px);
     width: 170px;
     font-size: 14px;
     line-height: 17.09px;
@@ -46,5 +46,6 @@
     top: 0;
     left: 0;
     width: 100%;
+    margin-bottom: 24px;
   }
 }

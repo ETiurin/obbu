@@ -61,7 +61,6 @@
     .slick-track {
         display: flex;
         gap: 10px;
-
     }
 }
 .slick-track:before,

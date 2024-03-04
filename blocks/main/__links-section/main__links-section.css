@@ -1,13 +1,16 @@
 .main__links-section {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
-    height: 42px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  height: 42px;
+  order: 2;
+  margin-left: -5px;
 }
 
 @media all and (max-width: 1023px) {
-    .main__links-section {
-        margin: 24px 0 0;
-    }
+  .main__links-section {
+    margin: 24px 0 0;
+    order: 2;
+  }
 }

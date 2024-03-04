@@ -1,0 +1,13 @@
+.main__product-description-link {
+  text-decoration: none;
+  color: #0085ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.54px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.main__product-description-link:hover {
+    opacity: .6;
+}

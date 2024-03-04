@@ -6,6 +6,13 @@
   margin: 0;
   list-style-type: none;
   text-decoration: none;
+  word-break: break-all;
+}
+
+@media all and (max-width: 1279px) {
+  .header__menu-data {
+    gap: 20px;
+  }
 }
 
 @media all and (max-width: 1279px) {

@@ -1,0 +1,10 @@
+.main__product-title-description {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  letter-spacing: -0.01em;
+  color: #9e9e9e;
+}

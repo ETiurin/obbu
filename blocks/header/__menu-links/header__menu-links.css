@@ -1,14 +1,21 @@
 .header__menu-links {
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    gap: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  gap: 24px;
+  word-break: break-all;
+}
+
+@media all and (max-width: 1439px) {
+  .header__menu-links {
+    gap: 20px;
+  }
 }
 
 @media all and (max-width: 1279px) {
-    .header__menu-links {
-      gap: 12px;
-    }
+  .header__menu-links {
+    gap: 12px;
   }
+}

@@ -4,6 +4,12 @@
   gap: 24px;
 }
 
+@media all and (max-width: 1279px) {
+  .main__product-choice {
+    order: 2;
+  }
+}
+
 @media all and (max-width: 767px) {
   .main__product-choice {
     width: 100%;

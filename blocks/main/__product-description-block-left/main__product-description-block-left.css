@@ -1,0 +1,11 @@
+.main__product-description-block-left {
+  max-width: calc(100% - 501px);
+  width: 100%;
+}
+
+@media all and (max-width: 1279px) {
+  .main__product-description-block-left {
+    order: 4;
+    max-width: 100%;
+  }
+}

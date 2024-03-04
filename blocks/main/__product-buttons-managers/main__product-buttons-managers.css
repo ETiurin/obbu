@@ -1,0 +1,21 @@
+.main__product-buttons-managers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px 12px;
+  margin: 18px 0 -22px;
+}
+
+@media all and (max-width: 1279px) {
+  .main__product-buttons-managers {
+    margin: 18px 0 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__product-buttons-managers {
+    flex-wrap: nowrap;
+    margin: 8px 0 0;
+    flex-direction: column;
+    gap: 8px;
+  }
+}

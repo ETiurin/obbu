@@ -1,0 +1,11 @@
+.main__product-description-youtube {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+@media all and (max-width:767px) {
+  .main__product-description-youtube {
+    flex-direction: column;
+  }
+}

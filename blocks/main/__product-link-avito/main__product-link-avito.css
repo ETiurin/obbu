@@ -1,0 +1,12 @@
+.main__product-link-avito {
+  background: rgba(234, 229, 219, 1);
+  color: #0d0d0d;
+  max-width: 148px;
+  width: 100%;
+}
+
+@media all and (max-width: 767px) {
+  .main__product-link-avito {
+    max-width: 100%;
+  }
+}

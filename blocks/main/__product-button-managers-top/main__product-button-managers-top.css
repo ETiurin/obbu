@@ -1,0 +1,13 @@
+.main__product-button-managers-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 13px;
+  min-height: 42px;
+}
+
+@media all and (max-width: 1279px) {
+  .main__product-button-managers-top {
+    padding: 0;
+    justify-content: start;
+  }
+}
