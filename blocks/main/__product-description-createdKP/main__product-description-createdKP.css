@@ -1,0 +1,20 @@
+.main__product-description-createdKP {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  max-width: 810px;
+  background: #f6f6f6;
+  padding: 16px 24px;
+  margin: 19px 0 20px;
+}
+
+@media all and (max-width: 1023px) {
+  .main__product-description-createdKP {
+    max-width: calc(100% - 32px);
+    padding: 16px;
+    margin: 40px 0 0;
+  }
+}
+
+

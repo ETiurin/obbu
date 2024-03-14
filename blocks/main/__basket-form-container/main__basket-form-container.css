@@ -1,5 +1,5 @@
 .main__basket-form-container {
-  padding: 31px 0 0;
+  padding: 31px 0 20px;
   max-width: 328px;
   width: 100%;
 }
@@ -12,13 +12,13 @@
 
 @media all and (max-width: 1023px) {
   .main__basket-form-container {
-    padding: 59px 0 0;
+    padding: 19px 0 0;
     max-width: 100%;
   }
 }
 
 @media all and (max-width: 767px) {
     .main__basket-form-container {
-      padding: 24px 0 0;
+      padding: 11px 0 0;
     }
   }

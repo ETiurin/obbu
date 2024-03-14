@@ -1,9 +1,15 @@
 .main__basket-container-main {
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
   width: 100%;
+  gap: 64px;
   position: relative;
+}
+
+@media all and (max-width: 1279px) {
+  .main__basket-container-main {
+    gap: 24px;
+  }
 }
 
 @media all and (max-width: 767px) {

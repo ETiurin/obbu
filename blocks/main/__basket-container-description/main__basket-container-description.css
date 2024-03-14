@@ -1,6 +1,5 @@
 .main__basket-container-description {
   margin: 0;
-  max-width: 445px;
   width: 100%;
   font-weight: 400;
   font-size: 16px;
@@ -10,15 +9,8 @@
 
 @media all and (max-width: 1279px) {
   .main__basket-container-description {
-    max-width: 278px;
     font-size: 14px;
     line-height: 16.7px;
-  }
-}
-
-@media all and (max-width: 1023px) {
-  .main__basket-container-description {
-    max-width: 336px;
   }
 }
 

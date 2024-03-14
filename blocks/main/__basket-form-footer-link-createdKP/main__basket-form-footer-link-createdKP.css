@@ -1,0 +1,21 @@
+.main__basket-form-footer-link-createdKP {
+  text-decoration: none;
+  color: #0085ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.54px;
+}
+
+@media all and (max-width: 1279px) {
+  .main__basket-form-footer-link-createdKP {
+    font-size: 14px;
+    line-height: 17.09px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__basket-form-footer-link-createdKP {
+    font-size: 16px;
+    line-height: 19.54px;
+    }
+}

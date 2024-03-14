@@ -280,6 +280,7 @@
 @import url(../blocks/main/__basket-container-block/main__basket-container-block.css);
 @import url(../blocks/main/__basket-container-main/main__basket-container-main.css);
 @import url(../blocks/main/__basket-container-input/main__basket-container-input.css);
+@import url(../blocks/main/__basket-container-label/main__basket-container-label.css);
 @import url(../blocks/main/__basket-container-img/main__basket-container-img.css);
 @import url(../blocks/main/__basket-container-description/main__basket-container-description.css);
 @import url(../blocks/main/__basket-container-right/main__basket-container-right.css);
@@ -423,5 +424,20 @@
 @import url(../blocks/main/__navigate-block-managers/main__navigate-block-managers.css);
 @import url(../blocks/main/__home-catalog-superUsers/main__home-catalog-superUsers.css);
 @import url(../blocks/main/__button-sell-managers/main__button-sell-managers.css);
+
+@import url(../blocks/main/__basket-container-block-createdKP/main__basket-container-block-createdKP.css);
+@import url(../blocks/main/__product-description-createdKP/main__product-description-createdKP.css);
+@import url(../blocks/main/__product-description-link-block-createdKP/main__product-description-link-block-createdKP.css);
+@import url(../blocks/main/__product-paragraphs-description-createdKP/main__product-paragraphs-description-createdKP.css);
+@import url(../blocks/main/__basket-container-right-createdKP/main__basket-container-right-createdKP.css);
+@import url(../blocks/main/__basket-container-createdKP-block/main__basket-container-createdKP-block.css);
+@import url(../blocks/main/__product-title-createdKP/main__product-title-createdKP.css);
+@import url(../blocks/main/__product-subtitle-createdKP/main__product-subtitle-createdKP.css);
+@import url(../blocks/main/__product-paragraphs-createdKP/main__product-paragraphs-createdKP.css);
+@import url(../blocks/main/__product-paragraph-createdKP/main__product-paragraph-createdKP.css);
+@import url(../blocks/main/__basket-form-footer-createdKP/main__basket-form-footer-createdKP.css);
+@import url(../blocks/main/__basket-form-footer-subheading-createdKP/main__basket-form-footer-subheading-createdKP.css);
+@import url(../blocks/main/__basket-form-footer-link-createdKP/main__basket-form-footer-link-createdKP.css);
+@import url(../blocks/main/main__product-description-link-title-createdKP/main__product-description-link-title-createdKP.css);
 
 @import url(../blocks/slick/slick.css);

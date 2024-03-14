@@ -23,7 +23,7 @@
     height: 10px;
     margin: 3px;  
     position: absolute;
-    top: 0;
+    top: calc(100% - 55px);
     right: 0;
   }
 }

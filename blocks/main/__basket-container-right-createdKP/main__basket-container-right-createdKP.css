@@ -1,0 +1,13 @@
+.main__basket-container-right-createdKP {
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
+  max-width: 90px;
+  width: 100%;
+}
+
+@media all and (max-width: 767px) {
+  .main__basket-container-right-createdKP {
+    max-height: 20px;
+  }
+}

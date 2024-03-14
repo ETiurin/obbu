@@ -1,0 +1,12 @@
+.main__product-description-link-block-createdKP {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: fit-content;
+}
+
+@media all and (max-width: 767px) {
+    .main__product-description-link-block-createdKP {
+        flex-direction: column;
+    }
+}

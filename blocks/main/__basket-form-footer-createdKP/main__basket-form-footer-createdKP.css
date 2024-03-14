@@ -1,0 +1,18 @@
+.main__basket-form-footer-createdKP {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media all and (max-width: 1023px) {
+  .main__basket-form-footer-createdKP {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__basket-form-footer-createdKP {
+    flex-direction: column;
+  }
+}

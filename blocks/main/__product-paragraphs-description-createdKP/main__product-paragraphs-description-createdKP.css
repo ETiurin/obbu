@@ -1,0 +1,18 @@
+.main__product-paragraphs-description-createdKP {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  gap: 24px;
+}
+
+@media all and (max-width: 1023px) {
+  .main__product-paragraphs-description-createdKP {
+    gap: 12px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .main__product-paragraphs-description-createdKP {
+    flex-direction: column;
+  }
+}

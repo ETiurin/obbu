@@ -1,0 +1,15 @@
+.main__basket-container-block-createdKP {
+  display: flex;
+  flex-direction: row;
+  padding: 16px 0 21px;
+}
+
+@media all and (max-width: 1279px) {
+  .main__basket-container-block-createdKP {
+    display: inline-flex;
+  }
+}
+
+.main__basket-container-block-createdKP:first-child {
+  border-top: 1px solid #f6f6f6;
+}
